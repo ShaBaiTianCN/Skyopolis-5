@@ -1,13 +1,13 @@
 {
 	chapter_groups: [
-		{ id: "6A4994A3C34DFA56", title: "Information" }
-		{ id: "72394998FB073342", title: "Getting Started" }
-		{ id: "738EA971A0EF2AB1", title: "Advances" }
-		{ id: "06E7F50B1D78668E", title: "The Undergarden" }
-		{ id: "4EF7FBB4F0556123", title: "Basic Tech" }
-		{ id: "681782BF00C2D2A8", title: "The Nether" }
-		{ id: "04E29393E78F7C29", title: "Deep Space" }
-		{ id: "23E8ADC704303F79", title: "End Game Prep" }
-		{ id: "18FDA3D943B6E19E", title: "Creative Thinking" }
+		{ id: "6A4994A3C34DFA56", title: "信息" }
+		{ id: "72394998FB073342", title: "开始" }
+		{ id: "738EA971A0EF2AB1", title: "进阶" }
+		{ id: "06E7F50B1D78668E", title: "地下花园" }
+		{ id: "4EF7FBB4F0556123", title: "基础科技" }
+		{ id: "681782BF00C2D2A8", title: "下界" }
+		{ id: "04E29393E78F7C29", title: "深空" }
+		{ id: "23E8ADC704303F79", title: "尾声" }
+		{ id: "18FDA3D943B6E19E", title: "创造性思维" }
 	]
 }
