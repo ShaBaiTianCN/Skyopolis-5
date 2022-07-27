@@ -1,7 +1,7 @@
 {
-	"name": "Skyopolis Guide Book",
+	"name": "Skyopolis 指南",
 	"show_progress": false,
-	"landing_text": "Welcome to Skyopolis 5 $(br2)This book will help you with some of the mechanics in Skyopolis 5",
+	"landing_text": "欢迎来到 Skyopolis 5 $(br2)这本书帮助你了解 Skyopolis 5 中的一些机制",
 	"version": 5,
 	"filler_texture": "skyopolis:textures/item/blank_totem.png",
 	"model": "patchouli:book_cyan",
