@@ -3,7 +3,7 @@
 	group: "04E29393E78F7C29"
 	order_index: 3
 	filename: "mekanism"
-	title: "Mekanism I"
+	title: "通用机械I"
 	icon: "mekanism:steel_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 1.0d
 			y: -1.5d
-			description: ["The base of a lot of mekansim machines"]
+			description: ["大部分通用机械机器的基础"]
 			dependencies: [
 				"45B9F5AEE09F2C55"
 				"2F0475DC0CD34FDD"
@@ -31,7 +31,7 @@
 		{
 			x: 1.0d
 			y: -3.0d
-			description: ["Made from smelting steel dust"]
+			description: ["通过熔炼钢粉获取"]
 			dependencies: ["44CA393D2A77CCFF"]
 			id: "2F0475DC0CD34FDD"
 			tasks: [{
@@ -55,7 +55,7 @@
 		{
 			x: -3.5d
 			y: -3.0d
-			description: ["A infuser can be used to infuse items together"]
+			description: ["灌注机用于融合物品。"]
 			dependencies: ["45B9F5AEE09F2C55"]
 			id: "6B3201C03903E4BF"
 			tasks: [{
@@ -72,7 +72,7 @@
 		{
 			x: -0.5d
 			y: -3.0d
-			description: ["A mix of carbon and enriched iron in a metallurgic infuser"]
+			description: ["在冶金灌注机中将碳和富集铁融合。"]
 			dependencies: ["1D5F9398C1A3CDD6"]
 			id: "44CA393D2A77CCFF"
 			tasks: [{
@@ -89,7 +89,7 @@
 		{
 			x: -2.0d
 			y: -3.0d
-			description: ["A mix of carbon and iron in a metallurgic infuser"]
+			description: ["在冶金灌注机中将碳和铁融合。"]
 			dependencies: ["6B3201C03903E4BF"]
 			id: "1D5F9398C1A3CDD6"
 			tasks: [{
@@ -106,7 +106,7 @@
 		{
 			x: -3.5d
 			y: -1.5d
-			description: ["A mix of redstone and iron in a metallurgic infuser"]
+			description: ["在冶金灌注机中将红石和铁融合。"]
 			dependencies: ["6B3201C03903E4BF"]
 			id: "5B1B6F47ED9A8517"
 			tasks: [{
@@ -123,7 +123,7 @@
 		{
 			x: -3.5d
 			y: 0.0d
-			description: ["A stronger alloy"]
+			description: ["一种更强的合金"]
 			dependencies: ["5B1B6F47ED9A8517"]
 			id: "4BEF40E505E4D9C2"
 			tasks: [{
@@ -140,7 +140,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
-			description: ["Crushes up stuff"]
+			description: ["粉碎物品"]
 			dependencies: ["2BBD5A73C87B6894"]
 			id: "4202E61BA5BB51D4"
 			tasks: [{
@@ -164,7 +164,7 @@
 		{
 			x: 2.5d
 			y: -1.5d
-			description: ["Smelts stuff"]
+			description: ["烧炼物品"]
 			dependencies: ["2BBD5A73C87B6894"]
 			id: "15FBB9CF9C2801B4"
 			tasks: [{
@@ -181,7 +181,7 @@
 		{
 			x: -0.5d
 			y: -1.5d
-			description: ["Enriches stuff"]
+			description: ["富集物品"]
 			dependencies: ["2BBD5A73C87B6894"]
 			id: "7C8ADF24522B4757"
 			tasks: [{
@@ -198,7 +198,7 @@
 		{
 			x: -5.0d
 			y: -3.0d
-			description: ["A mix of redstone and osmium in a metallurgic infuser"]
+			description: ["在冶金灌注机中融合红石和锇锭"]
 			dependencies: ["6B3201C03903E4BF"]
 			id: "58F9085B859DBAFF"
 			tasks: [{
@@ -215,7 +215,7 @@
 		{
 			x: -5.0d
 			y: -1.5d
-			description: ["Better circuits"]
+			description: ["高级控制电路"]
 			dependencies: [
 				"58F9085B859DBAFF"
 				"5B1B6F47ED9A8517"
@@ -235,7 +235,7 @@
 		{
 			x: -5.0d
 			y: 0.0d
-			description: ["Even better circuits"]
+			description: ["精英控制电路"]
 			dependencies: [
 				"70AA1B1BE8549390"
 				"4BEF40E505E4D9C2"
@@ -262,13 +262,13 @@
 		{
 			x: 2.5d
 			y: -3.0d
-			description: ["After getting steel reactors are avalible"]
+			description: ["获取钢锭后就可以解锁反应堆"]
 			dependencies: ["2F0475DC0CD34FDD"]
 			id: "457920E2BB7A0BAE"
 			tasks: [{
 				id: "463EF8E32CFA8C86"
 				type: "checkmark"
-				title: "Reactor"
+				title: "反应堆"
 			}]
 			rewards: [
 				{
