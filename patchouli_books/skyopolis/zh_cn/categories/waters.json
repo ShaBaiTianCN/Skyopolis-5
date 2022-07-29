@@ -1,6 +1,6 @@
 {
-	"name": "Waters",
-	"description": "Various different fluids can be created to make different items.$(br2)Drop items into water to make new different items",
+	"name": "水",
+	"description": "可以制作各不相同的流体来制作不同的物品。$(br2)将物品投入水中来制作不同的新物品。",
 	"icon": "minecraft:water_bucket",
 	"sortnum": "5"
 }

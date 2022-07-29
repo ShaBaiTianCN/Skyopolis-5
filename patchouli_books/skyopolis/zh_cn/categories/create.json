@@ -1,6 +1,6 @@
 {
-	"name": "Create",
-	"description": "This section Gives you Help With Basic Create Contraptions that you will need to progress throughout the pack$(br2)You can also hover over any Create item in your inventory and hold $(l)$(6)[$(k:forward)]$() to view the create built in help",
+	"name": "机械动力",
+	"description": "推进整合包游玩进度时需要用到一些基础的机械动力模组装置，这个部分会给予你一些这方面的帮助。$(br2)你也可以将鼠标悬停在任何该模组的物品上，然后按下$(l)$(6)[$(k:forward)]$()以在帮助部分浏览模组中的这些装置。",
 	"icon": "create:millstone",
 	"sortnum": "2"
 }

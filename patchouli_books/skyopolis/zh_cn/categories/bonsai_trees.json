@@ -1,6 +1,6 @@
 {
-	"name": "Bonsai Pots",
-	"description": "Bonsai pots can be used to grow saplings and mushrooms, pots can also be dyed by right clicking the block with a dye",
+	"name": "盆栽盆",
+	"description": "盆栽盆可以用来种植树苗或蘑菇等植物，使用染料右击还能将它们进行染色。",
 	"icon": "bonsaitrees3:bonsaipot",
 	"sortnum": "2"
 }

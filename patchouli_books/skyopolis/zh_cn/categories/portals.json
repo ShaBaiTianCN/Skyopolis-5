@@ -1,6 +1,6 @@
 {
-	"name": "Portals",
-	"description": "Various different portals can be created to enter different dimensions.$(br2)You must have obtained the appropriate token to enter the dimensions. For example the undergarden token to enter the undergarden dimension",
+	"name": "传送门",
+	"description": "你可以搭建许多传送门以进入不同的维度。$(br2)当然，你必须先获得对应的标志物，比如进入深暗之园维度就是如此。",
 	"icon": "quark:myalite_crystal",
 	"sortnum": "4"
 }

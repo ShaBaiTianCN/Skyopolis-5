@@ -1,6 +1,6 @@
 {
-	"name": "Pneumaticcraft",
-	"description": "Pneumaticcraft can be used to do a range of different things.",
+	"name": "气动工艺",
+	"description": "气动工艺模组可以完成许多事务。",
 	"icon": "pneumaticcraft:ingot_iron_compressed",
 	"sortnum": "3"
 }
