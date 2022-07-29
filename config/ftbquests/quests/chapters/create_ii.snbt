@@ -3,7 +3,7 @@
 	group: "4EF7FBB4F0556123"
 	order_index: 3
 	filename: "create_ii"
-	title: "Create II"
+	title: "机械动力II"
 	icon: "create:brass_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["An alloy of zinc and copper"]
+			description: ["一种由锌与铜制成的合金"]
 			dependencies: [
 				"4B869DFE84A7210D"
 				"4C6DBC75EABA6441"
@@ -26,7 +26,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["Pressed brass ingot"]
+			description: ["辊压黄铜锭"]
 			dependencies: ["3CD99109796047C9"]
 			id: "71A303A08A40E486"
 			tasks: [{
@@ -38,7 +38,7 @@
 		{
 			x: 4.5d
 			y: -3.0d
-			description: ["Used to press items into other ones"]
+			description: ["用于压缩物品"]
 			dependencies: ["65878E188FB6F2E1"]
 			id: "3BFCF07F9E0F9587"
 			tasks: [{
@@ -55,7 +55,7 @@
 		{
 			x: 3.0d
 			y: -3.0d
-			description: ["A block of iron"]
+			description: ["一个铁块"]
 			dependencies: ["7B8612CFF0DDB62D"]
 			id: "65878E188FB6F2E1"
 			tasks: [{
@@ -72,7 +72,7 @@
 		{
 			x: 0.0d
 			y: -3.0d
-			description: ["A higher tier casing for better machines"]
+			description: ["更高级的机壳，用于制作更高级的机器"]
 			dependencies: ["71A303A08A40E486"]
 			id: "34DEF8D363AA6C14"
 			tasks: [{
@@ -89,7 +89,7 @@
 		{
 			x: 0.0d
 			y: -4.5d
-			description: ["Used to make bigger create crafting recipes"]
+			description: ["用于合成机械动力的大型配方"]
 			dependencies: ["34DEF8D363AA6C14"]
 			id: "1E3E74172D217AD3"
 			tasks: [{
@@ -106,7 +106,7 @@
 		{
 			x: 1.5d
 			y: -3.0d
-			description: ["Moving items around from inventories and belts"]
+			description: ["用于转移容器与传送带上的物品"]
 			dependencies: ["34DEF8D363AA6C14"]
 			id: "07270953B16DE7A3"
 			tasks: [{
