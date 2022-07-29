@@ -3,7 +3,7 @@
 	group: "738EA971A0EF2AB1"
 	order_index: 2
 	filename: "basic_create"
-	title: "Create I"
+	title: "机械动力I"
 	icon: "create:millstone"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,8 +12,8 @@
 			x: 0.0d
 			y: 0.0d
 			description: [
-				"Pouring molten seared stone over a block of andesite creates andesite alloy."
-				"Pressing W over some create mod blocks and items will give you a more indepth guide on how to use "
+				"将熔融焦黑石头浇铸在安山岩上来获取安山合金。"
+				"在物品栏中对着机械动力模组的方块和物品长按w键来获取更深入的使用指导。 "
 			]
 			dependencies: ["42A3808F305A6F3E"]
 			id: "50A329EB6C496D10"
@@ -31,7 +31,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["Moves rotational energy"]
+			description: ["转移旋转能"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "2AD4CE605D0E73D1"
 			tasks: [{
@@ -60,7 +60,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Manual rotational energy"]
+			description: ["人工产生旋转能"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "562606E7A72B47EA"
 			tasks: [{
@@ -77,7 +77,7 @@
 		{
 			x: 1.5d
 			y: 4.5d
-			description: ["Uses rotational power to crush items down"]
+			description: ["使用旋转能粉碎物品。"]
 			dependencies: ["70E285EF8C95BCB6"]
 			id: "50B4CB8711ED3CB5"
 			tasks: [{
@@ -94,7 +94,7 @@
 		{
 			x: 1.5d
 			y: 3.0d
-			description: ["A shaft with a cog"]
+			description: ["带齿轮的传动杆"]
 			dependencies: ["2AD4CE605D0E73D1"]
 			id: "70E285EF8C95BCB6"
 			tasks: [{
@@ -111,7 +111,7 @@
 		{
 			x: 1.5d
 			y: 6.0d
-			description: ["Comes from milling gravel"]
+			description: ["通过研磨砂砾获取。"]
 			dependencies: ["50B4CB8711ED3CB5"]
 			id: "36EAA3D6E2CA1A47"
 			tasks: [{
@@ -128,7 +128,7 @@
 		{
 			x: 3.0d
 			y: 3.0d
-			description: ["A shaft with an even bigger cog. Cogs can be mixed to increase and decrease rotational speed"]
+			description: ["带有更大齿轮的传动杆。大小齿轮搭配使用可以提升或降低转速。"]
 			dependencies: ["70E285EF8C95BCB6"]
 			id: "54B1BA3B7B12CA1E"
 			tasks: [{
@@ -145,7 +145,7 @@
 		{
 			x: 3.0d
 			y: 6.0d
-			description: ["Can be used to mix items and fluids together inside a basin. This needs to reach a minimum speed before it will craft a recipe"]
+			description: ["可以用于在工作盆中混合物品和流体。这台机器需要达到一个最低转速才能开始工作。"]
 			dependencies: ["36EAA3D6E2CA1A47"]
 			id: "18F4610BEB0FD916"
 			tasks: [{
@@ -162,7 +162,7 @@
 		{
 			x: 4.5d
 			y: 6.0d
-			description: ["Placed below a mechanical mixer. Set up is shown in the skyopolis guide book"]
+			description: ["放置在动力搅拌器下方。天之城指南内有搭建教程。"]
 			dependencies: ["18F4610BEB0FD916"]
 			id: "328D1A8A3B08E2D4"
 			tasks: [{
@@ -179,7 +179,7 @@
 		{
 			x: 6.0d
 			y: 6.0d
-			description: ["A darker stone material"]
+			description: ["更黑的石材"]
 			dependencies: ["328D1A8A3B08E2D4"]
 			id: "37BD3277B0AEB70B"
 			tasks: [{
@@ -203,7 +203,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["A chute can be used to drop items straight down from a inventory above it"]
+			description: ["溜槽可以将上方容器内的物品笔直向下扔出。"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "5B4EA91CC57D26D4"
 			tasks: [{
@@ -220,7 +220,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Always points home"]
+			description: ["永远指向家的方向"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "7BEC2E004F14E531"
 			tasks: [{
@@ -237,7 +237,7 @@
 		{
 			x: -1.5d
 			y: 1.5d
-			description: ["Allows you to find certain biomes"]
+			description: ["能让你找到特定的生物群系。"]
 			dependencies: ["7BEC2E004F14E531"]
 			id: "059184E85F071D9E"
 			tasks: [{
@@ -258,7 +258,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["Allows you to locate structures"]
+			description: ["能让你定位结构。"]
 			dependencies: ["7BEC2E004F14E531"]
 			id: "6B5F4F2613B88CC1"
 			tasks: [{
@@ -275,7 +275,7 @@
 		{
 			x: 4.5d
 			y: 4.5d
-			description: ["Blank tokens are used to create other tokens which allow you to travel to other dimensions"]
+			description: ["空白通行证可用于制作别的通行证，这些通行证能让你去往别的维度。"]
 			dependencies: [
 				"328D1A8A3B08E2D4"
 				"7DD8B887583E422E"
@@ -302,7 +302,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["Used for most create machines"]
+			description: ["用于制作大部分机械动力的机械。"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "25D544836012A289"
 			tasks: [{
@@ -326,7 +326,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
-			description: ["Cutting up stones"]
+			description: ["切割石材"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "5191E13703FCF2C7"
 			tasks: [{
@@ -343,7 +343,7 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			description: ["Shift right click to place in modules, Hold right click to perform a area scan"]
+			description: ["Shift右键放入模块，长按右键进行区域扫描。"]
 			dependencies: [
 				"6B5F4F2613B88CC1"
 				"059184E85F071D9E"
@@ -373,10 +373,10 @@
 			]
 		}
 		{
-			title: "Sawmill"
+			title: "锯木机"
 			x: -1.5d
 			y: -1.5d
-			description: ["Cutting up wood, shift right click to saw wood in your inventory"]
+			description: ["切割木材。如果你在配置中允许它，也可以通过潜行从物品栏中直接使用它。"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "516BDE9DAC6DC9FB"
 			tasks: [{
@@ -400,7 +400,7 @@
 		{
 			x: -3.0d
 			y: 3.0d
-			description: ["A basic charger to charge items with power"]
+			description: ["一台基础的充电器。"]
 			dependencies: ["73EE0BA8AE437D1B"]
 			id: "23F3F06FBAD95D09"
 			tasks: [{
