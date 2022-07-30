@@ -3,7 +3,7 @@
 	group: "4EF7FBB4F0556123"
 	order_index: 5
 	filename: "bigger_crafting_tables"
-	title: "Extended Crafting I"
+	title: "合成拓展I"
 	icon: "extendedcrafting:basic_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -1.5d
 			y: -4.5d
-			description: ["The base of extended crafting"]
+			description: ["合成拓展的基础"]
 			dependencies: ["3BBC49A5A1963F33"]
 			id: "3CD0FF95DACC4B43"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: 0.0d
 			y: -4.5d
-			description: ["Made by pressing a iron ingot with create"]
+			description: ["通过机械动力模组辊压铁锭制成"]
 			dependencies: ["3CD0FF95DACC4B43"]
 			id: "6B5BCC48ECEB1D67"
 			tasks: [{
@@ -45,7 +45,7 @@
 		{
 			x: 3.0d
 			y: -4.5d
-			description: ["A improved crafting table which allows for different recipes"]
+			description: ["一个改良过的合成台，且支持不同配方"]
 			dependencies: ["397807F8C49C6571"]
 			id: "6C7C55BF5469EEC8"
 			tasks: [{
@@ -69,7 +69,7 @@
 		{
 			x: 1.5d
 			y: -4.5d
-			description: ["The frame for most blocks"]
+			description: ["绝大多数方块的框架"]
 			dependencies: ["6B5BCC48ECEB1D67"]
 			id: "397807F8C49C6571"
 			tasks: [{
