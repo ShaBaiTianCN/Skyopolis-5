@@ -3,7 +3,7 @@
 	group: "04E29393E78F7C29"
 	order_index: 2
 	filename: "extended_crafting_iii"
-	title: "Extended Crafting III"
+	title: "合成拓展III"
 	icon: "extendedcrafting:ultimate_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Just an ultimate component"]
+			description: ["这是个终极合成组件"]
 			dependencies: ["155E15931291F037"]
 			id: "4964E998C2FEBEDB"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Just an ultimate catalyst"]
+			description: ["这是个终极合成催化剂"]
 			dependencies: ["4964E998C2FEBEDB"]
 			id: "18D5F0662B0E0481"
 			tasks: [{
@@ -45,7 +45,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["Top tier end of the line crafting table "]
+			description: ["最高级的工作台"]
 			dependencies: ["18D5F0662B0E0481"]
 			id: "4E667BC86FEFB080"
 			tasks: [{
@@ -69,7 +69,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["Made from refined glowstone and refined obsidian"]
+			description: ["由强化萤石和强化黑曜石制作而成"]
 			dependencies: ["162E538B402598D8"]
 			id: "20B783B1A7C86C42"
 			tasks: [{
@@ -93,7 +93,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["This requires items from the Mekanism II quest line!"]
+			description: ["这需要通用机械II任务中的物品！"]
 			dependencies: [
 				"4E667BC86FEFB080"
 				"7465D7B7F0337113"
@@ -114,7 +114,7 @@
 		{
 			x: 6.0d
 			y: 1.5d
-			description: ["Used to make advanced extended crafting machines"]
+			description: ["用于制作更高级的合成拓展的机器"]
 			dependencies: ["20B783B1A7C86C42"]
 			id: "74A6E52549A1F367"
 			tasks: [{
@@ -131,7 +131,7 @@
 		{
 			x: 6.0d
 			y: 3.0d
-			description: ["Used to make advanced extended crafting machines"]
+			description: ["用于制作更高级的合成拓展的机器"]
 			dependencies: ["74A6E52549A1F367"]
 			id: "13CF316A13190557"
 			tasks: [{
@@ -155,7 +155,7 @@
 		{
 			x: 7.5d
 			y: 0.0d
-			description: ["Cobble gen in a box"]
+			description: ["圆石从”盒“而来"]
 			dependencies: ["20B783B1A7C86C42"]
 			id: "4F6C695D01576756"
 			tasks: [{
