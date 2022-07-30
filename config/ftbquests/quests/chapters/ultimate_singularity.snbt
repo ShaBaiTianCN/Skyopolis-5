@@ -58,7 +58,7 @@
 		{
 			x: 1.0d
 			y: 1.5d
-			description: ["Using both ultimate singularities and ultimate ingots you can make creative items"]
+			description: ["使用终极奇点和终极锭，您可以制作创意物品"]
 			dependencies: [
 				"42D74FC2CF98113D"
 				"0ED38FD3EE01536B"
@@ -67,13 +67,13 @@
 			tasks: [{
 				id: "695A44F0E517DC6F"
 				type: "checkmark"
-				title: "Creative Stuff"
+				title: "创造性的玩意"
 			}]
 		}
 		{
 			x: 1.0d
 			y: 3.0d
-			description: ["Unlimited ITEMS"]
+			description: ["无限的物品！"]
 			dependencies: ["51A6B06E900BE004"]
 			id: "2BF00FCE0C36FEA4"
 			tasks: [{
