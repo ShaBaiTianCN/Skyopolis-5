@@ -26,7 +26,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["辊压黄铜锭"]
+			description: ["压平的黄铜锭"]
 			dependencies: ["3CD99109796047C9"]
 			id: "71A303A08A40E486"
 			tasks: [{
