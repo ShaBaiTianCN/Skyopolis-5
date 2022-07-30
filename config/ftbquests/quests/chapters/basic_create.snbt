@@ -382,7 +382,7 @@
 			tasks: [{
 				id: "0741FE4F2AA9FE43"
 				type: "item"
-				title: "Any #corail_woodcutter:woodcutters"
+				title: "任意 #corail_woodcutter:woodcutters"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
