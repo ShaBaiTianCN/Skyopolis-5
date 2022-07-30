@@ -55,7 +55,7 @@
 		{
 			x: -3.5d
 			y: -3.0d
-			description: ["灌注机用于融合物品。"]
+			description: ["灌注机用于融合物品"]
 			dependencies: ["45B9F5AEE09F2C55"]
 			id: "6B3201C03903E4BF"
 			tasks: [{
@@ -72,7 +72,7 @@
 		{
 			x: -0.5d
 			y: -3.0d
-			description: ["在冶金灌注机中将碳和富集铁融合。"]
+			description: ["在冶金灌注机中将碳和富集铁融合"]
 			dependencies: ["1D5F9398C1A3CDD6"]
 			id: "44CA393D2A77CCFF"
 			tasks: [{
@@ -89,7 +89,7 @@
 		{
 			x: -2.0d
 			y: -3.0d
-			description: ["在冶金灌注机中将碳和铁融合。"]
+			description: ["在冶金灌注机中将碳和铁融合"]
 			dependencies: ["6B3201C03903E4BF"]
 			id: "1D5F9398C1A3CDD6"
 			tasks: [{
@@ -106,7 +106,7 @@
 		{
 			x: -3.5d
 			y: -1.5d
-			description: ["在冶金灌注机中将红石和铁融合。"]
+			description: ["在冶金灌注机中将红石和铁融合"]
 			dependencies: ["6B3201C03903E4BF"]
 			id: "5B1B6F47ED9A8517"
 			tasks: [{
