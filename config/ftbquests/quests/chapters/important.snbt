@@ -3,20 +3,20 @@
 	group: "6A4994A3C34DFA56"
 	order_index: 0
 	filename: "important"
-	title: "Important Information"
+	title: "重要声明"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -1.5d
 			y: -3.0d
-			description: ["Please try to follow the quests, quests can be completed in any order you like providing you have unlocked it"]
+			description: ["请尝试跟随任务游玩，只要是已解锁的任务，就可以按你喜欢的顺序完成"]
 			dependencies: ["42930831093A12C6"]
 			id: "774D8996C981C145"
 			tasks: [{
 				id: "505416683F332203"
 				type: "checkmark"
-				title: "Follow The Quests"
+				title: "跟随任务线"
 			}]
 			rewards: [{
 				id: "5B588240B5B404CD"
@@ -27,13 +27,13 @@
 		{
 			x: -1.5d
 			y: -1.0d
-			description: ["This guide book will help you with some stuff in this modpack. If you lose this you can craft it again with a piece of dirt"]
+			description: ["这本指南将会帮助你游玩整合包。如果你不慎弄丢了这本指南，你可以使用一块泥土再次合成"]
 			dependencies: ["5C05960AB128C94E"]
 			id: "42930831093A12C6"
 			tasks: [{
 				id: "062FE99D4FCC23B8"
 				type: "checkmark"
-				title: "Guide Book"
+				title: "指南"
 			}]
 			rewards: [
 				{
@@ -57,13 +57,13 @@
 		{
 			x: 0.5d
 			y: -1.0d
-			description: ["Some recipes use fluid crafting, simply drop the items into the correct fluid to start the recipe. Items will sometimes sit at the bottom of the fluid so you might have to jump in a get it"]
+			description: ["一些配方用到了流体合成，只需简单的将正确的物品丢入流体中即可触发配方。物品有时候会沉入流体底部，所以你可能需要跳入水中捡起它"]
 			dependencies: ["42930831093A12C6"]
 			id: "6E6EF4CC34DA2253"
 			tasks: [{
 				id: "2BA615C4A7AD9D4C"
 				type: "checkmark"
-				title: "Fluid Crafting"
+				title: "流体合成"
 			}]
 			rewards: [{
 				id: "6A54DECBCEE67BD3"
@@ -74,13 +74,13 @@
 		{
 			x: -3.5d
 			y: -1.0d
-			description: ["Dimensions are locked until you obtain that dimensions token"]
+			description: ["直到你获得维度通行证维度才会解锁"]
 			dependencies: ["42930831093A12C6"]
 			id: "24632C0F9374867D"
 			tasks: [{
 				id: "6C6379DAE4684EB2"
 				type: "checkmark"
-				title: "Tokens"
+				title: "通行证"
 			}]
 			rewards: [{
 				id: "51CBCAC151C8D365"
@@ -91,13 +91,13 @@
 		{
 			x: -3.0d
 			y: -2.5d
-			description: ["Main chapters will have a bonus quest line called chapter challenges. These challenges will reward you with a useful item. These quests will also consume the the required items"]
+			description: ["主章节将会有一条叫做章节挑战的任务线。这些挑战会奖励你一些有用的物品，但是这些任务会消耗所需物品"]
 			dependencies: ["42930831093A12C6"]
 			id: "5B961C64D2FA35F5"
 			tasks: [{
 				id: "50A54EC2D9BEEE59"
 				type: "checkmark"
-				title: "Chapter Challenges"
+				title: "章节挑战"
 			}]
 			rewards: [{
 				id: "3FE2356A4D514A1D"
@@ -108,13 +108,13 @@
 		{
 			x: 0.0d
 			y: -2.5d
-			description: ["The overworld has a few different islands you can go to. Islands contain chests with some useful items inside. The void will kill you!"]
+			description: ["你可以前往主世界中一些与众不同的岛屿。岛上会生成箱子，但是如果坠入虚空，你将会粉身碎骨！"]
 			dependencies: ["42930831093A12C6"]
 			id: "20323FE63506FD44"
 			tasks: [{
 				id: "12626C119D487741"
 				type: "checkmark"
-				title: "The World"
+				title: "主世界"
 			}]
 			rewards: [{
 				id: "22FCB1D3F11C650B"
@@ -125,13 +125,13 @@
 		{
 			x: -3.0d
 			y: 0.5d
-			description: ["Sky bucks can be used to purchase items from amadron"]
+			description: ["天空币可以从亚马龙处购买物品"]
 			dependencies: ["42930831093A12C6"]
 			id: "740248E198F3421D"
 			tasks: [{
 				id: "4864DF0BB6C956CD"
 				type: "checkmark"
-				title: "Sky Bucks"
+				title: "天空币"
 			}]
 			rewards: [{
 				id: "3976D96F0FF1DF8F"
@@ -142,13 +142,13 @@
 		{
 			x: 0.0d
 			y: 0.5d
-			description: ["Some loot boxes can be crafted to obtain certain loot. Other loot boxes can be collected via quest rewards and the amadron shop"]
+			description: ["一些战利品可以通过合成战利品箱来获得。战利品箱也可以通过收集任务奖励以及在亚马龙处购买"]
 			dependencies: ["42930831093A12C6"]
 			id: "0D8EA6350C211C2F"
 			tasks: [{
 				id: "17B5C95BCDEDCE98"
 				type: "checkmark"
-				title: "Loot Boxes"
+				title: "战利品箱"
 			}]
 			rewards: [
 				{
@@ -164,16 +164,16 @@
 			]
 		}
 		{
-			title: "Amadron"
+			title: "亚马龙"
 			x: -1.5d
 			y: 1.0d
-			description: ["Amadron is your home for all your skyblock needs! "]
+			description: ["亚马龙可以满足空岛上所有的物质需求！"]
 			dependencies: ["42930831093A12C6"]
 			id: "06AC0E48715BBF35"
 			tasks: [{
 				id: "7D2A878601818D24"
 				type: "checkmark"
-				title: "Amadron "
+				title: "亚马龙"
 			}]
 			rewards: [
 				{
@@ -208,12 +208,12 @@
 		{
 			x: -1.5d
 			y: -4.5d
-			description: ["This modpack is built with skyblock builder. Right click the item given from this quest to create, manage, join and pick your starting island!"]
+			description: ["这个整合包的空岛由空岛建立者模组生成。右键单击此任务中提供的物品，以创建，管理，加入并选择您的起始岛屿！"]
 			id: "5C05960AB128C94E"
 			tasks: [{
 				id: "322D30154398507D"
 				type: "checkmark"
-				title: "Skyblock Builder"
+				title: "空岛建立者"
 			}]
 			rewards: [{
 				id: "15277D5987E96349"
