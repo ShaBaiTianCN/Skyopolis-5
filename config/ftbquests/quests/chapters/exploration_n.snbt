@@ -3,7 +3,7 @@
 	group: "681782BF00C2D2A8"
 	order_index: 0
 	filename: "exploration_n"
-	title: "Exploration (N)"
+	title: "探索（下界）"
 	icon: {
 		id: "minecraft:flint_and_steel"
 		Count: 1b
@@ -17,7 +17,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["A very tough material that can be made in the smeltery by mixing lava and water"]
+			description: ["一种十分坚硬的材料可以通过混合熔岩与水获得"]
 			dependencies: ["102BE9765D8EAE71"]
 			id: "32E19A06B4078FA2"
 			tasks: [{
@@ -32,16 +32,16 @@
 			}]
 		}
 		{
-			title: "Nether Portal"
+			title: "下界传送门"
 			x: 0.0d
 			y: 0.0d
-			description: ["The skyopolis guide book can be used to help make the portal to the nether"]
+			description: ["天之城指南可帮助你搭建下界传送门"]
 			dependencies: ["32E19A06B4078FA2"]
 			id: "2F6DE8115236A75F"
 			tasks: [{
 				id: "4E4CE17E392DAD30"
 				type: "checkmark"
-				title: "Portal"
+				title: "下界传送门"
 			}]
 			rewards: [{
 				id: "28961A4CAA604383"
@@ -52,7 +52,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Used to light the nether portal"]
+			description: ["用于激活下界传送门"]
 			dependencies: ["2F6DE8115236A75F"]
 			id: "2D93666DE82FC31E"
 			tasks: [{
@@ -73,11 +73,11 @@
 			}]
 		}
 		{
-			title: "Enter The Nether"
+			title: "进入下界"
 			icon: "minecraft:netherrack"
 			x: 5.0d
 			y: 0.0d
-			description: ["Enter the nether"]
+			description: ["进入下界"]
 			dependencies: ["59ECAC714D81B576"]
 			id: "38FE3D13315B9D58"
 			tasks: [{
@@ -91,16 +91,16 @@
 			}]
 		}
 		{
-			title: "Ore Islands"
+			title: "矿物岛"
 			x: 5.0d
 			y: -2.0d
-			description: ["In the nether ore islands can spawn containing various different ores"]
+			description: ["下界矿物岛可以生成不同种类的矿石"]
 			dependencies: ["38FE3D13315B9D58"]
 			id: "7F26E9239C8AEC0B"
 			tasks: [{
 				id: "7F89991420FA8186"
 				type: "checkmark"
-				title: "Ores"
+				title: "矿物"
 			}]
 			rewards: [{
 				id: "3F1BED72D6559CDA"
@@ -111,7 +111,7 @@
 		{
 			x: 3.0d
 			y: -2.0d
-			description: ["Found on ore islands"]
+			description: ["矿物岛上的发现"]
 			dependencies: ["7F26E9239C8AEC0B"]
 			id: "77664003606907FC"
 			tasks: [{
@@ -128,7 +128,7 @@
 		{
 			x: 5.0d
 			y: -4.0d
-			description: ["Found on ore islands"]
+			description: ["矿物岛上的发现"]
 			dependencies: ["7F26E9239C8AEC0B"]
 			id: "2D0AF809E4C89495"
 			tasks: [{
@@ -145,13 +145,13 @@
 		{
 			x: 5.0d
 			y: 2.0d
-			description: ["Bloodslime islands can be found in the nether."]
+			description: ["黏血岛可以在下界被发现"]
 			dependencies: ["38FE3D13315B9D58"]
 			id: "38BCDEB0351BCD2A"
 			tasks: [{
 				id: "4684B56FEA82281B"
 				type: "checkmark"
-				title: "Bloodslime Island"
+				title: "黏血岛"
 			}]
 			rewards: [{
 				id: "261B940FC1F2D608"
@@ -162,7 +162,7 @@
 		{
 			x: 7.0d
 			y: -2.0d
-			description: ["Found on ore islands"]
+			description: ["矿物岛上的发现"]
 			dependencies: ["7F26E9239C8AEC0B"]
 			id: "53B178CF4372A967"
 			tasks: [{
@@ -179,7 +179,7 @@
 		{
 			x: 4.5d
 			y: 3.5d
-			description: ["Found on bloodslime islands"]
+			description: ["黏血岛上的发现"]
 			dependencies: ["38BCDEB0351BCD2A"]
 			id: "3A2065C5AA1290A5"
 			tasks: [{
@@ -196,7 +196,7 @@
 		{
 			x: 5.5d
 			y: 3.5d
-			description: ["Found of bloodslime islands"]
+			description: ["黏血岛上的发现"]
 			dependencies: ["38BCDEB0351BCD2A"]
 			id: "3E10BE6039329205"
 			tasks: [{
@@ -213,7 +213,7 @@
 		{
 			x: 5.0d
 			y: 5.0d
-			description: ["Can be found or crafted"]
+			description: ["可以通过合成或是寻找获得"]
 			dependencies: [
 				"3A2065C5AA1290A5"
 				"3E10BE6039329205"
@@ -233,13 +233,13 @@
 		{
 			x: 7.0d
 			y: 0.0d
-			description: ["A scary fortress in the nether"]
+			description: ["骇人的下界要塞"]
 			dependencies: ["38FE3D13315B9D58"]
 			id: "615E84A4D90FF083"
 			tasks: [{
 				id: "43EA8C232037A3A8"
 				type: "checkmark"
-				title: "Nether Fortress"
+				title: "下界要塞"
 			}]
 			rewards: [{
 				id: "62D73E2E5B048DE1"
@@ -250,7 +250,7 @@
 		{
 			x: 9.0d
 			y: 0.0d
-			description: ["Drop from blazes in the nether fortress"]
+			description: ["由在下界要塞生存的烈焰人身上掉落"]
 			dependencies: ["615E84A4D90FF083"]
 			id: "25EBA1C5FAA63E1E"
 			tasks: [{
@@ -274,7 +274,7 @@
 		{
 			x: 8.5d
 			y: 1.0d
-			description: ["Drop from wither skeletons in the nether"]
+			description: ["由在下界要塞生存的凋零骷髅身上掉落"]
 			dependencies: ["615E84A4D90FF083"]
 			id: "243373D2A447FD8E"
 			tasks: [{
@@ -291,7 +291,7 @@
 		{
 			x: 8.5d
 			y: -1.0d
-			description: ["Can be found in chests in a nether fortress"]
+			description: ["可以在下界要塞中自然生成的箱子中获取"]
 			dependencies: ["615E84A4D90FF083"]
 			id: "3819425D166234F2"
 			tasks: [{
@@ -308,7 +308,7 @@
 		{
 			x: 3.5d
 			y: -3.5d
-			description: ["Found on ore islands"]
+			description: ["矿物岛上的发现"]
 			dependencies: ["7F26E9239C8AEC0B"]
 			id: "49D1D184208BF2B1"
 			tasks: [{
@@ -325,7 +325,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["Alows you to enter the nether"]
+			description: ["允许你进入下界"]
 			dependencies: [
 				"2D93666DE82FC31E"
 				"6C7C55BF5469EEC8"
@@ -352,7 +352,7 @@
 		{
 			x: 6.5d
 			y: -3.5d
-			description: ["Found on ore islands"]
+			description: ["矿物岛上的发现"]
 			dependencies: ["7F26E9239C8AEC0B"]
 			id: "3224B92442B4F8D5"
 			tasks: [{
