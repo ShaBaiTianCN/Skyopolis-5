@@ -28,7 +28,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["这是个终极合成催化剂"]
+			description: ["只是个终极合成催化剂"]
 			dependencies: ["4964E998C2FEBEDB"]
 			id: "18D5F0662B0E0481"
 			tasks: [{
