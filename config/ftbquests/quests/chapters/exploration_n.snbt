@@ -274,7 +274,7 @@
 		{
 			x: 8.5d
 			y: 1.0d
-			description: ["由在下界要塞生存的凋零骷髅身上掉落"]
+			description: ["从下界要塞生成的凋零骷髅身上掉落"]
 			dependencies: ["615E84A4D90FF083"]
 			id: "243373D2A447FD8E"
 			tasks: [{
