@@ -3,7 +3,7 @@
 	group: "6A4994A3C34DFA56"
 	order_index: 0
 	filename: "important"
-	title: "重要声明"
+	title: "重要信息"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
