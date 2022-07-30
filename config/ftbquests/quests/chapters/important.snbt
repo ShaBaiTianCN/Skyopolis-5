@@ -142,13 +142,13 @@
 		{
 			x: 0.0d
 			y: 0.5d
-			description: ["一些战利品可以通过合成战利品箱来获得。战利品箱也可以通过收集任务奖励以及在亚马龙处购买"]
+			description: ["一些战利品可以通过合成战利品盒来获得，其它战利品盒可以通过收集任务奖励或在亚马龙购买"]
 			dependencies: ["42930831093A12C6"]
 			id: "0D8EA6350C211C2F"
 			tasks: [{
 				id: "17B5C95BCDEDCE98"
 				type: "checkmark"
-				title: "战利品箱"
+				title: "战利品盒"
 			}]
 			rewards: [
 				{
