@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["这是个终极合成组件"]
+			description: ["只是个终极合成组件"]
 			dependencies: ["155E15931291F037"]
 			id: "4964E998C2FEBEDB"
 			tasks: [{
