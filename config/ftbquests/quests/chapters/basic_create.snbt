@@ -31,7 +31,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["转移旋转能"]
+			description: ["转移旋转力"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "2AD4CE605D0E73D1"
 			tasks: [{
@@ -60,7 +60,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["人工产生旋转能"]
+			description: ["人工产生旋转力"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "562606E7A72B47EA"
 			tasks: [{
@@ -77,7 +77,7 @@
 		{
 			x: 1.5d
 			y: 4.5d
-			description: ["使用旋转能粉碎物品。"]
+			description: ["使用旋转力粉碎物品"]
 			dependencies: ["70E285EF8C95BCB6"]
 			id: "50B4CB8711ED3CB5"
 			tasks: [{
@@ -111,7 +111,7 @@
 		{
 			x: 1.5d
 			y: 6.0d
-			description: ["通过研磨砂砾获取。"]
+			description: ["通过研磨砂砾获取"]
 			dependencies: ["50B4CB8711ED3CB5"]
 			id: "36EAA3D6E2CA1A47"
 			tasks: [{
@@ -237,7 +237,7 @@
 		{
 			x: -1.5d
 			y: 1.5d
-			description: ["能让你找到特定的生物群系。"]
+			description: ["能让你找到特定的生物群系"]
 			dependencies: ["7BEC2E004F14E531"]
 			id: "059184E85F071D9E"
 			tasks: [{
@@ -258,7 +258,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["能让你定位结构。"]
+			description: ["能让你定位结构"]
 			dependencies: ["7BEC2E004F14E531"]
 			id: "6B5F4F2613B88CC1"
 			tasks: [{
@@ -275,7 +275,7 @@
 		{
 			x: 4.5d
 			y: 4.5d
-			description: ["空白通行证可用于制作别的通行证，这些通行证能让你去往别的维度。"]
+			description: ["空白通行证可用于制作别的通行证，这些通行证能让你去往别的维度"]
 			dependencies: [
 				"328D1A8A3B08E2D4"
 				"7DD8B887583E422E"
@@ -302,7 +302,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["用于制作大部分机械动力的机械。"]
+			description: ["用于制作大部分机械动力的机械"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "25D544836012A289"
 			tasks: [{
@@ -343,7 +343,7 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			description: ["Shift右键放入模块，长按右键进行区域扫描。"]
+			description: ["Shift+右键放入模块，长按右键进行区域扫描。"]
 			dependencies: [
 				"6B5F4F2613B88CC1"
 				"059184E85F071D9E"
@@ -376,7 +376,7 @@
 			title: "锯木机"
 			x: -1.5d
 			y: -1.5d
-			description: ["切割木材。如果你在配置中允许它，也可以通过潜行从物品栏中直接使用它。"]
+			description: ["切割木材，如果你在配置中允许它，也可以通过潜行从物品栏中直接使用它。"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "516BDE9DAC6DC9FB"
 			tasks: [{
@@ -400,7 +400,7 @@
 		{
 			x: -3.0d
 			y: 3.0d
-			description: ["一台基础的充电器。"]
+			description: ["一台基础的充电器"]
 			dependencies: ["73EE0BA8AE437D1B"]
 			id: "23F3F06FBAD95D09"
 			tasks: [{
