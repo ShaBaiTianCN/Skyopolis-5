@@ -55,7 +55,7 @@
 		{
 			x: 0.5d
 			y: -3.5d
-			description: ["在锇压缩机中制作。"]
+			description: ["在锇压缩机中制作"]
 			dependencies: ["738A697081EE08FF"]
 			id: "07B5576E5FC2AD3C"
 			tasks: [{
@@ -79,7 +79,7 @@
 		{
 			x: -1.0d
 			y: -3.5d
-			description: ["用锇灌注物品。"]
+			description: ["用锇灌注物品"]
 			dependencies: ["70AA1B1BE8549390"]
 			id: "738A697081EE08FF"
 			tasks: [{
@@ -96,7 +96,7 @@
 		{
 			x: -2.5d
 			y: -3.5d
-			description: ["在锇压缩机中制作。"]
+			description: ["在锇压缩机中制作"]
 			dependencies: ["738A697081EE08FF"]
 			id: "7465D7B7F0337113"
 			tasks: [{
