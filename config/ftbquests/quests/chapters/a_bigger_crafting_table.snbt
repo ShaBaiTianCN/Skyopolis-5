@@ -3,7 +3,7 @@
 	group: "681782BF00C2D2A8"
 	order_index: 2
 	filename: "a_bigger_crafting_table"
-	title: "Extended Crafting II"
+	title: "合成拓展II"
 	icon: "extendedcrafting:advanced_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Just an advanced component"]
+			description: ["只是一个高级合成组件"]
 			id: "494699853693AF46"
 			tasks: [{
 				id: "4A5E90300A7ABA39"
@@ -27,7 +27,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Just an advanced catalyst"]
+			description: ["只是一个高级合成催化剂"]
 			dependencies: ["494699853693AF46"]
 			id: "0E097239CF3D02E7"
 			tasks: [{
@@ -44,7 +44,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["A 5x5 crafting table"]
+			description: ["一个5×5大小的工作台"]
 			dependencies: ["0E097239CF3D02E7"]
 			id: "1D49C9E2DE282AF1"
 			tasks: [{
@@ -68,7 +68,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["Just an elite component"]
+			description: ["只是一个精英合成组件"]
 			dependencies: ["1D49C9E2DE282AF1"]
 			id: "6B267E800874A951"
 			tasks: [{
@@ -85,7 +85,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["Just an elite catalyst"]
+			description: ["只是一个精英合成催化剂"]
 			dependencies: ["6B267E800874A951"]
 			id: "6D4A2E1874124D8B"
 			tasks: [{
@@ -102,7 +102,7 @@
 		{
 			x: 7.5d
 			y: 0.0d
-			description: ["A 7x7 crafting table"]
+			description: ["一个7×7大小的工作台"]
 			dependencies: ["6D4A2E1874124D8B"]
 			id: "64E25EA48E562D89"
 			tasks: [{
@@ -126,7 +126,7 @@
 		{
 			x: 3.0d
 			y: -3.0d
-			description: ["Used to make catalysts"]
+			description: ["可用于制作合成催化剂"]
 			dependencies: ["543BFC9210167228"]
 			id: "70EAFF5FA86E55B4"
 			tasks: [{
@@ -143,7 +143,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			description: ["Redstone and black slate makes redstone ingots"]
+			description: ["红石与黑铁板可以合成红石锭"]
 			dependencies: ["1D49C9E2DE282AF1"]
 			id: "543BFC9210167228"
 			tasks: [{
@@ -160,7 +160,7 @@
 		{
 			x: 3.0d
 			y: -4.5d
-			description: ["Used to make automatic crafting tables"]
+			description: ["用于合成自动工作台"]
 			dependencies: ["70EAFF5FA86E55B4"]
 			id: "714823242403158C"
 			tasks: [{
@@ -184,7 +184,7 @@
 		{
 			x: 4.5d
 			y: -1.5d
-			description: ["Cobble gen in a box"]
+			description: ["圆石从”盒“而来"]
 			dependencies: ["543BFC9210167228"]
 			id: "332D9F63E51875C0"
 			tasks: [{
