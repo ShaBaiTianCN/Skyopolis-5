@@ -213,7 +213,7 @@
 		{
 			x: 5.0d
 			y: 5.0d
-			description: ["可以通过合成或是寻找获得"]
+			description: ["可以找到或是被合成"]
 			dependencies: [
 				"3A2065C5AA1290A5"
 				"3E10BE6039329205"
