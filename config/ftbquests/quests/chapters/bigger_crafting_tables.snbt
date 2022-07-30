@@ -11,7 +11,7 @@
 		{
 			x: -1.5d
 			y: -4.5d
-			description: ["合成拓展的基础"]
+			description: ["合成拓展模组的基础"]
 			dependencies: ["3BBC49A5A1963F33"]
 			id: "3CD0FF95DACC4B43"
 			tasks: [{
