@@ -3,7 +3,7 @@
 	group: "23E8ADC704303F79"
 	order_index: 1
 	filename: "ender_crafting"
-	title: "Ender Crafting"
+	title: "末影合成"
 	icon: "extendedcrafting:enhanced_ender_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["The ultimate crafting table can be used to make ender ingots inefficiency"]
+			description: ["终极工作台能够低效的制作末影锭"]
 			dependencies: ["4E667BC86FEFB080"]
 			id: "28574FEA41663935"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Uses ender alternators placed around it to infuse items"]
+			description: ["使用放置在周围的末影发电机灌注物品"]
 			dependencies: ["28574FEA41663935"]
 			id: "33D02E407C3F0B73"
 			tasks: [{
@@ -45,7 +45,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["The more ender alternators around the ender crafter the faster it will be"]
+			description: ["末影工作台周围的末影发电机越多，它的制作速度就越快"]
 			dependencies: ["33D02E407C3F0B73"]
 			id: "620541EB0C48E81F"
 			tasks: [{
@@ -69,7 +69,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["Nether stars infused with ender"]
+			description: ["灌注了末影的下界之星"]
 			dependencies: ["620541EB0C48E81F"]
 			id: "1EB5456B5C6EE87D"
 			tasks: [{
@@ -117,7 +117,7 @@
 		{
 			x: 7.5d
 			y: 0.0d
-			description: ["Cobble gen in a box"]
+			description: ["圆石从”盒“而来"]
 			dependencies: ["7A180BE58D7EFD5B"]
 			id: "0F95B4CC394FFBF5"
 			tasks: [{
