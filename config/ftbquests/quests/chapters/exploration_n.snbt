@@ -17,7 +17,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["一种十分坚硬的材料可以通过混合熔岩与水获得"]
+			description: ["可以通过混合熔岩与水获得一种十分坚硬的材料"]
 			dependencies: ["102BE9765D8EAE71"]
 			id: "32E19A06B4078FA2"
 			tasks: [{
