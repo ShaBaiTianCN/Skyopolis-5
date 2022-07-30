@@ -250,7 +250,7 @@
 		{
 			x: 9.0d
 			y: 0.0d
-			description: ["由在下界要塞生存的烈焰人身上掉落"]
+			description: ["从下界要塞生成的烈焰人身上掉落"]
 			dependencies: ["615E84A4D90FF083"]
 			id: "25EBA1C5FAA63E1E"
 			tasks: [{
