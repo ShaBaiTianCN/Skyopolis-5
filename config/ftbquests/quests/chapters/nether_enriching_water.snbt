@@ -3,7 +3,7 @@
 	group: "681782BF00C2D2A8"
 	order_index: 3
 	filename: "nether_enriching_water"
-	title: "Nether Enriching Water"
+	title: "下界富集水"
 	icon: "skyopolis_additions:nether_enriching_water_catalyst"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 1.0d
 			y: 0.5d
-			description: ["Can be made by dropping blank dust in nether enriching water"]
+			description: ["可通过将空白粉尘投入下界富集水中制成"]
 			dependencies: [
 				"2E272DAABB0C2DBD"
 				"416588732E9446C9"
@@ -31,7 +31,7 @@
 		{
 			x: 0.5d
 			y: -1.5d
-			description: ["Can be made by dropping blank nuggets in nether enriching water"]
+			description: ["可通过将空白粒投入下界富集水中制成"]
 			dependencies: [
 				"2E272DAABB0C2DBD"
 				"416588732E9446C9"
@@ -51,7 +51,7 @@
 		{
 			x: -2.0d
 			y: 0.5d
-			description: ["Blank gems into nether enriching water can make quartz, better than converting undergarden materials"]
+			description: ["下界富集水中的空白宝石可以制作石英，比转化深园材料更好"]
 			dependencies: [
 				"2E272DAABB0C2DBD"
 				"416588732E9446C9"
@@ -71,7 +71,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
-			description: ["Can be made by dropping blank nuggets in nether enriching water"]
+			description: ["可通过将空白粒投入下界富集水中制成"]
 			dependencies: [
 				"2E272DAABB0C2DBD"
 				"416588732E9446C9"
@@ -91,7 +91,7 @@
 		{
 			x: -0.5d
 			y: 0.0d
-			description: ["Used to make nether items"]
+			description: ["用于制作下界物品"]
 			dependencies: [
 				"3224B92442B4F8D5"
 				"1D49C9E2DE282AF1"
@@ -120,7 +120,7 @@
 		{
 			x: -0.5d
 			y: 1.5d
-			description: ["Blank pebbles can be converted into nether pebbles in nether enriching water"]
+			description: ["空白砾石在下界富集水中可转化为下界砾石"]
 			dependencies: ["416588732E9446C9"]
 			id: "2E84742DA5AFDEE6"
 			tasks: [{
@@ -144,7 +144,7 @@
 		{
 			x: 1.0d
 			y: -0.5d
-			description: ["Can be made by dropping blank dust in nether enriching water"]
+			description: ["可通过将空白粉尘投入下界富集水中制成"]
 			dependencies: ["416588732E9446C9"]
 			id: "74535E832A1C786B"
 			tasks: [{
@@ -161,7 +161,7 @@
 		{
 			x: -2.0d
 			y: -0.5d
-			description: ["Blank gems into nether enriching water can make diamond"]
+			description: ["下界富集水中的空白宝石可以制作钻石"]
 			dependencies: ["416588732E9446C9"]
 			id: "617B696111B52C2F"
 			tasks: [{
