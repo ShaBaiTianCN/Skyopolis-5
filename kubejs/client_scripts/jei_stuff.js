@@ -46,7 +46,6 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.add(['minecraft:dirt'], 'Right click bone meal on a block of mulch to create dirt')
 	tooltip.add(['minecraft:water'], 'Right click a aqua catalyst on a block of mulch to create a water source block')
 	tooltip.add(['skyopolis_additions:blank_bucket'], 'Drop into any skyopolis water to create a bucket of that water!')
-	// tooltip.add(['undergarden:virulent_mix_bucket'], 'Bucket is destoryed when moving this fluid!')
 	tooltip.add(['undergarden:virulent_mix_bucket'], '移动滚烫的流体时，桶将会被销毁（一次性）')
 })
 
