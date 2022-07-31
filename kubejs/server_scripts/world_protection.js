@@ -5,7 +5,7 @@ onEvent('block.break', event => {
         if (event.block.hasTag('skyopolis:undergarden_protected')){
             if (event.level.dimension == 'undergarden:undergarden'){
                 event.cancel()
-                event.player.tell(`§c这个方块不能在此维度中破坏！`)
+                event.player.tell(`§c该方块不能在此维度中破坏！`)
             }
         }
     }
@@ -17,7 +17,8 @@ onEvent('block.right_click', event => {
         if (event.hand == MAIN_HAND)
         if (event.item.hasTag('skyopolis:banned_spawn_eggs')){
             event.cancel()
-            event.player.tell(`§c这个刷怪蛋不能在刷怪笼中使用！`)
+            // event.player.tell(`§c这个刷怪蛋不能在刷怪笼中使用！`)
+            event.player.tell(`§c这个刷怪蛋不能更改刷怪笼属性！`)
         }
     }
 })

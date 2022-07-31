@@ -15,7 +15,7 @@ event.create('skyopolis_additions:sky_bucks').displayName('天空币')
 event.create('skyopolis_additions:star').displayName('星星')
 
 event.create('skyopolis_additions:weak_enriching_water_catalyst').displayName('弱富集水催化剂')
-event.create('skyopolis_additions:eroding_water_catalyst').displayName('侵蚀水催化剂')
+event.create('skyopolis_additions:eroding_water_catalyst').displayName('侵蚀之水催化剂')
 event.create('skyopolis_additions:strong_enriching_water_catalyst').displayName('强富集水催化剂')
 event.create('skyopolis_additions:undergarden_enriching_water_catalyst').displayName('深园富集水催化剂')
 event.create('skyopolis_additions:nether_enriching_water_catalyst').displayName('下界富集水催化剂')
@@ -67,7 +67,7 @@ onEvent('fluid.registry', event => {
   event.create('skyopolis:strong_enriching_water').displayName('强富集水').thickTexture(0x808080).bucketColor(0x808080)
   event.create('skyopolis:nether_enriching_water').displayName('下界富集水').thickTexture(0x580704).bucketColor(0x580704)
   event.create('skyopolis:cosmos_enriching_water').displayName('宇宙富集水').thickTexture(0x323232).bucketColor(0x323232)
-  event.create('skyopolis:eroding_water').displayName('侵蚀水').thickTexture(0x392C4C).bucketColor(0x392C4C)
+  event.create('skyopolis:eroding_water').displayName('侵蚀之水').thickTexture(0x392C4C).bucketColor(0x392C4C)
   event.create('skyopolis:ultimate_enriching_water').displayName('最终富集水').thickTexture(0xFC99E7).bucketColor(0xFC99E7)
 
 })
