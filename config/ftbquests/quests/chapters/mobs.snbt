@@ -3,7 +3,7 @@
 	group: "72394998FB073342"
 	order_index: 4
 	filename: "mobs"
-	title: "Mobs"
+	title: "怪物"
 	icon: "minecraft:bone"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,12 +11,11 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Many different hostile mobs can spawn on your skyblock unless your platform is well lit"]
-			id: "40B3223354CFA923"
+			description: ["许多不同的敌对生物会在你的空岛上生成，除非平台被完全照亮"
 			tasks: [{
 				id: "6B5EC5F42F881BE2"
 				type: "checkmark"
-				title: "Hostiles"
+				title: "敌对生物"
 			}]
 			rewards: [{
 				id: "76C35F72F60FEB3F"
@@ -27,7 +26,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["Drops from zombies"]
+			description: ["由僵尸掉落"]
 			dependencies: ["40B3223354CFA923"]
 			id: "405A5A9850D5464E"
 			tasks: [{
@@ -51,7 +50,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Drops from skeletons"]
+			description: ["由骷髅掉落"]
 			dependencies: ["40B3223354CFA923"]
 			id: "7DD8B887583E422E"
 			tasks: [{
@@ -75,7 +74,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Drops from spiders"]
+			description: ["由蜘蛛掉落"]
 			dependencies: ["40B3223354CFA923"]
 			id: "101901A20AF4B01D"
 			tasks: [{
@@ -92,7 +91,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["Basic essence has a small chance to drop from any mob in the modpack"]
+			description: ["基础精华有小概率从整合包里的任何怪物身上掉落"]
 			dependencies: ["40B3223354CFA923"]
 			id: "41E79D87F84202CC"
 			tasks: [{
