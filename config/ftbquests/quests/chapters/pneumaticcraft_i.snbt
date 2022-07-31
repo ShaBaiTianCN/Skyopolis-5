@@ -196,7 +196,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["通过在smeltery中混合种子油和强富集水来获取"]
+			description: ["通过在冶炼炉中混合种子油和强富集水来获取"]
 			dependencies: ["3BBC49A5A1963F33"]
 			id: "4AE18102822261E3"
 			tasks: [{
