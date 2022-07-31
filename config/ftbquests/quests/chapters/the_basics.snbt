@@ -3,16 +3,16 @@
 	group: "72394998FB073342"
 	order_index: 0
 	filename: "the_basics"
-	title: "The Basics"
+	title: "基础"
 	icon: "minecraft:oak_log"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Logs"
+			title: "原木"
 			x: -1.5d
 			y: -2.5d
-			description: ["Punch tree, get wood"]
+			description: ["撸树，得木"]
 			id: "14C68E88A9D7E985"
 			tasks: [{
 				id: "200EA40F1A462C3D"
@@ -33,10 +33,10 @@
 			}]
 		}
 		{
-			title: "Planks"
+			title: "木板"
 			x: -1.5d
 			y: -1.0d
-			description: ["Logs to planks"]
+			description: ["从原木到木板"]
 			dependencies: ["14C68E88A9D7E985"]
 			id: "6CE64E5CDF5A5456"
 			tasks: [{
@@ -60,7 +60,7 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			description: ["Planks to sticks"]
+			description: ["从木板到木棍"]
 			dependencies: ["6CE64E5CDF5A5456"]
 			id: "133CEA136458CCBA"
 			tasks: [{
@@ -77,7 +77,7 @@
 		{
 			x: -1.5d
 			y: 0.5d
-			description: ["Allows 3x3 crafting"]
+			description: ["允许3x3的合成"]
 			dependencies: ["6CE64E5CDF5A5456"]
 			id: "091007E8C61702D9"
 			tasks: [{
@@ -101,7 +101,7 @@
 		{
 			x: -1.5d
 			y: 2.0d
-			description: ["Shears can be used to collect leaves. Kamas from tinkers can also be used as shears"]
+			description: ["剪刀能用来收集树叶。匠魂的短刃镰也能当作剪刀来用"]
 			dependencies: ["091007E8C61702D9"]
 			id: "1AAA147E8C303C44"
 			tasks: [{
@@ -122,7 +122,7 @@
 			}]
 		}
 		{
-			title: "Leaves"
+			title: "树叶"
 			x: -1.5d
 			y: 3.5d
 			description: ["Leaves can be turned in leafy string"]
@@ -149,7 +149,7 @@
 		{
 			x: 0.0d
 			y: 3.5d
-			description: ["Can be used to make green wool"]
+			description: ["能被用来做绿色羊毛"]
 			dependencies: ["28ED0629A991863A"]
 			id: "6AA29623F2B81EB0"
 			tasks: [{
@@ -166,7 +166,7 @@
 		{
 			x: 1.5d
 			y: 3.5d
-			description: ["Soft!"]
+			description: ["柔软！"]
 			dependencies: ["6AA29623F2B81EB0"]
 			id: "30772354F7427B6C"
 			tasks: [{
@@ -183,7 +183,7 @@
 		{
 			x: 3.0d
 			y: 3.5d
-			description: ["Used to make a nice bed, and set your spawn"]
+			description: ["用来做一个非常好的床，然后设置你的重生点"]
 			dependencies: ["30772354F7427B6C"]
 			id: "5810B46260996427"
 			tasks: [{
@@ -205,10 +205,10 @@
 			]
 		}
 		{
-			title: "Saplings"
+			title: "树苗"
 			x: -3.0d
 			y: -2.5d
-			description: ["Plant on dirt to grow more trees, tree growth can be sped up by pressing shift around the sapling"]
+			description: ["种植在泥土上能长出更多树，在树苗周围按Shift键以加速树的生长"]
 			dependencies: ["14C68E88A9D7E985"]
 			id: "18907877AF3E32AD"
 			tasks: [{
@@ -232,7 +232,7 @@
 		{
 			x: 0.0d
 			y: -2.5d
-			description: ["Oak leaves have a chance to drop apples"]
+			description: ["橡树树叶有几率掉落苹果"]
 			dependencies: ["14C68E88A9D7E985"]
 			optional: true
 			id: "4D585A4444E3C9EF"
@@ -248,10 +248,10 @@
 			}]
 		}
 		{
-			title: "Wooden Slab"
+			title: "木台阶"
 			x: 0.0d
 			y: 0.5d
-			description: ["Half a block"]
+			description: ["半个方块"]
 			dependencies: ["091007E8C61702D9"]
 			id: "1496C04B43F2DB7A"
 			tasks: [{
@@ -275,7 +275,7 @@
 		{
 			x: 1.5d
 			y: 0.5d
-			description: ["Can be used to turn organic materials into bone meal"]
+			description: ["可将有机材料转化成骨粉"]
 			dependencies: ["1496C04B43F2DB7A"]
 			id: "53CF7A96D1DD6BF8"
 			tasks: [{
@@ -292,7 +292,7 @@
 		{
 			x: 3.0d
 			y: 0.5d
-			description: ["Made in the composter from leaves, saplings and other organic material"]
+			description: ["在堆肥桶里用树叶，树苗或其他有机材料转化而成"]
 			dependencies: ["53CF7A96D1DD6BF8"]
 			id: "742C617CF170679D"
 			tasks: [{
@@ -314,10 +314,10 @@
 			]
 		}
 		{
-			title: "Chests"
+			title: "箱子"
 			x: -3.0d
 			y: 0.5d
-			description: ["Store your stuff"]
+			description: ["存放你的东西"]
 			dependencies: ["091007E8C61702D9"]
 			id: "47FEF063624D4508"
 			tasks: [{
@@ -341,7 +341,7 @@
 		{
 			x: -3.0d
 			y: 2.0d
-			description: ["Basic item transport"]
+			description: ["基础物品传输"]
 			dependencies: ["47FEF063624D4508"]
 			id: "3ECD51F550A686F5"
 			tasks: [{
@@ -356,10 +356,10 @@
 			}]
 		}
 		{
-			title: "Drawer"
+			title: "抽屉"
 			x: -4.5d
 			y: 0.5d
-			description: ["Holds a large amount of 1 item"]
+			description: ["大量储存一种物品"]
 			dependencies: ["47FEF063624D4508"]
 			id: "4BA65AA5E5A8FA1D"
 			tasks: [{
@@ -381,10 +381,10 @@
 			}]
 		}
 		{
-			title: "Drawer (2x1)"
+			title: "抽屉 (2x1)"
 			x: -4.5d
 			y: -1.0d
-			description: ["Holds a medium anmount of 2 items"]
+			description: ["储存中等数量的两种物品"]
 			dependencies: ["47FEF063624D4508"]
 			id: "41A9ED6AFD16602F"
 			tasks: [{
@@ -406,10 +406,10 @@
 			}]
 		}
 		{
-			title: "Drawer (2x2)"
+			title: "抽屉 (2x2)"
 			x: -3.0d
 			y: -1.0d
-			description: ["Holds a small amout of 4 items"]
+			description: ["少量储存四种物品"]
 			dependencies: ["47FEF063624D4508"]
 			id: "15780B13A8973FD1"
 			tasks: [{
@@ -433,7 +433,7 @@
 		{
 			x: 1.5d
 			y: 2.0d
-			description: ["A crafting table that holds its items, also connects to adjacent chests and inventories"]
+			description: ["一个可以储存其中物品的工作台，也能连接相邻的箱子和容器"]
 			dependencies: ["400A516E06EBD640"]
 			id: "5AEE753CD1664474"
 			tasks: [{
@@ -450,7 +450,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
-			description: ["Useful for tinkers"]
+			description: ["对工匠来说很有用"]
 			dependencies: ["091007E8C61702D9"]
 			id: "400A516E06EBD640"
 			tasks: [{
