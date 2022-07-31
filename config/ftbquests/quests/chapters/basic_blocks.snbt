@@ -3,7 +3,7 @@
 	group: "72394998FB073342"
 	order_index: 1
 	filename: "basic_blocks"
-	title: "Basic Supplies"
+	title: "基础补给品"
 	icon: "minecraft:dirt"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
-			description: ["Leaves and saplings can be used to make mulch"]
+			description: ["树叶和树苗能被用来做覆盖物"]
 			dependencies: [
 				"28ED0629A991863A"
 				"18907877AF3E32AD"
@@ -33,7 +33,7 @@
 		{
 			x: 0.5d
 			y: -1.0d
-			description: ["Mulch can be placed on the ground and turned into dirt by right clicking bone meal on it"]
+			description: ["覆盖物需要被放在地上，用骨粉右键它会变成泥土"]
 			dependencies: ["7E29A59FF838A13A"]
 			id: "03F758A6706B322D"
 			tasks: [{
@@ -50,7 +50,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
-			description: ["Organic seeds can be used to turn dirt into grass block"]
+			description: ["有机种子能用来把泥土变成草方块"]
 			dependencies: ["03F758A6706B322D"]
 			id: "5A66EB52C2D158C6"
 			tasks: [{
@@ -65,10 +65,10 @@
 			}]
 		}
 		{
-			title: "Grass Block"
+			title: "草方块"
 			x: 3.5d
 			y: -1.0d
-			description: ["Organic seeds can turn dirt into grass when right clicked"]
+			description: ["当右键时，有机种子能把泥土变成草方块"]
 			dependencies: ["5A66EB52C2D158C6"]
 			id: "250B9C34F1650B45"
 			tasks: [{
@@ -85,7 +85,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
-			description: ["Breaking grass can sometimes drop wheat seeds"]
+			description: ["破坏草有时能掉落小麦种子"]
 			dependencies: ["250B9C34F1650B45"]
 			id: "207309255D5DFE32"
 			tasks: [{
@@ -100,10 +100,10 @@
 			}]
 		}
 		{
-			title: "Small Flowers"
+			title: "小花花"
 			x: 3.5d
 			y: 0.5d
-			description: ["Using bone meal on grass blocks will sometimes create small flowers. Alternatively a flower loot box can be crafted"]
+			description: ["在草方块上使用骨粉有时会生成小花花。或者也可以做一个花朵战利品箱"]
 			dependencies: ["250B9C34F1650B45"]
 			id: "5E2FF88FDD0972DB"
 			tasks: [{
@@ -134,7 +134,7 @@
 		{
 			x: 3.5d
 			y: -2.5d
-			description: ["Using bone meal on grass blocks will create tall grass, this can be harvested with shears"]
+			description: ["在草方块上使用骨粉有时会生成高草丛，这个需要用剪刀采集"]
 			dependencies: ["250B9C34F1650B45"]
 			id: "4DD7FE92EB2EC4FD"
 			tasks: [{
@@ -151,7 +151,7 @@
 		{
 			x: 6.5d
 			y: -1.0d
-			description: ["Grows from wheat seeds"]
+			description: ["由小麦种子长成"]
 			dependencies: ["207309255D5DFE32"]
 			id: "7A931D34BECE7793"
 			tasks: [{
@@ -168,7 +168,7 @@
 		{
 			x: 8.0d
 			y: -1.0d
-			description: ["Basic food"]
+			description: ["基础食物"]
 			dependencies: ["7A931D34BECE7793"]
 			id: "27C4A9D1387DD270"
 			tasks: [{
@@ -192,7 +192,7 @@
 		{
 			x: 3.5d
 			y: -4.0d
-			description: ["When opened will generate a range of vanilla flowers"]
+			description: ["当打开时会生成一系列的原版花朵"]
 			dependencies: ["4DD7FE92EB2EC4FD"]
 			id: "691964B1C01EFBBF"
 			tasks: [{
