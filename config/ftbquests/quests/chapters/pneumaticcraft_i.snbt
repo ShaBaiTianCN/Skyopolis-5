@@ -3,7 +3,7 @@
 	group: "4EF7FBB4F0556123"
 	order_index: 4
 	filename: "pneumaticcraft_i"
-	title: "Pneumaticcraft"
+	title: "气动工艺"
 	icon: "pneumaticcraft:ingot_iron_compressed"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Iron blocks can be pressed to make compressed iron, not very efficient but its a start"]
+			description: ["铁块可以被压缩成压缩铁锭，并不高效但这只是个开始。"]
 			dependencies: ["3BFCF07F9E0F9587"]
 			id: "3BBC49A5A1963F33"
 			tasks: [{
@@ -46,7 +46,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Used to create air pressure"]
+			description: ["创造气压"]
 			dependencies: ["76900C57EF5C5260"]
 			id: "4A521955CAB896DD"
 			tasks: [{
@@ -63,7 +63,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["Used to move pressure from one place to another"]
+			description: ["传递压力"]
 			dependencies: ["4A521955CAB896DD"]
 			id: "787DF1E0F52C1CA2"
 			tasks: [{
@@ -87,7 +87,7 @@
 		{
 			x: 4.5d
 			y: -1.5d
-			description: ["Used to create the walls of a multiblock pressure chamber"]
+			description: ["作为压力室多方块结构的墙壁"]
 			dependencies: ["5AD652C36CA739B1"]
 			id: "7CF101F9F037BF06"
 			tasks: [{
@@ -111,7 +111,7 @@
 		{
 			x: 6.0d
 			y: 1.0d
-			description: ["Allows you to see inside a pressure chamber"]
+			description: ["能让你看见压力室的内部"]
 			dependencies: ["5AD652C36CA739B1"]
 			id: "3C85CB50F1E39223"
 			tasks: [{
@@ -128,7 +128,7 @@
 		{
 			x: 6.0d
 			y: -1.0d
-			description: ["Used to pipe pressure into your pressure chamber"]
+			description: ["将压缩气体抽入压力室"]
 			dependencies: ["5AD652C36CA739B1"]
 			id: "7091323CFF6CB175"
 			tasks: [{
@@ -145,7 +145,7 @@
 		{
 			x: 4.5d
 			y: 1.5d
-			description: ["Used to put items in and take items out of your pressure chamber. Mode depends on what direction it was placed"]
+			description: ["用于压力室物品交互。输入输出的方向取决于放置的方向"]
 			dependencies: ["5AD652C36CA739B1"]
 			id: "08C775553B271F22"
 			tasks: [{
@@ -162,7 +162,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Stonger bricks"]
+			description: ["更强的砖块"]
 			dependencies: ["3BBC49A5A1963F33"]
 			id: "76900C57EF5C5260"
 			tasks: [{
@@ -179,13 +179,13 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["The skyopolis guide book will show the most basic type of pressure chamber"]
+			description: ["天之城指南中展示了最基础的压力室搭建方式"]
 			dependencies: ["787DF1E0F52C1CA2"]
 			id: "5AD652C36CA739B1"
 			tasks: [{
 				id: "12E9A190B6BDB908"
 				type: "checkmark"
-				title: "Pressure Chamber"
+				title: "压力室"
 			}]
 			rewards: [{
 				id: "34A1547706DD3F84"
@@ -196,7 +196,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["Can be made by mixing seed oil and strong enriching water in a smeltery"]
+			description: ["通过在smeltery中混合种子油和强富集水来获取"]
 			dependencies: ["3BBC49A5A1963F33"]
 			id: "4AE18102822261E3"
 			tasks: [{
