@@ -1,16 +1,16 @@
 {
-    "name": "Pressure Chamber",
+    "name": "压力室",
     "icon": "pneumaticcraft:ingot_iron_compressed",
     "category": "patchouli:pneumaticcraft",
 	"sortnum": "1",
     "pages": [
         {
 			"type": "text",
-			"text": "The pressure chamber can be used to create more pneimaticcraft items."
+			"text": "压力室可用于制作更多气动工艺的物品。"
         },
         {
 			"type": "multiblock",
-			"name": "Pressure Chamber",
+			"name": "压力室",
 			"enable_visualize": true,
 			"multiblock": {
 			"pattern":[
