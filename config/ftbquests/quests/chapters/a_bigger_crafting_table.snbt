@@ -184,7 +184,7 @@
 		{
 			x: 4.5d
 			y: -1.5d
-			description: ["圆石从”盒“而来"]
+			description: ["圆石从“盒”而来"]
 			dependencies: ["543BFC9210167228"]
 			id: "332D9F63E51875C0"
 			tasks: [{
