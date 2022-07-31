@@ -4,7 +4,7 @@ console.info('Hello, World! (You will see this line every time client resources 
 
 onEvent('jei.add.items', e => {
 
-    e.add([Item.of('minecraft:ghast_spawn_egg', '{EntityTag:{id:"minecraft:snow_golem"},RepairCost:0,display:{Name:\'{"text":"Snow Golem Spawn Egg"}\'}}')])
+    e.add([Item.of('minecraft:ghast_spawn_egg', '{EntityTag:{id:"minecraft:snow_golem"},RepairCost:0,display:{Name:\'{"text":"雪傀儡刷怪蛋"}\'}}')])
 	
 });
 
@@ -30,7 +30,7 @@ onEvent('jei.hide.items', event => {
 })
 
 onEvent('item.tooltip', tooltip => {
-    tooltip.add(['refinedstorage:network_receiver', 'refinedstorage:fluid_grid', 'refinedstorage:pattern_grid', 'refinedstorage:crafting_grid', 'refinedstorage:grid', 'refinedstorage:controller', 'refinedstorage:creative_controller', 'refinedstorage:network_transmitter', 'refinedstorage:crafting_monitor', 'refinedstorage:network_transmitter', 'refinedstorage:relay', 'refinedstorage:detector', 'refinedstorage:security_manager', 'refinedstorage:wireless_transmitter', 'refinedstorage:disk_manipulator', 'refinedstorage:crafter', 'refinedstorage:crafter_manager'], [Text.of('These blocks can be dyed, press "u" on the item to view those recipes. Right clicking with a dye on the block will also change the colour').color(0x808080)])
+    tooltip.add(['refinedstorage:network_receiver', 'refinedstorage:fluid_grid', 'refinedstorage:pattern_grid', 'refinedstorage:crafting_grid', 'refinedstorage:grid', 'refinedstorage:controller', 'refinedstorage:creative_controller', 'refinedstorage:network_transmitter', 'refinedstorage:crafting_monitor', 'refinedstorage:network_transmitter', 'refinedstorage:relay', 'refinedstorage:detector', 'refinedstorage:security_manager', 'refinedstorage:wireless_transmitter', 'refinedstorage:disk_manipulator', 'refinedstorage:crafter', 'refinedstorage:crafter_manager'], [Text.of('这些方块可以被染色，在物品上按”u“键来查看它们的配方。用染料右键方块也会更改颜色。').color(0x808080)])
 
 	tooltip.add(['skyopolis_additions:weak_enriching_water_catalyst'], '投入水中将其转化为弱富集水')
 	tooltip.add(['skyopolis_additions:undergarden_enriching_water_catalyst'], '投入弱富集水中将其转化为深园富集水')
