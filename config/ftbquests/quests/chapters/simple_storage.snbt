@@ -161,7 +161,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["基础物品运输"]
+			description: ["基础物品传输"]
 			dependencies: ["1B93FE85CCEA76E3"]
 			id: "10E81D6DF72E35BA"
 			tasks: [{
