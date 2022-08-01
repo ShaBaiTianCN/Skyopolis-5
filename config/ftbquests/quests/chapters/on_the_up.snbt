@@ -11,7 +11,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["最后一级的网"]
+			description: ["最高级的网"]
 			dependencies: ["32E19A06B4078FA2"]
 			id: "748A826B4B653638"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["收集与前一级相同的物品，再加上一些额外的"]
+			description: ["收集与上一级相同的物品以及一些额外物品"]
 			dependencies: [
 				"748A826B4B653638"
 				"10466A43764E94AB"
@@ -54,7 +54,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["来自最后一级的网"]
+			description: ["从最高级的网中滤出"]
 			dependencies: ["2E272DAABB0C2DBD"]
 			id: "7554BCA541542F4B"
 			tasks: [{
@@ -71,7 +71,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			description: ["一种远古残骸与金的坚硬合金"]
+			description: ["一种远古残骸与金合成的坚硬合金"]
 			dependencies: ["3224B92442B4F8D5"]
 			id: "10466A43764E94AB"
 			tasks: [{
@@ -105,7 +105,7 @@
 		{
 			x: 6.0d
 			y: -1.5d
-			description: ["可用于更快地制造空白粒、尘、卵石和宝石"]
+			description: ["可用于更快地制造空白粒、尘土、石子和宝石"]
 			dependencies: ["7679F49449CA20AE"]
 			id: "41889D2CF53F77BB"
 			tasks: [{
