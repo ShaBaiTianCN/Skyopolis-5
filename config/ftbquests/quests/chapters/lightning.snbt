@@ -3,7 +3,7 @@
 	group: "4EF7FBB4F0556123"
 	order_index: 6
 	filename: "lightning"
-	title: "Lightning"
+	title: "闪电"
 	icon: "minecraft:lightning_rod"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Used to focus lightning strikes"]
+			description: ["用于聚焦雷击"]
 			dependencies: ["1B93FE85CCEA76E3"]
 			id: "7C1CD21065F61E0E"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["This item will summon lightning onto a block"]
+			description: ["该物品将在方块上召唤闪电"]
 			dependencies: ["386D08F9B5782868"]
 			id: "3BF45BAD20FB4749"
 			tasks: [{
@@ -58,7 +58,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["The solid lightning water block can be converted into lightning water when the block is struck by lightning. A lightning summoner will work on it"]
+			description: ["固体闪电水块在被雷电击中时会转化为闪电水。闪电召唤器会对它有效。"]
 			dependencies: ["7C1CD21065F61E0E"]
 			id: "386D08F9B5782868"
 			tasks: [{
@@ -75,7 +75,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["Can be used to create monster spawn eggs, which can be used to change what a spawner spawns"]
+			description: ["可用于制造怪物刷怪蛋，可用于更改刷怪箱的刷怪类型。"]
 			dependencies: ["20F0CF845F52C467"]
 			id: "2FA39342302A4411"
 			tasks: [{
@@ -97,10 +97,10 @@
 			]
 		}
 		{
-			title: "Lightning Water"
+			title: "闪电水"
 			x: 3.0d
 			y: 0.0d
-			description: ["A bucket of lightning water"]
+			description: ["一桶闪电水"]
 			dependencies: ["3BF45BAD20FB4749"]
 			id: "20F0CF845F52C467"
 			tasks: [{
@@ -117,7 +117,7 @@
 		{
 			x: 3.0d
 			y: -3.0d
-			description: ["Convert your essence"]
+			description: ["转化你的精华"]
 			dependencies: ["26BCBD3B0EF7C1CF"]
 			id: "0CA8E9BE41A61208"
 			tasks: [{
@@ -147,7 +147,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			description: ["Can be used in the essence converter block to convert between ore and mob essence"]
+			description: ["可用于精华转换器来在矿石和怪物精华之间进行转换"]
 			dependencies: ["20F0CF845F52C467"]
 			id: "26BCBD3B0EF7C1CF"
 			tasks: [{

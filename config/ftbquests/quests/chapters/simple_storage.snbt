@@ -3,7 +3,7 @@
 	group: "4EF7FBB4F0556123"
 	order_index: 1
 	filename: "simple_storage"
-	title: "Simple Storage"
+	title: "简单存储"
 	icon: "storagenetwork:request"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Connects cables together"]
+			description: ["将存储线缆连接在一起"]
 			dependencies: ["7B8612CFF0DDB62D"]
 			id: "2506B93296FAFC7C"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Connects to invenotries"]
+			description: ["连接到库存"]
 			dependencies: ["2506B93296FAFC7C"]
 			id: "7CF8CCA0A9715C7F"
 			tasks: [{
@@ -45,7 +45,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Import into network"]
+			description: ["导入存储网络"]
 			dependencies: ["2506B93296FAFC7C"]
 			id: "42B7C3EF8B8A5EEA"
 			tasks: [{
@@ -62,7 +62,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["Export items from the network"]
+			description: ["从存储网络中导出物品"]
 			dependencies: ["2506B93296FAFC7C"]
 			id: "657BBD0DD15CD5CA"
 			tasks: [{
@@ -79,7 +79,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["Connects to inventories and filters items into it"]
+			description: ["将物品过滤后导入连接的库存中"]
 			dependencies: ["7CF8CCA0A9715C7F"]
 			id: "298C9FFDFD681EF8"
 			tasks: [{
@@ -96,7 +96,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["Import into networks with filters"]
+			description: ["使用过滤器导入存储网络"]
 			dependencies: ["42B7C3EF8B8A5EEA"]
 			id: "65D0A3AC3EC79653"
 			tasks: [{
@@ -120,7 +120,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["The brains of the network"]
+			description: ["存储网络的大脑"]
 			dependencies: ["2506B93296FAFC7C"]
 			id: "10BFA2E01DAB6994"
 			tasks: [{
@@ -137,7 +137,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			description: ["Access items in your network"]
+			description: ["访问存储网络中的物品"]
 			dependencies: ["10BFA2E01DAB6994"]
 			id: "32671000213355D6"
 			tasks: [{
@@ -161,7 +161,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["Basic item transport"]
+			description: ["基础物品传输"]
 			dependencies: ["1B93FE85CCEA76E3"]
 			id: "10E81D6DF72E35BA"
 			tasks: [{

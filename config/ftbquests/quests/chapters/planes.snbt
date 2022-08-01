@@ -3,7 +3,7 @@
 	group: "738EA971A0EF2AB1"
 	order_index: 3
 	filename: "planes"
-	title: "Planes"
+	title: "简单飞机"
 	icon: {
 		id: "simpleplanes:plane"
 		Count: 1b
@@ -19,7 +19,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Allows the crafting of flying machines"]
+			description: ["允许你制作可以飞行的机器"]
 			dependencies: ["5EF7D47F5BFE0DA2"]
 			id: "0520EFF924D0D6ED"
 			tasks: [{
@@ -49,7 +49,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Used to make flying machines"]
+			description: ["用于制造飞行器"]
 			dependencies: ["50A329EB6C496D10"]
 			id: "5EF7D47F5BFE0DA2"
 			tasks: [{
@@ -67,8 +67,8 @@
 			x: 4.5d
 			y: 0.0d
 			description: [
-				"When provided with fuel will allow the plane/helicopter to fly."
-				"Right click on the plane/helicopter to add it"
+				"想让飞机或直升机起飞，就需要给飞机或直升机提供燃油。"
+				"右键飞机或直升机以添加"
 			]
 			dependencies: ["7A46C2D224149FA7"]
 			id: "437A528F1D578FB0"
@@ -91,16 +91,16 @@
 			]
 		}
 		{
-			title: "Flying Machine"
+			title: "航天器"
 			x: 0.0d
 			y: 1.5d
-			description: ["Using the plane workbench you can make either a plane, large plane or a helicopter"]
+			description: ["通过使用飞机建构台，你可以制作飞机、大飞机或是直升机"]
 			dependencies: ["0520EFF924D0D6ED"]
 			id: "211561F7B89B6E9A"
 			tasks: [{
 				id: "0C1888CDDBEBC91B"
 				type: "item"
-				title: "Any #skyopolis:plane"
+				title: "任意#skyopolis:plane"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -125,13 +125,13 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["Makes your plane/helicopter better in various ways"]
+			description: ["让你的飞机或直升机性能更加卓越"]
 			dependencies: ["0988813741F05DEE"]
 			id: "7A46C2D224149FA7"
 			tasks: [{
 				id: "326A41AEB1F74802"
 				type: "checkmark"
-				title: "Upgrades"
+				title: "升级"
 			}]
 			rewards: [{
 				id: "0F6853F43B4924B1"
@@ -142,7 +142,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Shift right click on a plane/helicopter to view installed upgrades"]
+			description: ["Shift右键飞机或是直升机以浏览其已装载的升级"]
 			dependencies: [
 				"0520EFF924D0D6ED"
 				"50A329EB6C496D10"
@@ -170,8 +170,8 @@
 			x: 2.0d
 			y: -1.0d
 			description: [
-				"Allows the plane/helicopter to land on water."
-				"Right click on the plane/helicopter to add it"
+				"允许飞机或直升机漂浮在水面上。"
+				"右键飞机或直升机以装载"
 			]
 			dependencies: ["7A46C2D224149FA7"]
 			id: "416FA06515665628"
@@ -190,8 +190,8 @@
 			x: 2.0d
 			y: 1.0d
 			description: [
-				"Used to boost plane speed."
-				"Right click on the plane/helicopter to add it"
+				"用于强化飞机的飞行速度。"
+				"右键飞机或直升机以装载"
 			]
 			dependencies: ["7A46C2D224149FA7"]
 			id: "153A552D413F37BF"
@@ -210,8 +210,8 @@
 			x: 4.0d
 			y: -1.0d
 			description: [
-				"Protects your plane/helicopter."
-				"Right click on the plane/helicopter to add it"
+				"保护你的飞机或直升机。"
+				"右键飞机或直升机以装载"
 			]
 			dependencies: ["7A46C2D224149FA7"]
 			id: "5C558A3549885E33"
@@ -230,8 +230,8 @@
 			x: 4.0d
 			y: 1.0d
 			description: [
-				"Allows a extra seat for passengers."
-				"Right click on the plane/helicopter to add it"
+				"允许飞机多登上一名乘客。"
+				"右键飞机或直升机以装载"
 			]
 			dependencies: ["7A46C2D224149FA7"]
 			id: "003A109A9C613922"
