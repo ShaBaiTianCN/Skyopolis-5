@@ -3,7 +3,7 @@
 	group: "681782BF00C2D2A8"
 	order_index: 1
 	filename: "on_the_up"
-	title: "Nether Advances"
+	title: "下界冒险"
 	icon: "minecraft:totem_of_undying"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["The final tier of mesh"]
+			description: ["最后一级的网"]
 			dependencies: ["32E19A06B4078FA2"]
 			id: "748A826B4B653638"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["Collects the same item as the previous tier plus some extras"]
+			description: ["收集与前一级相同的物品，再加上一些额外的"]
 			dependencies: [
 				"748A826B4B653638"
 				"10466A43764E94AB"
@@ -54,7 +54,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["From the final tier of mesh"]
+			description: ["来自最后一级的网"]
 			dependencies: ["2E272DAABB0C2DBD"]
 			id: "7554BCA541542F4B"
 			tasks: [{
@@ -71,7 +71,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			description: ["A tough alloy of ancient debris and gold"]
+			description: ["一种远古残骸与金的坚硬合金"]
 			dependencies: ["3224B92442B4F8D5"]
 			id: "10466A43764E94AB"
 			tasks: [{
@@ -88,7 +88,7 @@
 		{
 			x: 4.5d
 			y: -1.5d
-			description: ["Can be used to break down some blocks and items into different ones"]
+			description: ["可用于将一些方块和物品分解为不同的方块和物品"]
 			dependencies: ["10466A43764E94AB"]
 			id: "7679F49449CA20AE"
 			tasks: [{
@@ -105,13 +105,13 @@
 		{
 			x: 6.0d
 			y: -1.5d
-			description: ["Can be used to make blank nuggets, dusts, pebbles and gems faster"]
+			description: ["可用于更快地制造空白粒、尘、卵石和宝石"]
 			dependencies: ["7679F49449CA20AE"]
 			id: "41889D2CF53F77BB"
 			tasks: [{
 				id: "369C2C18183D9E3C"
 				type: "checkmark"
-				title: "More Blank Items"
+				title: "更多空白物品"
 			}]
 			rewards: [{
 				id: "568384795C1F1901"
