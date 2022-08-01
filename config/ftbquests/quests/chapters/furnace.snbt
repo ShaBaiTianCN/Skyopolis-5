@@ -258,8 +258,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["可以用来种植树苗和蘑菇。可以查看天之城指南
-来获取更多信息。"]
+			description: ["可以用来种植树苗和蘑菇。可以查看天之城指南来获取更多信息。"]
 			dependencies: ["0D9B4FF55A68DDB4"]
 			id: "68A16B1C08813EDE"
 			tasks: [{
@@ -324,7 +323,7 @@
 		{
 			x: 1.5d
 			y: 3.0d
-			description: ["反射镜可以被放置在太阳灶周围来加快烧炼过程。Reflectors can be placed around the  block (one block above) to make it smelt items faster"]
+			description: ["反射镜可以被放置在太阳灶周围来加快烧炼过程。"]
 			dependencies: ["0F03533C1C39D12E"]
 			id: "4B7AC3A6D106BBAF"
 			tasks: [{
