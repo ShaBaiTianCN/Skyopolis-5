@@ -1,16 +1,16 @@
 {
-    "name": "动力辊压机",
+    "name": "Mechanical Press",
     "icon": "create:mechanical_press",
     "category": "patchouli:create",
 	"sortnum": "3",
     "pages": [
         {
 			"type": "text",
-			"text": "它被用来压片和压实物品。"
+			"text": "The mechanical press can be used to press and compact Items "
         },
 		{
 			"type": "multiblock",
-			"name": "动力辊压机",
+			"name": "Mechanical Press",
 			"enable_visualize": true,
 			"multiblock": {
 			"pattern":[
@@ -23,7 +23,7 @@
 			"m": "create:mechanical_press"
 			}
 		},
-		"text": "$(br)动力辊压机配合置物台可以压制物品"
+		"text": "$(br)The Mechanical Press is used to press items on the depot to get new different pressed items"
 		}
 	]
 }

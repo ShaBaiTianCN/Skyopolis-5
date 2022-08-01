@@ -1,16 +1,16 @@
 {
-    "name": "动力搅拌器",
+    "name": "Mechanical Mixer",
     "icon": "create:mechanical_mixer",
     "category": "patchouli:create",
 	"sortnum": "2",
     "pages": [
         {
 			"type": "text",
-			"text": "它可以把物品和液体搅拌到一起。"
+			"text": "The mechanical mixer can be used to mix Items and fluids together."
         },
 		{
 			"type": "multiblock",
-			"name": "动力搅拌器",
+			"name": "Mechanical Mixer",
 			"enable_visualize": true,
 			"multiblock": {
 			"pattern":[
@@ -23,7 +23,7 @@
 			"m": "create:mechanical_mixer"
 			}
 		},
-		"text": "$(br)动力搅拌器配合工作盆可以将液体和物品搅成新的东西"
+		"text": "$(br)The Mechanical Mixer is used to mix items and fluids in the Basin to get new different items"
 		}
 	]
 }

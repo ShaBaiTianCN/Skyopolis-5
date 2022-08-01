@@ -1,15 +1,15 @@
 {
-    "name": "水车",
+    "name": "Waterwheels",
     "icon": "create:water_wheel",
     "category": "patchouli:create",
 	"sortnum": "4",
     "pages": [
         {
-			"title": "水车",
+			"title": "The Waterwheel",
 			"type": "spotlight",
             "link_recipe": true,
             "item": "create:water_wheel",
-			"text": "需要流动的水让水车转动产生动力。"
+			"text": "The Waterwheel need to have flowing water over it for it to turn and generate kinetic energy"
 		}
 	]
 }
