@@ -1,16 +1,16 @@
 {
-    "name": "Millstone",
+    "name": "石磨",
     "icon": "create:millstone",
     "category": "patchouli:create",
 	"sortnum": "1",
     "pages": [
         {
 			"type": "text",
-			"text": "The Millstone can Grind different items"
+			"text": "石磨能够研磨各种不同的物品"
         },
 		{
 			"type": "multiblock",
-			"name": "Millstone",
+			"name": "石磨",
 			"enable_visualize": false,
 			"multiblock": {
 			"pattern":[
@@ -21,7 +21,7 @@
 			"0": "create:millstone"
 			}
 		},
-		"text": "The Millstone can crush and mill different items ie.$(br)(cobblestone -> gravel)$(br)(gravel -> flint)"
+		"text": "石磨用来粉碎和研磨物品，例：$(br)(圆石->沙砾)$(br)(沙砾->燧石)"
 		}
 	]
 }
