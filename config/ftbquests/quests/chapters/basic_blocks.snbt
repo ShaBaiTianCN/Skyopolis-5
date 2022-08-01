@@ -134,7 +134,7 @@
 		{
 			x: 3.5d
 			y: -2.5d
-			description: ["在草方块上使用骨粉有时会生成高草丛，这个需要用剪刀采集"]
+			description: ["在草方块上使用骨粉有时会生成高草丛，需要用剪刀采集"]
 			dependencies: ["250B9C34F1650B45"]
 			id: "4DD7FE92EB2EC4FD"
 			tasks: [{
