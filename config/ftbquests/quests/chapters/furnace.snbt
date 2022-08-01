@@ -3,7 +3,7 @@
 	group: "738EA971A0EF2AB1"
 	order_index: 1
 	filename: "furnace"
-	title: "Smelting"
+	title: "烧炼"
 	icon: "minecraft:furnace"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["Smelted sand blocks"]
+			description: ["烧沙子"]
 			dependencies: [
 				"6E854560690623FC"
 				"0F7D44E3F402A744"
@@ -31,7 +31,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["Cobblestone can be made when breaking stone with a pickaxe. Can also be crafted with stone pebbles and blank pebbles"]
+			description: ["可以通过镐子挖石头来获取圆石，也可以通过使用石子和空白石子合成。"]
 			dependencies: ["1830B6473729A313"]
 			id: "4EEAAF1902922517"
 			tasks: [{
@@ -48,7 +48,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Used to smelt items into different ones"]
+			description: ["用于烧炼物品"]
 			dependencies: ["4EEAAF1902922517"]
 			id: "0F7D44E3F402A744"
 			tasks: [{
@@ -65,7 +65,7 @@
 		{
 			x: -1.5d
 			y: -0.5d
-			description: ["Smelted clay blocks"]
+			description: ["烧炼过的黏土块"]
 			dependencies: [
 				"0F7D44E3F402A744"
 				"57D604EF92A41D37"
@@ -85,7 +85,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Made by smelting grout in a furnace. Also makes pretty good tools early game"]
+			description: ["在熔炉里烧炼砖泥获取。也可以用于在前期制作很不错的工具。"]
 			dependencies: ["0F7D44E3F402A744"]
 			id: "615C8108D4D91444"
 			tasks: [{
@@ -102,7 +102,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["Used to melt item and blocks into there molten form. More efficent way to make seared bricks"]
+			description: ["用于将物品和方块融化成它们的熔融态，同时也是更高效的焦黑砖获取途径。"]
 			dependencies: [
 				"4BD9A9845BEC18B3"
 				"615C8108D4D91444"
@@ -122,7 +122,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			description: ["Placed underneath a seared melter to heat it"]
+			description: ["在（焦黑熔化炉）下方放置一个焦黑加热器来提供热量。"]
 			dependencies: ["53771FFC3B023C98"]
 			id: "3090BD398C1B53B9"
 			tasks: [{
@@ -139,7 +139,7 @@
 		{
 			x: 4.5d
 			y: 1.5d
-			description: ["Placed to the side of the melter to pour out the fluid into either a casting table or basin"]
+			description: ["将其放置在（焦黑熔化炉的）两侧用于把里面的流体倒出至浇铸台或浇铸盆。"]
 			dependencies: ["3090BD398C1B53B9"]
 			id: "5D8AF21921440C28"
 			tasks: [{
@@ -156,7 +156,7 @@
 		{
 			x: 4.5d
 			y: 3.0d
-			description: ["Can be used to cast ingots and tool parts"]
+			description: ["可以用于铸造金属锭和工具的部件。"]
 			dependencies: ["5D8AF21921440C28"]
 			id: "58AB00C42338A740"
 			tasks: [{
@@ -180,7 +180,7 @@
 		{
 			x: 6.0d
 			y: 1.5d
-			description: ["Can be used to coat blocks in something and make blocks"]
+			description: ["可以在方块外覆盖一些东西或者制作金属块。"]
 			dependencies: ["5D8AF21921440C28"]
 			id: "42A3808F305A6F3E"
 			tasks: [{
@@ -197,7 +197,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["The brain of the drawers, connects to all other drawers in a 12x12 radius"]
+			description: ["抽屉的大脑，可以连接半径12格以内的所有抽屉。"]
 			dependencies: ["42A3808F305A6F3E"]
 			id: "1DE10F5DDB0FFEF4"
 			tasks: [{
@@ -214,7 +214,7 @@
 		{
 			x: 6.0d
 			y: -1.5d
-			description: ["Used to extend the range of your drawer network"]
+			description: ["用于延伸你抽屉网络的范围。"]
 			dependencies: ["1DE10F5DDB0FFEF4"]
 			id: "33C67E72B1D670CF"
 			tasks: [{
@@ -238,7 +238,7 @@
 		{
 			x: -1.5d
 			y: 0.5d
-			description: ["Obtained by smelting clay in a furnace"]
+			description: ["在熔炉里烧炼黏土来获取。"]
 			dependencies: [
 				"57D604EF92A41D37"
 				"0F7D44E3F402A744"
@@ -258,7 +258,8 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["Can be used to grow saplings and mushrooms. Various information about the pots can be found in the skyopolis guide book"]
+			description: ["可以用来种植树苗和蘑菇。可以查看天之城指南
+来获取更多信息。"]
 			dependencies: ["0D9B4FF55A68DDB4"]
 			id: "68A16B1C08813EDE"
 			tasks: [{
@@ -282,7 +283,7 @@
 		{
 			x: 0.0d
 			y: -3.0d
-			description: ["Faster building"]
+			description: ["更快的搭建"]
 			dependencies: ["4EEAAF1902922517"]
 			id: "041E2479CC5145A5"
 			tasks: [{
@@ -306,7 +307,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			description: ["The solar cooker can be used to smelt items using the sun"]
+			description: ["太阳灶可以使用太阳能来烧炼物品。"]
 			dependencies: ["4BD9A9845BEC18B3"]
 			id: "0F03533C1C39D12E"
 			tasks: [{
@@ -323,7 +324,7 @@
 		{
 			x: 1.5d
 			y: 3.0d
-			description: ["Reflectors can be placed around the  block (one block above) to make it smelt items faster"]
+			description: ["反射镜可以被放置在太阳灶周围来加快烧炼过程。Reflectors can be placed around the  block (one block above) to make it smelt items faster"]
 			dependencies: ["0F03533C1C39D12E"]
 			id: "4B7AC3A6D106BBAF"
 			tasks: [{
