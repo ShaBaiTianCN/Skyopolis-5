@@ -4,7 +4,7 @@ console.info('Hello, World! (You will see this line every time client resources 
 
 onEvent('jei.add.items', e => {
 
-    e.add([Item.of('minecraft:ghast_spawn_egg', '{EntityTag:{id:"minecraft:snow_golem"},RepairCost:0,display:{Name:\'{"text":"Snow Golem Spawn Egg"}\'}}')])
+    e.add([Item.of('minecraft:ghast_spawn_egg', '{EntityTag:{id:"minecraft:snow_golem"},RepairCost:0,display:{Name:\'{"text":"雪傀儡刷怪蛋"}\'}}')])
 	
 });
 
@@ -30,23 +30,23 @@ onEvent('jei.hide.items', event => {
 })
 
 onEvent('item.tooltip', tooltip => {
-    tooltip.add(['refinedstorage:network_receiver', 'refinedstorage:fluid_grid', 'refinedstorage:pattern_grid', 'refinedstorage:crafting_grid', 'refinedstorage:grid', 'refinedstorage:controller', 'refinedstorage:creative_controller', 'refinedstorage:network_transmitter', 'refinedstorage:crafting_monitor', 'refinedstorage:network_transmitter', 'refinedstorage:relay', 'refinedstorage:detector', 'refinedstorage:security_manager', 'refinedstorage:wireless_transmitter', 'refinedstorage:disk_manipulator', 'refinedstorage:crafter', 'refinedstorage:crafter_manager'], [Text.of('These blocks can be dyed, press "u" on the item to view those recipes. Right clicking with a dye on the block will also change the colour').color(0x808080)])
+    tooltip.add(['refinedstorage:network_receiver', 'refinedstorage:fluid_grid', 'refinedstorage:pattern_grid', 'refinedstorage:crafting_grid', 'refinedstorage:grid', 'refinedstorage:controller', 'refinedstorage:creative_controller', 'refinedstorage:network_transmitter', 'refinedstorage:crafting_monitor', 'refinedstorage:network_transmitter', 'refinedstorage:relay', 'refinedstorage:detector', 'refinedstorage:security_manager', 'refinedstorage:wireless_transmitter', 'refinedstorage:disk_manipulator', 'refinedstorage:crafter', 'refinedstorage:crafter_manager'], [Text.of('这些方块可以被染色，在物品上按”u“键来查看它们的配方。用染料右键方块也会更改颜色。').color(0x808080)])
 
-	tooltip.add(['skyopolis_additions:weak_enriching_water_catalyst'], 'Drop into a water source block to create weak enriching water')
-	tooltip.add(['skyopolis_additions:undergarden_enriching_water_catalyst'], 'Drop into a weak enriching water source block to create undergarden enriching water')
-	tooltip.add(['skyopolis_additions:strong_enriching_water_catalyst'], 'Drop into a undergarden enriching water source block to create strong enriching water')
-	tooltip.add(['skyopolis_additions:nether_enriching_water_catalyst'], 'Drop into a strong enriching water source block to create nether enriching water')
-	tooltip.add(['skyopolis_additions:ultimate_enriching_water_catalyst'], 'Drop into a cosmos enriching water source block to create ultimate enriching water')
-	tooltip.add(['skyopolis_additions:eroding_water_catalyst'], 'Drop into a water source block to create eroding water')
-	tooltip.add(['skyopolis_additions:cosmos_enriching_water_catalyst'], 'Drop into a nether enriching water source block to create cosmos enriching water')
+	tooltip.add(['skyopolis_additions:weak_enriching_water_catalyst'], '投入水中将其转化为弱富集水')
+	tooltip.add(['skyopolis_additions:undergarden_enriching_water_catalyst'], '投入弱富集水中将其转化为深园富集水')
+	tooltip.add(['skyopolis_additions:strong_enriching_water_catalyst'], '投入深园富集水中将其转化为强富集水')
+	tooltip.add(['skyopolis_additions:nether_enriching_water_catalyst'], '投入强富集水中将其转化为下界富集水催化剂')
+	tooltip.add(['skyopolis_additions:ultimate_enriching_water_catalyst'], '投入宇宙富集水中将其转化为最终富集水')
+	tooltip.add(['skyopolis_additions:eroding_water_catalyst'], '投入水中将其转化为侵蚀水')
+	tooltip.add(['skyopolis_additions:cosmos_enriching_water_catalyst'], '投入下界富集水中将其转化为宇宙富集水')
 	tooltip.add(['skyopolis:aqua_catalyst'], 'Right click on a mulch block to create water')
-	tooltip.add(['skyopolis:flower_loot_box'], 'Right click to open!')
-	tooltip.add(['skyopolis:sapling_loot_box'], 'Right click to open!')
-	tooltip.add(['minecraft:mycelium'], 'Right click a mushroom ball on a block of dirt to create mycelium')
-	tooltip.add(['minecraft:dirt'], 'Right click bone meal on a block of mulch to create dirt')
-	tooltip.add(['minecraft:water'], 'Right click a aqua catalyst on a block of mulch to create a water source block')
-	tooltip.add(['skyopolis_additions:blank_bucket'], 'Drop into any skyopolis water to create a bucket of that water!')
-	tooltip.add(['undergarden:virulent_mix_bucket'], 'Bucket is destoryed when moving this fluid!')
+	tooltip.add(['skyopolis:flower_loot_box'], '右键打开！')
+	tooltip.add(['skyopolis:sapling_loot_box'], '右键打开！')
+	tooltip.add(['minecraft:mycelium'], '右键泥土上的蘑菇以产生菌丝')
+	tooltip.add(['minecraft:dirt'], '使用骨粉右键护根方块以创建泥土')
+	tooltip.add(['minecraft:water'], '使用水催化剂右键护根方块以创建水源方块')
+	tooltip.add(['skyopolis_additions:blank_bucket'], '投入任意天之城的水以获取一桶这种水！')
+	tooltip.add(['undergarden:virulent_mix_bucket'], '转移这种液体时，桶将会被销毁！')
 })
 
 
