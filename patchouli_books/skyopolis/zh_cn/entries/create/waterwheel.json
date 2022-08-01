@@ -9,7 +9,7 @@
 			"type": "spotlight",
             "link_recipe": true,
             "item": "create:water_wheel",
-			"text": "需要流动的水让水车转动产生动力。"
+			"text": "需要流动的水让水车转动产生动力"
 		}
 	]
 }
