@@ -43,9 +43,9 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.add(['skyopolis:flower_loot_box'], '右键打开！')
 	tooltip.add(['skyopolis:sapling_loot_box'], '右键打开！')
 	tooltip.add(['minecraft:mycelium'], '右键泥土上的蘑菇以产生菌丝')
-	tooltip.add(['minecraft:dirt'], 'Right click bone meal on a block of mulch to create dirt')
-	tooltip.add(['minecraft:water'], 'Right click a aqua catalyst on a block of mulch to create a water source block')
-	tooltip.add(['skyopolis_additions:blank_bucket'], 'Drop into any skyopolis water to create a bucket of that water!')
+	tooltip.add(['minecraft:dirt'], '使用骨粉右键护根方块以创建泥土')
+	tooltip.add(['minecraft:water'], '使用水催化剂右键护根方块以创建水源方块')
+	tooltip.add(['skyopolis_additions:blank_bucket'], '投入任意天之城的水以获取一桶这种水！')
 	tooltip.add(['undergarden:virulent_mix_bucket'], '转移这种液体时，桶将会被销毁！')
 })
 
