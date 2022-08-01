@@ -75,7 +75,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["可用于创建怪物刷怪蛋，可用于更改刷怪箱的刷怪类型。"]
+			description: ["可用于制造怪物刷怪蛋，可用于更改刷怪箱的刷怪类型。"]
 			dependencies: ["20F0CF845F52C467"]
 			id: "2FA39342302A4411"
 			tasks: [{
