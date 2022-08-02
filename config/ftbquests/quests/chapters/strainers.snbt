@@ -3,7 +3,7 @@
 	group: "72394998FB073342"
 	order_index: 3
 	filename: "strainers"
-	title: "Strainers"
+	title: "滤水器"
 	icon: "waterstrainer:strainer_base"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -4.0d
 			y: -1.0d
-			description: ["Strainer bases have to be placed a block below water"]
+			description: ["滤网基座必须放置在水源方块下方"]
 			dependencies: ["0CED60F38BB2B171"]
 			id: "21D4391FCC1A1E08"
 			tasks: [{
@@ -35,7 +35,7 @@
 		{
 			x: -2.5d
 			y: -1.0d
-			description: ["A basic mesh"]
+			description: ["一种基础的网"]
 			dependencies: [
 				"21D4391FCC1A1E08"
 				"6AA29623F2B81EB0"
@@ -55,7 +55,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
-			description: ["Can be placed inside a strainer base to collect items. Clicking the show recipes button in the water strainer will show all item that can be obtained"]
+			description: ["可以放置在滤网基座以收集物品。右键其中的“显示配方”按钮可以查看此滤网可以收集的物品"]
 			dependencies: ["177F8B820EAB2C2A"]
 			id: "5DDB0122E8A2B23D"
 			tasks: [{
@@ -85,7 +85,7 @@
 		{
 			x: -5.5d
 			y: -1.0d
-			description: ["Right clicking a aqua catalyst on a block of mulch will create water in its place"]
+			description: ["手持水催化剂右键护根方块以创造一格水"]
 			dependencies: [
 				"7E29A59FF838A13A"
 				"5E2FF88FDD0972DB"
@@ -113,7 +113,7 @@
 		{
 			x: 0.5d
 			y: -1.5d
-			description: ["Just a blank pebble"]
+			description: ["只是一块空白石子"]
 			dependencies: ["5DDB0122E8A2B23D"]
 			id: "7977354D84E37ADA"
 			tasks: [{
@@ -130,7 +130,7 @@
 		{
 			x: 0.5d
 			y: -0.5d
-			description: ["Just some blank dust"]
+			description: ["只是一些空白尘土"]
 			dependencies: ["5DDB0122E8A2B23D"]
 			id: "2BA6ABB7829E393A"
 			tasks: [{
