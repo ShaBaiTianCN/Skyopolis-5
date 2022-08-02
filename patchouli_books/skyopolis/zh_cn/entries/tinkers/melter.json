@@ -1,5 +1,5 @@
 {
-    "name": "Melter",
+    "name": "焦黑熔化炉",
     "icon": "tconstruct:seared_melter",
     "category": "patchouli:tinkers",
 	"sortnum": "1",
@@ -7,11 +7,11 @@
         {
 			"type": "spotlight",
 			"item": "tconstruct:seared_melter",
-            "text": "The Melter is a versatile Block to progress in this pack$(br2)To melt Items/Blocks in this block a Seared Heater is needed as it burns fuel for the Melter to melt said items"
+            "text": "焦黑熔化炉在这个整合包中有多种功能。$(br2)要熔炼物品或方块，您需要一个焦黑加热器，他需要燃烧燃料。"
         },
         {
 			"type": "multiblock",
-			"name": "Melter",
+			"name": "焦黑熔化炉",
 			"enable_visualize": true,
 			"multiblock": {
 			"pattern":[
@@ -31,7 +31,7 @@
             "F": "tconstruct:seared_faucet"
         }
 		},
-		"text": "$(br)Melter Multiblock from Tinker's Construct"
+		"text": "$(br)匠魂的熔化炉多方块结构"
 		}
 		]
 }
