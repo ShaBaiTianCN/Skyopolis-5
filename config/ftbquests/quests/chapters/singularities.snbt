@@ -3,12 +3,12 @@
 	group: "23E8ADC704303F79"
 	order_index: 3
 	filename: "singularities"
-	title: "Singularities"
+	title: "奇点"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Osmium"
+			title: "锇奇点"
 			x: -1.5d
 			y: -8.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -40,7 +40,7 @@
 			}]
 		}
 		{
-			title: "Glowstone"
+			title: "荧石奇点"
 			x: -0.5d
 			y: -6.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -72,7 +72,7 @@
 			}]
 		}
 		{
-			title: "Gold"
+			title: "金奇点"
 			x: -1.0d
 			y: -5.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -104,7 +104,7 @@
 			}]
 		}
 		{
-			title: "Quartz"
+			title: "石英奇点"
 			x: 0.0d
 			y: -9.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -136,7 +136,7 @@
 			}]
 		}
 		{
-			title: "Mechanical"
+			title: "机器外壳奇点"
 			x: -1.5d
 			y: -4.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -168,7 +168,7 @@
 			}]
 		}
 		{
-			title: "Lead"
+			title: "铅奇点"
 			x: -3.0d
 			y: -5.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -200,7 +200,7 @@
 			}]
 		}
 		{
-			title: "Copper"
+			title: "铜奇点"
 			x: -2.0d
 			y: -5.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -232,7 +232,7 @@
 			}]
 		}
 		{
-			title: "Dust"
+			title: "尘土奇点"
 			x: -2.0d
 			y: -3.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -264,7 +264,7 @@
 			}]
 		}
 		{
-			title: "Tin"
+			title: "锡奇点"
 			x: 0.5d
 			y: -8.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -296,7 +296,7 @@
 			}]
 		}
 		{
-			title: "Silver"
+			title: "银奇点"
 			x: -1.0d
 			y: -9.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -328,7 +328,7 @@
 			}]
 		}
 		{
-			title: "Flint"
+			title: "燧石奇点"
 			x: -1.5d
 			y: -6.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -360,7 +360,7 @@
 			}]
 		}
 		{
-			title: "Iron"
+			title: "铁奇点"
 			x: -1.0d
 			y: -7.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -392,7 +392,7 @@
 			}]
 		}
 		{
-			title: "Stone"
+			title: "石头奇点"
 			x: -2.5d
 			y: -4.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -424,7 +424,7 @@
 			}]
 		}
 		{
-			title: "Steel"
+			title: "钢奇点"
 			x: -4.0d
 			y: -9.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -456,7 +456,7 @@
 			}]
 		}
 		{
-			title: "Organic"
+			title: "有机奇点"
 			x: 0.0d
 			y: -7.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -488,7 +488,7 @@
 			}]
 		}
 		{
-			title: "Emerald"
+			title: "绿宝石奇点"
 			x: -2.0d
 			y: -9.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -520,7 +520,7 @@
 			}]
 		}
 		{
-			title: "Mob"
+			title: "怪物奇点"
 			x: -3.0d
 			y: -9.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -552,7 +552,7 @@
 			}]
 		}
 		{
-			title: "Sky Buck"
+			title: "天空币奇点"
 			x: -0.5d
 			y: -8.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -584,7 +584,7 @@
 			}]
 		}
 		{
-			title: "Diamond"
+			title: "钻石奇点"
 			x: -2.0d
 			y: -7.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -616,7 +616,7 @@
 			}]
 		}
 		{
-			title: "Wood"
+			title: "木奇点"
 			x: -2.5d
 			y: -6.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -648,7 +648,7 @@
 			}]
 		}
 		{
-			title: "Redstone"
+			title: "红石奇点"
 			x: -3.5d
 			y: -6.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -680,7 +680,7 @@
 			}]
 		}
 		{
-			title: "Zinc"
+			title: "锌奇点"
 			x: -4.0d
 			y: -7.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -712,7 +712,7 @@
 			}]
 		}
 		{
-			title: "Coal"
+			title: "煤奇点"
 			x: -3.0d
 			y: -7.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -744,7 +744,7 @@
 			}]
 		}
 		{
-			title: "Uranium"
+			title: "铀奇点"
 			x: -2.5d
 			y: -8.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -776,7 +776,7 @@
 			}]
 		}
 		{
-			title: "Bronze"
+			title: "青铜奇点"
 			x: -4.5d
 			y: -8.5d
 			dependencies: ["3C1E4C2B120C96AA"]
@@ -808,7 +808,7 @@
 			}]
 		}
 		{
-			title: "Lapis"
+			title: "青金石奇点"
 			x: -3.5d
 			y: -8.5d
 			dependencies: ["3C1E4C2B120C96AA"]
