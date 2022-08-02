@@ -81,7 +81,7 @@
 			}]
 		}
 		{
-			title: "Mekanism Machines"
+			title: "通用机械设备"
 			x: 0.0d
 			y: -0.5d
 			shape: "pentagon"

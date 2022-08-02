@@ -65,7 +65,7 @@
 			}]
 		}
 		{
-			title: "Time In A Bottle"
+			title: "时间之瓶"
 			icon: {
 				id: "tiab:time_in_a_bottle"
 				Count: 1b
@@ -74,7 +74,7 @@
 			x: 0.5d
 			y: -1.0d
 			shape: "pentagon"
-			description: ["Speed up time for a block"]
+			description: ["加快方块的更新速度"]
 			dependencies: [
 				"22F6FE9D2DE64CB9"
 				"16DC55E82838F72F"

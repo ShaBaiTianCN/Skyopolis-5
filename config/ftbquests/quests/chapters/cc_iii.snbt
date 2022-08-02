@@ -168,7 +168,7 @@
 			x: 0.0d
 			y: -3.0d
 			shape: "pentagon"
-			description: ["Powers your solar cookers even when the sun is gone. Place above a solar cooker"]
+			description: ["即使太阳消失了，也能为您的太阳灶供电。要放在太阳灶的上方"]
 			dependencies: [
 				"1FC25007D55209F0"
 				"193AD0B71ABE95D0"
@@ -184,7 +184,7 @@
 			tasks: [{
 				id: "38A6F28A68A4C5DC"
 				type: "checkmark"
-				title: "Reward"
+				title: "奖励"
 			}]
 			rewards: [
 				{
