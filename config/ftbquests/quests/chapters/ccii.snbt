@@ -13,7 +13,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "pentagon"
-			description: ["Generates cobblestone and inserts into an above chest"]
+			description: ["生成圆石并弹出至上方的箱子"]
 			dependencies: [
 				"5D167A5EF473A385"
 				"671645BCFCFF23D5"
@@ -29,7 +29,7 @@
 			tasks: [{
 				id: "107BF0E7E1A16589"
 				type: "checkmark"
-				title: "Reward"
+				title: "奖励"
 			}]
 			rewards: [
 				{
@@ -124,7 +124,7 @@
 			}]
 		}
 		{
-			title: "128x Logs"
+			title: "128个原木"
 			x: -1.5d
 			y: 1.5d
 			dependencies: ["14C68E88A9D7E985"]
@@ -132,7 +132,7 @@
 			tasks: [{
 				id: "79CEF19174BAFC35"
 				type: "item"
-				title: "Any #minecraft:logs"
+				title: "任何 #minecraft:logs"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

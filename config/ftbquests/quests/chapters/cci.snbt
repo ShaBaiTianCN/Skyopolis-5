@@ -27,7 +27,7 @@
 			}]
 		}
 		{
-			title: "Infinity Wand"
+			title: "无尽手杖"
 			icon: {
 				id: "constructionwand:infinity_wand"
 				Count: 1b
@@ -38,7 +38,7 @@
 			x: 0.0d
 			y: -1.5d
 			shape: "pentagon"
-			description: ["Places loads of blocks at once"]
+			description: ["一次性放置大量方块"]
 			dependencies: [
 				"3EB72D446C1C43C6"
 				"18AB298EBD507723"
@@ -154,7 +154,7 @@
 			}]
 		}
 		{
-			title: "128x Saplings"
+			title: "128棵树苗"
 			x: -1.5d
 			y: 0.0d
 			dependencies: ["18907877AF3E32AD"]
@@ -162,7 +162,7 @@
 			tasks: [{
 				id: "1845B0FDA6B37E9D"
 				type: "item"
-				title: "Any #minecraft:saplings"
+				title: "任何 #minecraft:saplings"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -180,7 +180,7 @@
 			}]
 		}
 		{
-			title: "128x Flowers"
+			title: "128朵花"
 			x: 1.5d
 			y: 0.0d
 			dependencies: ["5E2FF88FDD0972DB"]
@@ -188,7 +188,7 @@
 			tasks: [{
 				id: "4754EE6208BD806D"
 				type: "item"
-				title: "Any #minecraft:flowers"
+				title: "任何 #minecraft:flowers"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

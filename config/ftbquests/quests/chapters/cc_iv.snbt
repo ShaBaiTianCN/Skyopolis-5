@@ -63,12 +63,12 @@
 			}]
 		}
 		{
-			title: "Reward"
+			title: "奖励"
 			icon: "angelring:itemring"
 			x: 0.0d
 			y: -3.5d
 			shape: "pentagon"
-			description: ["The power of flight"]
+			description: ["飞行的力量"]
 			dependencies: [
 				"36E78C303C81C0CA"
 				"3FD4B14D50EFA3DF"
