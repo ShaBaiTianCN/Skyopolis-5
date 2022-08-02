@@ -3,7 +3,7 @@
 	group: "23E8ADC704303F79"
 	order_index: 2
 	filename: "pedestal_crafting"
-	title: "Pedestal Crafting"
+	title: "组合合成"
 	icon: "extendedcrafting:compressor"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.5d
 			y: 0.0d
-			description: ["Items can be placed on these around a crafting core to make items"]
+			description: ["物品可以放置在合成核心周围的基座上以合成其他物品"]
 			dependencies: ["4229051101C6D824"]
 			id: "70232C759E37D7EC"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			description: ["The crafting core is used in pedestal crafting as the center piece. Click on any top part of the block will place a item on top"]
+			description: ["合成核心充当组合合成的中心部分。右键任意方块顶部以将物品置于其顶部。"]
 			dependencies: ["4E667BC86FEFB080"]
 			id: "4229051101C6D824"
 			tasks: [{
@@ -45,7 +45,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			description: ["Created using pedestal crafting"]
+			description: ["使用组合合成的方式制作"]
 			dependencies: [
 				"70232C759E37D7EC"
 				"7A180BE58D7EFD5B"
@@ -72,7 +72,7 @@
 		{
 			x: 3.5d
 			y: 0.0d
-			description: ["Created using pedestal crafting"]
+			description: ["使用组合合成的方式制作"]
 			dependencies: ["0C28178D962E9628"]
 			id: "1A041953011A8FA9"
 			tasks: [{
@@ -96,7 +96,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
-			description: ["Used to make singularities"]
+			description: ["用于制作奇点"]
 			dependencies: ["1A041953011A8FA9"]
 			id: "3C1E4C2B120C96AA"
 			tasks: [{
@@ -120,7 +120,7 @@
 		{
 			x: 6.5d
 			y: 0.0d
-			description: ["Just a blank ingot"]
+			description: ["只是一个空白锭"]
 			dependencies: ["3C1E4C2B120C96AA"]
 			id: "60BCFA122A0A194C"
 			tasks: [{
@@ -137,7 +137,7 @@
 		{
 			x: 8.0d
 			y: 0.0d
-			description: ["Good luck, drop into cosmos enriching water to make ultimate enriching water this can be used to turn blank ingots into most other ingots"]
+			description: ["祝你好运，将最终富集水催化剂丢入宇宙富集水中以转化为最终富集水。这可以将空白锭变成其他大多数金属锭。"]
 			dependencies: ["60BCFA122A0A194C"]
 			id: "363B49D2860B7E0B"
 			tasks: [{
@@ -154,7 +154,7 @@
 		{
 			x: 5.0d
 			y: 1.5d
-			description: ["Can be broken into different raw ore"]
+			description: ["可挖掘掉落不同的粗矿石"]
 			dependencies: ["3C1E4C2B120C96AA"]
 			id: "08EE9522CA269FCB"
 			tasks: [{
@@ -169,10 +169,10 @@
 			}]
 		}
 		{
-			title: "More Skybucks"
+			title: "更多的天空币"
 			x: 9.5d
 			y: 0.0d
-			description: ["Waste can be turned into sky bucks in ultimate enriching water"]
+			description: ["废料可以丢入最终富集水中转换为天空币"]
 			dependencies: ["363B49D2860B7E0B"]
 			id: "70CA00700C665F4B"
 			tasks: [{
