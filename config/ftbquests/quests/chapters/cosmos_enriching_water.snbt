@@ -3,7 +3,7 @@
 	group: "04E29393E78F7C29"
 	order_index: 1
 	filename: "cosmos_enriching_water"
-	title: "Cosmos Enriching Water"
+	title: "宇宙富集水"
 	icon: "skyopolis_additions:cosmos_enriching_water_catalyst"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Used to get other rare materials"]
+			description: ["用于获得一些罕见的材料"]
 			dependencies: ["0A7251205E281B79"]
 			id: "502925BDE6B14F05"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: -1.0d
 			y: -1.5d
-			description: ["Has a chance to be made when dropping blank nuggets into cosmos enriching water"]
+			description: ["将空白粒丢入宇宙富集水时有几率制成"]
 			dependencies: ["502925BDE6B14F05"]
 			id: "6D8C75C8A582C98B"
 			tasks: [{
@@ -45,7 +45,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			description: ["Has a chance to be made when dropping blank dust into cosmos enriching water"]
+			description: ["将空白尘土丢入宇宙富集水时有几率制成"]
 			dependencies: ["502925BDE6B14F05"]
 			id: "3F7803D01E6C9EAE"
 			tasks: [{
@@ -69,7 +69,7 @@
 		{
 			x: 1.0d
 			y: -1.5d
-			description: ["Has a chance to be made when dropping blank nuggets into cosmos enriching water"]
+			description: ["将空白粒丢入宇宙富集水时有几率制成"]
 			dependencies: ["502925BDE6B14F05"]
 			id: "31A0483FD43D9373"
 			tasks: [{
@@ -86,7 +86,7 @@
 		{
 			x: 0.0d
 			y: -2.0d
-			description: ["Has a chance to be made when dropping blank nuggets into cosmos enriching water"]
+			description: ["将空白粒丢入宇宙富集水时有几率制成"]
 			dependencies: ["502925BDE6B14F05"]
 			id: "649FBAAF498A92BF"
 			tasks: [{
@@ -119,7 +119,7 @@
 		{
 			x: -1.0d
 			y: -3.0d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个金属粒可以合成1块金属锭"]
 			dependencies: ["6D8C75C8A582C98B"]
 			id: "45B9F5AEE09F2C55"
 			tasks: [{
@@ -143,7 +143,7 @@
 		{
 			x: 0.0d
 			y: -3.5d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个金属粒可以合成1块金属锭"]
 			dependencies: ["649FBAAF498A92BF"]
 			id: "155E15931291F037"
 			tasks: [{
@@ -167,7 +167,7 @@
 		{
 			x: 1.0d
 			y: -3.0d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个金属粒可以合成1块金属锭"]
 			dependencies: ["31A0483FD43D9373"]
 			id: "458CFB83DBD6F04A"
 			tasks: [{
@@ -184,7 +184,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Has a chance to be made when dropping blank pebbles into cosmos enriching water"]
+			description: ["将空白石子丢入宇宙富集水时有几率制成"]
 			dependencies: ["502925BDE6B14F05"]
 			id: "03099E34BAF371ED"
 			tasks: [{
@@ -201,7 +201,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Has a chance to be made when dropping blank pebbles into cosmos enriching water"]
+			description: ["将空白石子丢入宇宙富集水时有几率制成"]
 			dependencies: ["502925BDE6B14F05"]
 			id: "17BF8A9FBE9A3DD9"
 			tasks: [{
@@ -218,7 +218,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
-			description: ["Any ingot dropped into this water will turn into black iron ingots"]
+			description: ["任何金属锭丢入宇宙富集水时都会变成黑铁锭"]
 			dependencies: ["502925BDE6B14F05"]
 			id: "033C786341CBF39F"
 			tasks: [{
