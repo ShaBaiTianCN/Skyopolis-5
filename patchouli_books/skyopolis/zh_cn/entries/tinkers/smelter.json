@@ -1,5 +1,5 @@
 {
-    "name": "Smeltery",
+    "name": "冶炼炉",
     "icon": "tconstruct:smeltery_controller",
     "category": "patchouli:tinkers",
     "sortnum": "2",
@@ -7,11 +7,11 @@
         {
             "type": "spotlight",
             "item": "tconstruct:smeltery_controller",
-            "text": "The Smeltery from  Tinker's is needed to make alloys and melt using (lava/blazing blood) $(br2)To melt Items/Blocks in this multiblock a Seared tank that contains (lava/blazing blood) is needed to melt items and alloys"
+            "text": "匠魂的冶炼炉可以用熔岩或烈焰血制作合金或熔化。$(br2)无论是熔化物品或方块还是制作合金，在这个多方块结构中都需要一个焦黑储罐，里面装着熔岩或烈焰血。"
         },
         {
             "type": "multiblock",
-            "name": "Smeltery",
+            "name": "冶炼炉",
             "enable_visualize": true,
             "multiblock": {
                 "pattern": [
@@ -48,7 +48,7 @@
                     "S": "tconstruct:seared_bricks"
                 }
             },
-            "text": "Smeltery Multiblock from Tinker's$(br)$(n)$(6)This multiblock can be bigger or smaller (up to 15x64x15)"
+            "text": "匠魂的冶炼炉多方块结构$(br)$(n)$(6)这个多方块结构大小可变(最大15x64x15)"
         }
     ]
 }
