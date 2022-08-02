@@ -1,12 +1,12 @@
 {
-    "name": "Skyblock",
+    "name": "空岛",
     "icon": "minecraft:grass_block",
     "category": "patchouli:getting_started",
 	"sortnum": "1",
     "pages": [
         {
 			"type": "text",
-			"text": "This is a skyblock world, falling off will kill you and by result you will lose your items. $(l:getting_started/void_totem)Void totems$() will protect you from void destruction$(br)Be Careful !"
+			"text": "这是一个空岛世界，掉下虚空会死亡并且失去所有物品。$(l:getting_started/void_totem)虚空不死图腾$()会保护你免受掉入虚空而死亡。$(br)小心！"
         }
 		]
 }

@@ -1,15 +1,15 @@
 {
-    "name": "Void Totem",
+    "name": "虚空不死图腾",
     "icon": "voidtotem:totem_of_void_undying",
     "category": "patchouli:getting_started",
 	"sortnum": "2",
     "pages": [
         {
 			"type": "text",
-			"text": "$(#063CFF)Void totems$() will protect you from dying from the void and will help you protect your items$(br2)To craft the Void Totem you need to craft a $(l:blanks/totem)Blank Totem$(/l) First"
+			"text": "$(#063CFF)虚空不死图腾$()会保护你免受掉入虚空而死亡并帮你保留物品。$(br2)要合成虚空不死图腾，您首先需要$(l:blanks/totem)空白图腾$(/l)。"
         },
         {
-            "text": "After crafting the blank Totem you just need to smelt it to have a Void Totem",
+            "text": "合成一个空白图腾之后您只需要烧炼它来获取虚空不死图腾。",
             "type": "smelting",
             "recipe": "skyopolis:void_totem",
             "title": "Void Totem"
