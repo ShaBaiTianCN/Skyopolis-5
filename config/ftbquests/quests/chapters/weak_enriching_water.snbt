@@ -387,7 +387,7 @@
 		{
 			x: 0.0d
 			y: -6.0d
-			description: ["粗混合石Raw mixed stone"]
+			description: ["粗混合石"]
 			dependencies: ["32D879A17775E9BD"]
 			id: "5B265AB21326F9F4"
 			tasks: [{
