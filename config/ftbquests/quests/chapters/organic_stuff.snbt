@@ -3,16 +3,16 @@
 	group: "72394998FB073342"
 	order_index: 2
 	filename: "organic_stuff"
-	title: "Organic Stuff"
+	title: "有机物"
 	icon: "skyopolis:organic_seeds"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Organic Seeds"
+			title: "有机种子"
 			x: 0.0d
 			y: 0.0d
-			description: ["Organic seeds can be used to create a range of different plants and seeds"]
+			description: ["有机种子可用于生产各类不同的植物和种子。"]
 			dependencies: ["5A66EB52C2D158C6"]
 			id: "56B010F16C71D607"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["Organic seeds plus a sapling makes sugarcane"]
+			description: ["有机种子和树苗合成甘蔗"]
 			dependencies: ["56B010F16C71D607"]
 			id: "6F9C33A592BC36B9"
 			tasks: [{
@@ -45,7 +45,7 @@
 		{
 			x: 0.0d
 			y: -3.0d
-			description: ["Paper is useful"]
+			description: ["纸很有用"]
 			dependencies: ["6F9C33A592BC36B9"]
 			id: "6419A96DE71DE900"
 			tasks: [{
@@ -69,7 +69,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Organic seeds plus green wool make cactus"]
+			description: ["有机种子和绿色羊毛合成仙人掌"]
 			dependencies: ["56B010F16C71D607"]
 			id: "786F89312A9424BE"
 			tasks: [{
@@ -93,7 +93,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
-			description: ["Organic seeds plus sugarcane makes bamboo"]
+			description: ["有机种子和甘蔗合成竹子"]
 			dependencies: ["6F9C33A592BC36B9"]
 			id: "6A59C59B42B1F793"
 			tasks: [{
@@ -110,7 +110,7 @@
 		{
 			x: -4.5d
 			y: 0.0d
-			description: ["Organic seeds plus beetroot makes sweet berries"]
+			description: ["有机种子和甜菜根合成甜浆果"]
 			dependencies: ["1913991BE387D494"]
 			id: "1211F9A1641A4E70"
 			tasks: [{
@@ -127,7 +127,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Organic seeds plus wheat seeds make beetroot seeds"]
+			description: ["有机种子和小麦种子合成甜菜种子"]
 			dependencies: ["56B010F16C71D607"]
 			id: "2238A53445410C0A"
 			tasks: [{
@@ -144,7 +144,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["Yummy"]
+			description: ["好吃"]
 			dependencies: ["2238A53445410C0A"]
 			id: "1913991BE387D494"
 			tasks: [{
@@ -161,7 +161,7 @@
 		{
 			x: -3.0d
 			y: -1.5d
-			description: ["Even yummier"]
+			description: ["更好吃"]
 			dependencies: ["1913991BE387D494"]
 			id: "3AA34C705A945946"
 			tasks: [{
@@ -178,7 +178,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["Grow string"]
+			description: ["长出线来"]
 			dependencies: ["56B010F16C71D607"]
 			id: "28C0932758AC9AF0"
 			tasks: [{
@@ -195,7 +195,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
-			description: ["Must be planted on dirt underwater"]
+			description: ["必须在水下的泥土上种植"]
 			dependencies: ["2238A53445410C0A"]
 			id: "53A4FCAB7FDA00D8"
 			tasks: [{
@@ -212,7 +212,7 @@
 		{
 			x: -1.5d
 			y: -3.0d
-			description: ["Organic seeds plus rice"]
+			description: ["有机种子加稻米"]
 			dependencies: ["53A4FCAB7FDA00D8"]
 			id: "4F196C08877F68BD"
 			tasks: [{
@@ -229,7 +229,7 @@
 		{
 			x: -1.5d
 			y: -4.5d
-			description: ["Organic seeds plus onions"]
+			description: ["有机种子加洋葱"]
 			dependencies: ["4F196C08877F68BD"]
 			id: "7A099DE24372EB10"
 			tasks: [{
@@ -246,7 +246,7 @@
 		{
 			x: -1.5d
 			y: -6.0d
-			description: ["Organic seeds plus cabbage seeds"]
+			description: ["有机种子加卷心菜种子"]
 			dependencies: ["7A099DE24372EB10"]
 			id: "754E2CCC3A69C622"
 			tasks: [{
@@ -270,7 +270,7 @@
 		{
 			x: -4.5d
 			y: 1.5d
-			description: ["Oragnic seeds and sweet berries make carrots"]
+			description: ["有机种子和甜浆果合成胡萝卜"]
 			dependencies: ["1211F9A1641A4E70"]
 			id: "321034585BE80089"
 			tasks: [{
@@ -287,7 +287,7 @@
 		{
 			x: -4.5d
 			y: 3.0d
-			description: ["Oragnic seeds and carrots make potatos"]
+			description: ["有机种子和胡萝卜合成马铃薯"]
 			dependencies: ["321034585BE80089"]
 			id: "36076886A953D2D7"
 			tasks: [{
