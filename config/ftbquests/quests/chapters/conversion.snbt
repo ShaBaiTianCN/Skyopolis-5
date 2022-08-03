@@ -3,7 +3,7 @@
 	group: "4EF7FBB4F0556123"
 	order_index: 0
 	filename: "conversion"
-	title: "Strong Enriching Water"
+	title: "强富集水"
 	icon: "skyopolis_additions:strong_enriching_water_catalyst"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["When dropped into a undergarden enriching water source block will create strong enriching water"]
+			description: ["丢入深园富集水源将会转化为强富集水。"]
 			dependencies: [
 				"5D16AF4EDA57DA71"
 				"070E7BF927E32673"
@@ -38,7 +38,7 @@
 		{
 			x: 1.0d
 			y: 1.0d
-			description: ["Made from dropping froststeel nuggets into strong enriching water"]
+			description: ["将霜钢粒丢入强富集水以获取"]
 			dependencies: ["2F3DE6EE1FE9095A"]
 			id: "090A7746CDA4F23D"
 			tasks: [{
@@ -55,7 +55,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			description: ["Made from dropping cloggrum nuggets into strong enriching water"]
+			description: ["将扼塞粒丢入强富集水以获取"]
 			dependencies: ["2F3DE6EE1FE9095A"]
 			id: "663A1A0EC72E1326"
 			tasks: [{
@@ -72,7 +72,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Made from dropping utheric shards into strong enriching water"]
+			description: ["将御腐破片丢入强富集水以获取"]
 			dependencies: [
 				"1E89CA0AD79F6352"
 				"2F3DE6EE1FE9095A"
@@ -92,7 +92,7 @@
 		{
 			x: -1.0d
 			y: 2.0d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个粒合成一个锭"]
 			dependencies: ["663A1A0EC72E1326"]
 			id: "7B8612CFF0DDB62D"
 			tasks: [{
@@ -109,7 +109,7 @@
 		{
 			x: 1.0d
 			y: 2.0d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个粒合成一个锭"]
 			dependencies: ["090A7746CDA4F23D"]
 			id: "1B93FE85CCEA76E3"
 			tasks: [{
@@ -133,7 +133,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Made from dropping regalium shards into strong enriching water"]
+			description: ["将regalium shards丢入强富集水以获取"]
 			dependencies: ["2F3DE6EE1FE9095A"]
 			id: "2F1CA215FC685923"
 			tasks: [{
@@ -150,7 +150,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
-			description: ["Made sometimes from dropping blank nuggets into strong enriching water"]
+			description: ["将空白粒丢入强富集水有几率获取"]
 			dependencies: ["2F3DE6EE1FE9095A"]
 			id: "53955EB23D6543A3"
 			tasks: [{
@@ -167,7 +167,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["Made sometimes from dropping blank nuggets into strong enriching water"]
+			description: ["将空白粒丢入强富集水有几率获取"]
 			dependencies: ["2F3DE6EE1FE9095A"]
 			id: "5C98ABB824FD61F0"
 			tasks: [{
@@ -184,7 +184,7 @@
 		{
 			x: -1.0d
 			y: -2.0d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个粒合成一个锭"]
 			dependencies: ["53955EB23D6543A3"]
 			id: "4B869DFE84A7210D"
 			tasks: [{
@@ -201,7 +201,7 @@
 		{
 			x: 0.0d
 			y: -2.5d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个粒合成一个锭"]
 			dependencies: ["5C98ABB824FD61F0"]
 			id: "4C6DBC75EABA6441"
 			tasks: [{
@@ -218,7 +218,7 @@
 		{
 			x: 1.0d
 			y: -2.0d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个粒合成一个锭"]
 			dependencies: ["4197A6802FC34646"]
 			id: "0ACC78018B538821"
 			tasks: [{
@@ -235,7 +235,7 @@
 		{
 			x: 1.0d
 			y: -1.0d
-			description: ["Made sometimes from dropping blank nuggets into strong enriching water"]
+			description: ["将空白粒丢入强富集水有几率获取"]
 			dependencies: ["2F3DE6EE1FE9095A"]
 			id: "4197A6802FC34646"
 			tasks: [{
@@ -252,7 +252,7 @@
 		{
 			x: 0.0d
 			y: -3.5d
-			description: ["Saves you from death"]
+			description: ["让你免受死亡"]
 			dependencies: ["4C6DBC75EABA6441"]
 			id: "476B3C1C4D7556E6"
 			tasks: [{
@@ -276,7 +276,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["Made sometimes from dropping blank nuggets into strong enriching water"]
+			description: ["将空白粒丢入强富集水有几率获取"]
 			dependencies: ["2F3DE6EE1FE9095A"]
 			id: "74E5D85D476DD246"
 			tasks: [{
@@ -293,7 +293,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个粒合成一个锭"]
 			dependencies: ["74E5D85D476DD246"]
 			id: "14D079E58A8BCC1D"
 			tasks: [{
@@ -310,7 +310,7 @@
 		{
 			x: 2.5d
 			y: 0.0d
-			description: ["Bedrock can be found in the undergarden to create your first pieces of flux"]
+			description: ["在深圆中找到基岩来帮你制作第一个通量粉尘"]
 			dependencies: ["764DCBB5A7E30619"]
 			id: "6E2EEC843CFF8C18"
 			tasks: [{
