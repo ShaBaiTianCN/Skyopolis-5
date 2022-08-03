@@ -110,7 +110,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["一个浇筑道可用于从一个地方到另一个地方移动流体"]
+			description: ["一个浇注道可用于从一个地方到另一个地方移动流体"]
 			dependencies: ["27BFB969EDF52CCD"]
 			id: "5BEB067251BF85F7"
 			tasks: [{
