@@ -399,7 +399,7 @@
 		{
 			x: 0.0d
 			y: -7.5d
-			description: ["用于制作可喷涂石块的喷雾罐Can be used to make spray cans which can be used to paint stone blocks"]
+			description: ["用于制作可喷涂石块的喷雾罐"]
 			dependencies: ["5B265AB21326F9F4"]
 			id: "53B8DE42377974A9"
 			tasks: [{
