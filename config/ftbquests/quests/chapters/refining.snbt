@@ -128,7 +128,7 @@
 			icon: "tconstruct:mushroom_stew_bucket"
 			x: 3.0d
 			y: 1.5d
-			description: ["熔化的蘑菇"]
+			description: ["熔融蘑菇"]
 			dependencies: ["102BE9765D8EAE71"]
 			id: "46096726F4F3B8F2"
 			tasks: [{
