@@ -1,5 +1,5 @@
 {
-    "name": "Blank Totem",
+    "name": "空白图腾",
     "icon": "skyopolis:blank_totem",
     "category": "patchouli:blanks",
 	"sortnum": "8",
@@ -7,7 +7,7 @@
         {
 			"type": "spotlight",
 			"item": "skyopolis:blank_totem",
-            "text": "Blank totems are useful for making $(l:getting_started/void_totem)Void Totems$(/l)"
+            "text": "空白图腾可用于合成$(l:getting_started/void_totem)虚空不死图腾$(/l)"
         },
         {
             "type": "crafting",
