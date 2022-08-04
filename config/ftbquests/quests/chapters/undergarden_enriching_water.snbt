@@ -3,7 +3,7 @@
 	group: "06E7F50B1D78668E"
 	order_index: 2
 	filename: "undergarden_enriching_water"
-	title: "Undergarden Enriching Water"
+	title: "深园富集水"
 	icon: "skyopolis_additions:undergarden_enriching_water_catalyst"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,8 +12,8 @@
 			x: 1.0d
 			y: -1.0d
 			description: [
-				"Can be obtained from blank nuggets in undergarden enriching water."
-				"See JEI for chances"
+				"可以通过将空白粒丢入深园富集水的办法获得废料。"
+				"通过JEI查看转化几率"
 			]
 			dependencies: ["1E868C90899F81D5"]
 			id: "5D16AF4EDA57DA71"
@@ -39,8 +39,8 @@
 			x: -4.0d
 			y: -0.5d
 			description: [
-				"Can be obtained from blank nuggets in undergarden enriching water."
-				"See JEI for chances"
+				"可以通过将空白粒丢入深园富集水的办法获得遗忆粒。"
+				"通过JEI查看转化几率"
 			]
 			dependencies: ["1E868C90899F81D5"]
 			id: "38E8B2FB3C6FFBA9"
@@ -58,7 +58,7 @@
 		{
 			x: -4.0d
 			y: 1.0d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个遗忆粒可以合成1个遗忆锭"]
 			dependencies: ["38E8B2FB3C6FFBA9"]
 			id: "4F07F46F98FDEE24"
 			tasks: [{
@@ -83,8 +83,8 @@
 			x: -5.0d
 			y: -1.0d
 			description: [
-				"Can be obtained from blank nuggets in undergarden enriching water."
-				"See JEI for chances"
+				"可以通过将空白粒丢入深园富集水的办法获得regalium crystal。Can be obtained from blank nuggets in undergarden enriching water."
+				"通过JEI查看转化几率"
 			]
 			dependencies: ["1E868C90899F81D5"]
 			id: "4FFAB98EF4372A4A"
@@ -103,8 +103,8 @@
 			x: -3.0d
 			y: 0.0d
 			description: [
-				"Can be obtained from blank nuggets in undergarden enriching water."
-				"See JEI for chances"
+				"可以通过将空白粒丢入深园富集水的办法获得扼塞粒。"
+				"通过JEI查看转化几率"
 			]
 			dependencies: ["1E868C90899F81D5"]
 			id: "1680710851020412"
@@ -123,8 +123,8 @@
 			x: -2.0d
 			y: 0.0d
 			description: [
-				"Can be obtained from blank nuggets in undergarden enriching water."
-				"See JEI for chances"
+				"可以通过将空白粒丢入深园富集水的办法获得霜钢粒。"
+				"通过JEI查看转化几率"
 			]
 			dependencies: ["1E868C90899F81D5"]
 			id: "7E49A55A5661C406"
@@ -143,8 +143,8 @@
 			x: -1.0d
 			y: 0.0d
 			description: [
-				"Can be obtained from blank nuggets in undergarden enriching water."
-				"See JEI for chances"
+				"可以通过将空白粒丢入深园富集水的办法获得utheric shard。"
+				"通过JEI查看转化几率"
 			]
 			dependencies: ["1E868C90899F81D5"]
 			id: "06CA3FBDC4B01C68"
@@ -163,8 +163,8 @@
 			x: 0.0d
 			y: -0.5d
 			description: [
-				"Can be obtained from blank nuggets in undergarden enriching water."
-				"See JEI for chances"
+				"可以通过将空白粒丢入深园富集水的办法获得小型煤炭"
+				"通过JEI查看转化几率"
 			]
 			dependencies: ["1E868C90899F81D5"]
 			id: "3F22D36197222C3E"
@@ -182,7 +182,7 @@
 		{
 			x: -2.0d
 			y: -2.0d
-			description: ["Can be used to make undergarden materials from blank pebbles, dust and nuggets"]
+			description: ["通过空白石子、空白尘土以及空白粒可以制作深园材料"]
 			dependencies: ["070E7BF927E32673"]
 			dependency_requirement: "one_started"
 			id: "1E868C90899F81D5"
@@ -200,7 +200,7 @@
 		{
 			x: -3.0d
 			y: 1.0d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个扼塞粒可以合成1个扼塞锭"]
 			dependencies: ["1680710851020412"]
 			id: "416CFE3B1DFD21F5"
 			tasks: [{
@@ -217,7 +217,7 @@
 		{
 			x: -2.0d
 			y: 1.0d
-			description: ["9 nuggets make a ingot"]
+			description: ["9个霜钢粒可以合成1个霜钢锭"]
 			dependencies: ["7E49A55A5661C406"]
 			id: "642B99C3CD1F592E"
 			tasks: [{
@@ -241,7 +241,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			description: ["9 shards make a bigger shard"]
+			description: ["9个utherium crystal碎片可以合成一个更大的utherium crystal碎片"]
 			dependencies: ["06CA3FBDC4B01C68"]
 			id: "225003DE0A1DD471"
 			tasks: [{
@@ -258,7 +258,7 @@
 		{
 			x: 0.0d
 			y: 1.0d
-			description: ["8 mini coal make a full coal"]
+			description: ["8个小型煤炭可以合成一个煤炭"]
 			dependencies: ["3F22D36197222C3E"]
 			id: "4E023C157471B914"
 			tasks: [{
@@ -275,7 +275,7 @@
 		{
 			x: -2.0d
 			y: -3.5d
-			description: ["Blank pebbles can be converted into depthrock pebbles in underdarden enriching water"]
+			description: ["空白石子可以在深园富集水中转换为渊邃卵石"]
 			dependencies: ["1E868C90899F81D5"]
 			id: "5BFD0615FBE54D66"
 			tasks: [{
