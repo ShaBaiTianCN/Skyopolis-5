@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["许多不同的敌对生物会在你的空岛上生成，除非平台被完全照亮"
+			description: ["许多不同的敌对生物会在你的空岛上生成，除非平台被完全照亮"]
 			tasks: [{
 				id: "6B5EC5F42F881BE2"
 				type: "checkmark"

@@ -125,7 +125,7 @@
 			title: "树叶"
 			x: -1.5d
 			y: 3.5d
-			description: ["Leaves can be turned in leafy string"]
+			description: ["树叶可以合成叶制绳"]
 			dependencies: ["1AAA147E8C303C44"]
 			id: "28ED0629A991863A"
 			tasks: [{
