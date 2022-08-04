@@ -1,5 +1,5 @@
 {
-    "name": "Nether Token",
+    "name": "下界通行证",
     "icon": "skyopolis_additions:nether_token",
     "category": "patchouli:portals",
 	"sortnum": "3",
@@ -7,7 +7,7 @@
         {
 			"type": "spotlight",
 			"item": "skyopolis_additions:nether_token",
-            "text": "Resources needed:$(li)[Basic Crafting Table]$(li2)x2 Lava Buckets$(li2)x2 Obsidian$(li2)$(l:blanks/token)x1 Blank Token$(/l)$(br2)This Token is required to travel to $()$(l:portals/nether)[The Nether]$(/l)"
+            "text": "需要资源：$(li)[基础工作台]$(li2)x2 熔岩桶$(li2)x2 黑曜石$(li2)$(l:blanks/token)x1 空白通行证$(/l)$(br2)这张通行证的用法需要前往$()$(l:portals/nether)[下界]$(/l)章节"
         }
         
 		]
