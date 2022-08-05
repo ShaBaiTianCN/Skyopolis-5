@@ -8,7 +8,7 @@
 			"type": "spotlight",
             "link_recipe": true,
             "item": "skyopolis_additions:strong_enriching_water_catalyst",
-            "title": "强富集水",
+            "title": "强富集水催化剂",
 			"text": "资源需求：$(li)x4 空白粒$(li)x4 废料$(br2)将这个催化剂丢入深园富集水中可以生成强富集水"
         },
 		{
