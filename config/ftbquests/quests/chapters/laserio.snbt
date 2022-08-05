@@ -75,7 +75,7 @@
 		{
 			x: 0.5d
 			y: 0.5d
-			description: ["用于将laser connectors和laser nodes与其他连接"]
+			description: ["用于连接镭射连接器和镭射节点"]
 			dependencies: ["55BAD7BABCB287D5"]
 			id: "1E7EE19807077264"
 			tasks: [{
