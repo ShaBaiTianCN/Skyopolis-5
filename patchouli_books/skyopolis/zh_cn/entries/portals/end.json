@@ -29,7 +29,7 @@
 			"D": "minecraft:end_portal_frame"
 			}
 		},
-		"text": "进入需要前往$(l)$(l:portals/end_token)[末地通行证]$(/l)$()章节"
+		"text": "需要$(l)$(l:portals/end_token)[末地通行证]$(/l)$()以进入此维度"
 		}
 	]
 }
