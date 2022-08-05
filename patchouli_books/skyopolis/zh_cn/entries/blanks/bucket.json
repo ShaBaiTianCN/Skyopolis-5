@@ -1,5 +1,5 @@
 {
-    "name": "Blank Bucket",
+    "name": "空白桶",
     "icon": "skyopolis_additions:blank_bucket",
     "category": "patchouli:blanks",
 	"sortnum": "6",
@@ -7,7 +7,7 @@
         {
 			"type": "spotlight",
 			"item": "skyopolis_additions:blank_bucket",
-            "text": "Dropped in any enriching water to pick it up"
+            "text": "丢入任意富集水将其捡起"
         }
 		]
 }

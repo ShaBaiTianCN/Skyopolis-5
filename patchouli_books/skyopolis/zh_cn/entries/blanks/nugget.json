@@ -1,5 +1,5 @@
 {
-    "name": "Blank Nugget",
+    "name": "空白粒",
     "icon": "skyopolis:blank_nugget",
     "category": "patchouli:blanks",
 	"sortnum": "3",
@@ -7,7 +7,7 @@
         {
 			"type": "spotlight",
 			"item": "skyopolis:blank_nugget",
-            "text": "Obtained from $(li)Strainers:$(li2)Solid Survivalist's strainers$(li2)Reinforced Survivalist's strainers"
+            "text": "来源$(li)滤网：$(li2)硬化生存者滤网$(li2)强化生存者滤网"
         }
 		]
 }
