@@ -11,7 +11,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
-			description: ["Used to make logic chips"]
+			description: ["用于制作逻辑芯片"]
 			dependencies: ["090A7746CDA4F23D"]
 			id: "379AFC6D2C33B639"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: 0.5d
 			y: -1.0d
-			description: ["Used to make most of the items from this mod. The mod guide book will help you a lot"]
+			description: ["用于制作大多数本模组中的物品。模组的指导手册会帮助你解决很多问题"]
 			dependencies: ["379AFC6D2C33B639"]
 			id: "55BAD7BABCB287D5"
 			tasks: [{
@@ -51,7 +51,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
-			description: ["Connect to adjacent inventories to access them"]
+			description: ["连接与之相邻的容器以访问他们"]
 			dependencies: ["36BA4456248C54AE"]
 			id: "0895CDC6EA25C619"
 			tasks: [{
@@ -75,7 +75,7 @@
 		{
 			x: 0.5d
 			y: 0.5d
-			description: ["Used to connect laser connectors and laser nodes to each other"]
+			description: ["用于连接镭射连接器和镭射节点"]
 			dependencies: ["55BAD7BABCB287D5"]
 			id: "1E7EE19807077264"
 			tasks: [{
@@ -109,7 +109,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
-			description: ["Can be used to extend laser range"]
+			description: ["可用于拓展镭射距离"]
 			dependencies: ["55BAD7BABCB287D5"]
 			id: "36BA4456248C54AE"
 			tasks: [{
@@ -126,7 +126,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
-			description: ["Allows the node to move items around"]
+			description: ["允许节点移动物品"]
 			dependencies: ["0895CDC6EA25C619"]
 			id: "6B5DB1B6E0E2A91C"
 			tasks: [{
@@ -161,7 +161,7 @@
 		{
 			x: 5.0d
 			y: 0.5d
-			description: ["Provides basic filtering for items. Can be used on extracting and inserting"]
+			description: ["为物品提供基础过滤，可以用于抽取与输入"]
 			dependencies: ["6B5DB1B6E0E2A91C"]
 			id: "23684E89A8FA4F39"
 			tasks: [{
@@ -187,7 +187,7 @@
 		{
 			x: 3.5d
 			y: 0.5d
-			description: ["Allows items to be stacked to a certain amount"]
+			description: ["允许将物品堆叠到一定数量"]
 			dependencies: ["23684E89A8FA4F39"]
 			id: "7A76283BCB962F46"
 			tasks: [{
@@ -277,7 +277,7 @@
 		{
 			x: 6.5d
 			y: 0.5d
-			description: ["Allows items to be moved based on tags"]
+			description: ["允许基于物品标签移动"]
 			dependencies: ["23684E89A8FA4F39"]
 			id: "1C66FF09D91E2D9C"
 			tasks: [{
@@ -308,7 +308,7 @@
 		{
 			x: 5.0d
 			y: -2.5d
-			description: ["Make card work even faster and transfer more items at once"]
+			description: ["让卡片工作得更快，一次传输更多物品"]
 			dependencies: ["6B5DB1B6E0E2A91C"]
 			id: "260F1F298DA56C4F"
 			tasks: [{
@@ -325,7 +325,7 @@
 		{
 			x: 5.0d
 			y: 2.0d
-			description: ["Allows items to be moved based on the mod"]
+			description: ["允许基于物品所属模组移动"]
 			dependencies: ["23684E89A8FA4F39"]
 			id: "1307DF2186CBAC32"
 			tasks: [{
@@ -351,7 +351,7 @@
 		{
 			x: 3.5d
 			y: -2.5d
-			description: ["Used to controll a Xnet network"]
+			description: ["用于控制Xnet网络"]
 			dependencies: ["0895CDC6EA25C619"]
 			id: "57C596504436BB92"
 			tasks: [{
