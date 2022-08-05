@@ -7,7 +7,7 @@
         {
 			"type": "spotlight",
 			"item": "skyopolis_additions:blank_ingot",
-            "text": "资源需求：(li)[量子压缩机]$(li2)$(l:blanks/nugget)x1 空白粒$(/l)$(li2)x1 圆石$(br2)"
+            "text": "资源需求：$(li)[量子压缩机]$(li2)$(l:blanks/nugget)x1 空白粒$(/l)$(li2)x1 圆石$(br2)"
         }
 		]
 }
