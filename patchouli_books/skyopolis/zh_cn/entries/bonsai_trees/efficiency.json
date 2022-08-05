@@ -1,12 +1,12 @@
 {
-    "name": "Efficiency",
+    "name": "效率",
     "icon": "minecraft:enchanted_book",
     "category": "patchouli:bonsai_trees",
 	"sortnum": "4",
     "pages": [
         {
 			"type": "text",
-			"text": "Reduces the time it takes for a bonsai to fully grow. The higher the upgrade level the faster the growth."
+			"text": "减少盆栽盆中盆景生长所需的时间。等级越高，生长越快。"
         }
 	]
 }

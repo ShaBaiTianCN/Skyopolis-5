@@ -1,12 +1,12 @@
 {
-    "name": "Fortune",
+    "name": "时运",
     "icon": "minecraft:enchanted_book",
     "category": "patchouli:bonsai_trees",
 	"sortnum": "5",
     "pages": [
         {
 			"type": "text",
-			"text": "Increases number of rolls and chance for each possible drop. The higher the level the more items you get and the higher the chance to get uncommon drops."
+			"text": "增加可能掉落稀有物品的几率。等级越高，你获得的物品就越多，获得不常见的掉落物的几率就越高。"
         }
 	]
 }
