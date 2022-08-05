@@ -1,5 +1,5 @@
 {
-    "name": "End Token",
+    "name": "末地通行证",
     "icon": "skyopolis_additions:end_token",
     "category": "patchouli:portals",
 	"sortnum": "5",
@@ -7,7 +7,7 @@
         {
 			"type": "spotlight",
 			"item": "skyopolis_additions:end_token",
-            "text": "Resources needed:$(li)[Tinker's Smeltery]$(li2)x1 Ender Pearl$(li2)$(l:blanks/token)x1 Blank Token$(/l)$(br2)This Token is required to travel to $(l)$(l:portals/end)[The End]$(/l)"
+            "text": "资源需求：$(li)[匠魂冶炼炉]$(li2)x1 末影珍珠$(li2)$(l:blanks/token)x1 空白通行证$(/l)$(br2)需要通行证以进入$(l)$(l:portals/end)[末地]$(/l)"
         }
         
 		]
