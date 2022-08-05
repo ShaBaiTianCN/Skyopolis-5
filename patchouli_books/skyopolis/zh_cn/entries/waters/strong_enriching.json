@@ -1,5 +1,5 @@
 {
-    "name": "Strong Enriching",
+    "name": "强富集",
     "icon": "skyopolis_additions:strong_enriching_water_catalyst",
     "category": "patchouli:waters",
 	"sortnum": "4",
@@ -8,17 +8,17 @@
 			"type": "spotlight",
             "link_recipe": true,
             "item": "skyopolis_additions:strong_enriching_water_catalyst",
-            "title": "Strong Enriching Catalyst",
-			"text": "Resource needed:$(li)x4 Blank Nuggets$(li)x4 Waste$(br2)This Catalyst can be used to generate Strong Enriching Water by Throwing it in Undergarden Enriching Water"
+            "title": "强富集水",
+			"text": "资源需求：$(li)x4 空白粒$(li)x4 废料$(br2)将这个催化剂丢入深园富集水中可以生成强富集水"
         },
 		{
 			"type": "crafting",
 			"recipe": "kubejs:kjs_cozqokn3tggvrsev9x3ak884s",
-			"title": "Strong Enriching Catalyst"
+			"title": "强富集水"
 		},
         {
 			"type": "multiblock",
-			"name": "Strong Enriching Water",
+			"name": "强富集水",
 			"enable_visualize": false,
 			"multiblock": {
 			"pattern":[
@@ -30,7 +30,7 @@
 			"0": "skyopolis:strong_enriching_water"
 			}
 		},
-		"text": "To obtain different items you can drop :$(li)Blank Nuggets$(li)Blank Pebbles$(li)Blank Dust$(br)"
+		"text": "丢入不同物品以获取资源：$(li)空白粒$(li)空白石子$(li)空白尘土$(br)"
 		}
 		]
 }
