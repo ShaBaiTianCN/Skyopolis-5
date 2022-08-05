@@ -1,5 +1,5 @@
 {
-    "name": "Undergarden Enriching",
+    "name": "深园富集",
     "icon": "skyopolis_additions:undergarden_enriching_water_catalyst",
     "category": "patchouli:waters",
 	"sortnum": "3",
@@ -8,12 +8,12 @@
 			"type": "spotlight",
             "link_recipe": true,
             "item": "skyopolis_additions:undergarden_enriching_water_catalyst",
-            "title": "Strong Enriching Catalyst",
-			"text": "Resources needed:$(li)[Tinker's Smeltery]$(li2)x2 Mushrooms$(li2)x50 Depthrock Pebbles$(li2)x1 Block of Clay$(li2)x1 Snow Block (500mb Water)$()$(br2)This Catalyst can be used to generate Undergarden Enriching Water by Throwing it in Weak Enriching Water"
+            "title": "深园富集水催化剂",
+			"text": "资源需求：$(li)[匠魂冶炼炉]$(li2)x2 蘑菇$(li2)x50 深邃卵石$(li2)x1 黏土块$(li2)x1 雪块 (500mb 水)$()$(br2)将这个催化剂丢入弱富集水中可以生成深园富集水"
         },
         {
 			"type": "multiblock",
-			"name": "Undergarden Enriching Water",
+			"name": "深园富集水",
 			"enable_visualize": false,
 			"multiblock": {
 			"pattern":[
@@ -25,7 +25,7 @@
 			"0": "skyopolis:undergarden_enriching_water"
 			}
 		},
-		"text": "Resources obtained by $(li)Dropping:$(li2)Blank Pebbles$(li2)Blank Dust$(li2)Blank Nuggets"
+		"text": "资源来源$(li)丢入：$(li2)空白石子$(li2)空白尘土$(li2)空白粒"
 		}
 		]
 }

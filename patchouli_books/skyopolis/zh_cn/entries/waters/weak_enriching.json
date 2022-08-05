@@ -1,5 +1,5 @@
 {
-    "name": "Weak Enriching",
+    "name": "弱富集",
     "icon": "skyopolis_additions:weak_enriching_water_catalyst",
     "category": "patchouli:waters",
 	"sortnum": "2",
@@ -7,18 +7,18 @@
         {
 			"type": "spotlight",
             "item": "skyopolis_additions:weak_enriching_water_catalyst",
-            "title": "Weak Enriching Catalyst",
+            "title": "弱富集水催化剂",
             "link_recipe": true,
-			"text": "Resources needed:$(li)$(l:waters/water)x1 Aqua Catalyst$(/l)$(li)x4 Blank Dust$(li)x4 Blank Pebbles$(br2)This Catalyst can be used to generate Weak Enriching Water by Throwing it in Regular Water"
+			"text": "资源需求：$(li)$(l:waters/water)x1 水催化剂$(/l)$(li)x4 空白尘土$(li)x4 空白石子$(br2)将这个催化剂丢入普通的水中可以生成弱富集水"
         },
 		{
 			"type": "crafting",
 			"recipe": "kubejs:kjs_d6fbmo33r2jymaih6v1bfrqdz",
-			"title": "Weak Enriching Catalyst"
+			"title": "弱富集水催化剂"
 		},
         {
 			"type": "multiblock",
-			"name": "Weak Enriching Water",
+			"name": "弱富集水",
 			"enable_visualize": false,
 			"multiblock": {
 			"pattern":[
@@ -30,7 +30,7 @@
 			"0": "skyopolis:weak_enriching_water"
 			}
 		},
-		"text": "Resources obtained by $(li)Dropping:$(li2)Blank Pebbles$(li2)Blank Dust$(br)"
+		"text": "资源来源$(li)丢入：$(li2)空白石子$(li2)空白尘土$(br)"
 		}
 		]
 }
