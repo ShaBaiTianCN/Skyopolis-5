@@ -11,7 +11,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
-			description: ["用于制作logic chips"]
+			description: ["用于制作逻辑芯片"]
 			dependencies: ["090A7746CDA4F23D"]
 			id: "379AFC6D2C33B639"
 			tasks: [{
@@ -109,7 +109,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
-			description: ["可用于拓展laser range"]
+			description: ["可用于拓展镭射距离"]
 			dependencies: ["55BAD7BABCB287D5"]
 			id: "36BA4456248C54AE"
 			tasks: [{
@@ -126,7 +126,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
-			description: ["允许the node移动物品"]
+			description: ["允许节点移动物品"]
 			dependencies: ["0895CDC6EA25C619"]
 			id: "6B5DB1B6E0E2A91C"
 			tasks: [{
@@ -161,7 +161,7 @@
 		{
 			x: 5.0d
 			y: 0.5d
-			description: ["为物品提供basic filtering。可以用于抽取与输入"]
+			description: ["为物品提供基础过滤，可以用于抽取与输入"]
 			dependencies: ["6B5DB1B6E0E2A91C"]
 			id: "23684E89A8FA4F39"
 			tasks: [{
@@ -308,7 +308,7 @@
 		{
 			x: 5.0d
 			y: -2.5d
-			description: ["让card工作得更快，一次传输更多物品"]
+			description: ["让卡片工作得更快，一次传输更多物品"]
 			dependencies: ["6B5DB1B6E0E2A91C"]
 			id: "260F1F298DA56C4F"
 			tasks: [{
