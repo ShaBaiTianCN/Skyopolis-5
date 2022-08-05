@@ -3,7 +3,7 @@
 	group: "04E29393E78F7C29"
 	order_index: 0
 	filename: "exploration_ds"
-	title: "Exploration (DS)"
+	title: "探险（深空）"
 	icon: {
 		id: "cosmopolis:space_suit_chestplate"
 		Count: 1b
@@ -15,11 +15,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Deep Space"
+			title: "深空"
 			icon: "minecraft:black_concrete"
 			x: 0.0d
 			y: 0.0d
-			description: ["Enter deep space"]
+			description: ["进入深空"]
 			dependencies: ["378888B469130E4F"]
 			id: "6A7D3FC7FE50C4E9"
 			tasks: [{
@@ -35,7 +35,7 @@
 		{
 			x: -4.5d
 			y: 0.0d
-			description: ["Allows you to enter deep space"]
+			description: ["允许您进入深空"]
 			dependencies: [
 				"64E25EA48E562D89"
 				"4744BFD777FE25CF"
@@ -65,7 +65,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			description: ["Asteroids can be found all over this dimension"]
+			description: ["小行星遍布这个维度"]
 			dependencies: ["6A7D3FC7FE50C4E9"]
 			id: "0A7251205E281B79"
 			tasks: [{
@@ -89,13 +89,13 @@
 		{
 			x: 0.0d
 			y: -2.0d
-			description: ["A house on a asteroid"]
+			description: ["小行星上的房屋"]
 			dependencies: ["6A7D3FC7FE50C4E9"]
 			id: "72F8772764AEBB0C"
 			tasks: [{
 				id: "0B20593C4A7A05B6"
 				type: "checkmark"
-				title: "Asteroid House"
+				title: "小行星房屋"
 			}]
 			rewards: [{
 				id: "7C7CB25E3CF7AE13"
@@ -104,10 +104,10 @@
 			}]
 		}
 		{
-			title: "Rocks"
+			title: "石子"
 			x: 0.0d
 			y: -3.5d
-			description: ["Can be found inside houses in space"]
+			description: ["可以在太空中的房屋内找到"]
 			dependencies: ["72F8772764AEBB0C"]
 			id: "78ADF2F9A8BFA017"
 			tasks: [
@@ -131,7 +131,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
-			description: ["Asteroid base is a large asteroid with a small underground area and a glass dome"]
+			description: ["小行星基地是一颗大型小行星，地下区域很小，有一个玻璃穹顶覆盖在这之上"]
 			dependencies: ["6A7D3FC7FE50C4E9"]
 			id: "624581A0CD4BD303"
 			tasks: [{
@@ -148,7 +148,7 @@
 		{
 			x: -6.0d
 			y: 1.5d
-			description: ["Part of the space suit"]
+			description: ["太空服的一部分"]
 			dependencies: ["38947545785A8BFE"]
 			id: "4744BFD777FE25CF"
 			tasks: [{
@@ -171,7 +171,7 @@
 		{
 			x: -6.0d
 			y: 0.5d
-			description: ["Part of the space suit"]
+			description: ["太空服的一部分"]
 			dependencies: ["38947545785A8BFE"]
 			id: "50B6F494235338E7"
 			tasks: [{
@@ -194,7 +194,7 @@
 		{
 			x: -6.0d
 			y: -0.5d
-			description: ["Part of the space suit"]
+			description: ["太空服的一部分"]
 			dependencies: ["38947545785A8BFE"]
 			id: "233C1D44E998A84C"
 			tasks: [{
@@ -217,7 +217,7 @@
 		{
 			x: -6.0d
 			y: -1.5d
-			description: ["Part of the space suit"]
+			description: ["太空服的一部分"]
 			dependencies: ["38947545785A8BFE"]
 			id: "7279B724A4A3E7AF"
 			tasks: [{
@@ -240,7 +240,7 @@
 		{
 			x: -7.5d
 			y: 0.0d
-			description: ["Used to upgrade netherite armor to a space suit. Wearing the full suit will protect you from dying in space"]
+			description: ["用于将下界合金盔甲升级为太空服。身着全套太空服以保护您免于在深空中死亡"]
 			dependencies: ["10466A43764E94AB"]
 			id: "38947545785A8BFE"
 			tasks: [{
@@ -264,7 +264,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["Create a portal frame and use a space core on the block to open a portal into space"]
+			description: ["制作一个传送门框架并对着方块使用宇宙核心以打开前往深空的门"]
 			dependencies: ["5D14F4A4D5EA2D24"]
 			id: "7FDE42F9C9AC8F5B"
 			tasks: [{
@@ -281,7 +281,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Allows the portal to space to be opened"]
+			description: ["允许开启前往深空的门"]
 			dependencies: ["7FDE42F9C9AC8F5B"]
 			id: "378888B469130E4F"
 			tasks: [{
