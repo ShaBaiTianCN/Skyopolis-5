@@ -137,7 +137,7 @@
 			tasks: [{
 				id: "011A1D893D1946CD"
 				type: "checkmark"
-				title: "Asteroid Base"
+				title: "小行星基地"
 			}]
 			rewards: [{
 				id: "0E479F6E187EA0C3"
