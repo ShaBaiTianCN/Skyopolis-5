@@ -1,5 +1,5 @@
 {
-    "name": "Eroding Water",
+    "name": "侵蚀水",
     "icon": "skyopolis_additions:eroding_water_catalyst",
     "category": "patchouli:waters",
 	"sortnum": "6",
@@ -8,12 +8,12 @@
 			"type": "spotlight",
             "link_recipe": true,
             "item": "skyopolis_additions:eroding_water_catalyst",
-            "title": "Eroding Catalyst",
-			"text": "Resources needed:$(li)$(l:waters/nether_enriching)x1 Nether Enriching Catalyst$(/l)$(li)x8 Netherite Ingot$(br2)This Catalyst can used to generate Eroding Enriching Water by Throwing it in Nether Enriching Water"
+            "title": "侵蚀水催化剂",
+			"text": "资源需求：$(li)$(l:waters/nether_enriching)x1 下界富集水催化剂$(/l)$(li)x8 下界合金锭$(br2)将这个催化剂丢入下界富集水中可以生成侵蚀水"
         },
         {
 			"type": "multiblock",
-			"name": "Eroding Enriching Water",
+			"name": "侵蚀水",
 			"enable_visualize": false,
 			"multiblock": {
 			"pattern":[
@@ -25,7 +25,7 @@
 			"0": "skyopolis:eroding_water"
 			}
 		},
-		"text": "Resources obtained by $(li)Dropping $(o)[cobblestone]$():$(li2)Blank Nuggets$(li2)Blank Pebbles$(li2)Blank Dust$(br)"
+		"text": "资源来源$(li)丢入：$(o)[圆石]$():$(li2)空白粒$(li2)空白石子$(li2)空白尘土$(br)"
 		}
 		]
 }

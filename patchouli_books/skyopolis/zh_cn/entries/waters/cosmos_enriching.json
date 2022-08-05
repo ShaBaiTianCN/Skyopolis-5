@@ -1,5 +1,5 @@
 {
-    "name": "Cosmos Enriching",
+    "name": "宇宙富集",
     "icon": "skyopolis_additions:cosmos_enriching_water_catalyst",
     "category": "patchouli:waters",
 	"sortnum": "7",
@@ -8,16 +8,16 @@
 			"type": "spotlight",
             "link_recipe": true,
             "item": "skyopolis_additions:cosmos_enriching_water_catalyst",
-            "title": "Cosmos Enriching Catalyst",
-			"text": "Resource needed:$(li)[Advanced Crafting table]$(li2)x21 Astroid Block$(li2)$(l:waters/water)x8 Aqua Catalyst$(li2)x8 Space Suit Upgrade$(li2)$(l:waters/weak_enriching)x4 Weak Enriching Catalyst$(li2)$(l:waters/undergarden_enriching)x4 Undergarden Enriching Catalyst$(li2)$(l:waters/nether_enriching)x4 Nether Enriching Catalyst"
+            "title": "宇宙富集水催化剂",
+			"text": "资源需求：$(li)[精英工作台]$(li2)x21 星岩块$(li2)$(l:waters/water)x8 水催化剂$(li2)x8 太空服升级$(li2)$(l:waters/weak_enriching)x4 弱富集水催化剂$(li2)$(l:waters/undergarden_enriching)x4 深园富集水催化剂$(li2)$(l:waters/nether_enriching)x4 下界富集水催化剂"
 		},
         {
             "type": "text",
-            "text": "After crafting, This Catalyst can be used to generate Cosmos Enriching Water by Throwing it in Nether Enriching Water"
+            "text": "合成后，将这个催化剂丢入下界富集水中可以生成宇宙富集水"
         },
         {
 			"type": "multiblock",
-			"name": "Cosmos Enriching Water",
+			"name": "宇宙富集水",
 			"enable_visualize": false,
 			"multiblock": {
 			"pattern":[
@@ -29,7 +29,7 @@
 			"0": "skyopolis:cosmos_enriching_water"
 			}
 		},
-		"text": "Resources obtained by:$(li)Dropping:$(li2)Blank Nuggets$(li2)Blank Pebbles$(li2)Blank Dust$(li2)Blank Gem$(li2)Any Ingot"
+		"text": "资源来源：$(li)丢入：$(li2)空白粒$(li2)空白石子$(li2)空白尘土$(li2)空白宝石$(li2)任意锭"
 		}
 		]
 }

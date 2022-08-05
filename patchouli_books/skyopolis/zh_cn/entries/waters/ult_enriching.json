@@ -1,5 +1,5 @@
 {
-    "name": "Ultimate Enriching",
+    "name": "最终富集",
     "icon": "skyopolis_additions:ultimate_enriching_water_catalyst",
     "category": "patchouli:waters",
 	"sortnum": "8",
@@ -8,16 +8,16 @@
 			"type": "spotlight",
             "link_recipe": true,
             "item": "skyopolis_additions:ultimate_enriching_water_catalyst",
-            "title": "Ultimate Enriching Catalyst",
-			"text": "Resources needed: $(li)[Ultimate Crafting table]$(li2)x22 Blank Ingots$(li2)$(l:waters/water)x4 Aqua Catalyst$(li2)$(l:waters/weak_enriching)x3 Weak Enriching Catalyst$(li2)$(l:waters/strong_enriching)x3 Strong Enriching Catalyst$(li2)x3 Blank Bucket$(li2)$(l:waters/cosmos_enriching)x2 Cosmos Enriching Catalyst$(li2)$(l:waters/undergarden_enriching)x2 Undergarden Enriching Catalyst$(li2)$(l:waters/eroding_water)x2 Eroding Catalyst$(/l)"
+            "title": "最终富集水催化剂",
+			"text": "资源需求：$(li)[中级工作台]$(li2)x22 空白锭$(li2)$(l:waters/water)x4 水催化剂$(li2)$(l:waters/weak_enriching)x3 弱富集水催化剂$(li2)$(l:waters/strong_enriching)x3 强富集水催化剂$(li2)x3 空白桶$(li2)$(l:waters/cosmos_enriching)x2 宇宙富集水催化剂$(li2)$(l:waters/undergarden_enriching)x2 深园富集水催化剂$(li2)$(l:waters/eroding_water)x2 侵蚀水催化剂$(/l)"
         },
         {
             "type": "text",
-            "text": "After crafting, This Catalyst can used to generate Ultimate Enriching Water by Throwing it in Cosmos Enriching Water"
+            "text": "合成后，将这个催化剂丢入宇宙富集水中可以生成最终富集水"
         },
         {
 			"type": "multiblock",
-			"name": "Ultimate Enriching Water",
+			"name": "最终富集水",
 			"enable_visualize": false,
 			"multiblock": {
 			"pattern":[
@@ -29,7 +29,7 @@
 			"0": "skyopolis:ultimate_enriching_water"
 			}
 		},
-		"text": "Resources obtained by :$(li)Dropping:$(li2)Blank Ingot"
+		"text": "资源来源：$(li)丢入：$(li2)空白锭"
 		}
 		]
 }
