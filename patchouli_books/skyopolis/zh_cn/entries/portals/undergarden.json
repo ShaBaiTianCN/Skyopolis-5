@@ -27,7 +27,7 @@
 			"D": "minecraft:deepslate_bricks"
 			}
 		},
-		"text": "进入需要前往$(l)$(l:portals/undergarden_token)[深园通行证]$(/l)$()章节"
+		"text": "需要$(l)$(l:portals/undergarden_token)[深园通行证]$(/l)$()以进入此维度"
 		},
 		{
 			"type": "crafting",

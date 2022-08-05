@@ -7,7 +7,7 @@
         {
 			"type": "spotlight",
 			"item": "skyopolis_additions:nether_token",
-            "text": "需要资源：$(li)[基础工作台]$(li2)x2 熔岩桶$(li2)x2 黑曜石$(li2)$(l:blanks/token)x1 空白通行证$(/l)$(br2)这张通行证的用法需要前往$()$(l:portals/nether)[下界]$(/l)章节"
+            "text": "资源需求：$(li)[基础工作台]$(li2)x2 熔岩桶$(li2)x2 黑曜石$(li2)$(l:blanks/token)x1 空白通行证$(/l)$(br2)需要通行证以进入$()$(l:portals/nether)[下界]$(/l)"
         }
         
 		]

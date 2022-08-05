@@ -27,7 +27,7 @@
 			"D": "minecraft:obsidian"
 			}
 		},
-		"text": "需要需要前往$(4)$(l)$(l:portals/nether_token)[下界通行证]$(/l)$()章节"
+		"text": "需要$(4)$(l)$(l:portals/nether_token)[下界通行证]$(/l)$()以进入此维度"
 		}
 	]
 }
