@@ -1,12 +1,12 @@
 {
-    "name": "Hopper Upgrade",
+    "name": "漏斗升级",
     "icon": "minecraft:hopper",
     "category": "patchouli:bonsai_trees",
 	"sortnum": "2",
     "pages": [
         {
 			"type": "text",
-			"text": "Insert a hopper into one of the upgrade slots to make the Bonsai Pot automatically export all harvested items into the inventory below. This is not needed to extract the items in a different way, e.g. you can also place the hopper or some piping below the pot."
+			"text": "在其中一个升级槽中放入漏斗，使盆栽盆自动将所有收获的物品漏入下面的容器中。这不需要以别的方式抽取物品，例如，你也可以将漏斗或一些管道放在盆栽盆下方。"
         }
 	]
 }

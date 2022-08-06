@@ -1,5 +1,5 @@
 {
-    "name": "Nether Enriching",
+    "name": "下界富集",
     "icon": "skyopolis_additions:nether_enriching_water_catalyst",
     "category": "patchouli:waters",
 	"sortnum": "5",
@@ -8,12 +8,12 @@
 			"type": "spotlight",
             "link_recipe": true,
             "item": "skyopolis_additions:nether_enriching_water_catalyst",
-            "title": "Nether Enriching Catalyst",
-			"text": "Resource needed:$(li)[Advanced Crafting table]$(li2)$(l:waters/water)x1 Aqua Catalyst$()$(li2)x2 Cobalt Ingots$(li2)x2 Ancient Debris$(li2)x4 Quartz$(li2)x4 Netherrack$(li2)x4 Glowstone Dust$(li2)x8 Lava Buckets$(br2)This Catalyst can be used to generate Nether Enriching Water by Throwing it in Strong Enriching Water"
+            "title": "下界富集水催化剂",
+			"text": "资源需求：$(li)[高级工作台]$(li2)$(l:waters/water)x1 水催化剂$()$(li2)x2 钴锭$(li2)x2 远古残骸$(li2)x4 下界石英$(li2)x4 下界岩$(li2)x4 荧石粉$(li2)x8 熔岩桶$(br2)将这个催化剂丢入强富集水中可以生成下界强集水"
         },
         {
 			"type": "multiblock",
-			"name": "Nether Enriching Water",
+			"name": "下界富集水",
 			"enable_visualize": false,
 			"multiblock": {
 			"pattern":[
@@ -25,7 +25,7 @@
 			"0": "skyopolis:nether_enriching_water"
 			}
 		},
-		"text": "To obtain different items you can drop :$(li)Blank Nuggets$(li)Blank Pebbles$(li)Blank Dust$(li)Blank Gem$(br)"
+		"text": "丢入不同物品以获取资源：$(li)空白粒$(li)空白石子$(li)空白尘土$(li)空白宝石$(br)"
 		}
 		]
 }

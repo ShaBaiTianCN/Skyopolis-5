@@ -11,7 +11,7 @@
 		{
 			x: 1.0d
 			y: 0.5d
-			description: ["可通过将空白粉尘投入下界富集水中制成"]
+			description: ["可通过将空白尘土投入下界富集水中制成"]
 			dependencies: [
 				"2E272DAABB0C2DBD"
 				"416588732E9446C9"
@@ -120,7 +120,7 @@
 		{
 			x: -0.5d
 			y: 1.5d
-			description: ["空白砾石在下界富集水中可转化为下界砾石"]
+			description: ["空白石子在下界富集水中可转化为下界石子"]
 			dependencies: ["416588732E9446C9"]
 			id: "2E84742DA5AFDEE6"
 			tasks: [{
@@ -144,7 +144,7 @@
 		{
 			x: 1.0d
 			y: -0.5d
-			description: ["可通过将空白粉尘投入下界富集水中制成"]
+			description: ["可通过将空白尘土投入下界富集水中制成"]
 			dependencies: ["416588732E9446C9"]
 			id: "74535E832A1C786B"
 			tasks: [{

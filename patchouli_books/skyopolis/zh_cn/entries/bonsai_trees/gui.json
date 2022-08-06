@@ -6,14 +6,14 @@
     "pages": [
         {
 			"type": "text",
-			"text": "The GUI."
+			"text": "GUI"
         },
         {
 			"type": "image",
 			"images": [
 			"skyopolis_book:textures/book/bonsai_tree.png"
 			],
-			"title": "Bonsai Pot GUI",
+			"title": "盆栽盆GUI",
 			"border": true,
 			"text": ""
 		}

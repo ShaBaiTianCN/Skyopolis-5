@@ -1,18 +1,18 @@
 {
-    "name": "The End",
+    "name": "末地",
     "icon": "minecraft:end_portal_frame",
     "category": "patchouli:portals",
 	"sortnum": "6",
     "pages": [
 		{
 			"type": "spotlight",
-			"text": "The Third dimension you can travel to is in the End.$(br2)Fill the portal frames with eyes of ender and travel through.$(br)$(l)$(6)For a valid portal, stand in the middle and place the portal frames around you to get the correct block orientation",
+			"text": "你可以前往的第三个维度是末地。$(br2)在每一个末地传送门框架上放置一个末影之眼即可前往。$(br)$(l)$(6)为保证这是一个有效的末地传送门，请站在正中心并在四周的每一面放置末地传送门框架，这样，所有的方块朝向都是正确的了",
 			"item": "minecraft:ender_eye",
 			"link_recipe": true
 		},
 		{
 			"type": "multiblock",
-			"name": "End Portal",
+			"name": "末地传送门",
 			"enable_visualize": true,
 			"multiblock": {
 			"pattern":[
@@ -29,7 +29,7 @@
 			"D": "minecraft:end_portal_frame"
 			}
 		},
-		"text": "Requires $(l)$(l:portals/end_token)[End Token]$(/l)$() to get through"
+		"text": "需要$(l)$(l:portals/end_token)[末地通行证]$(/l)$()以进入此维度"
 		}
 	]
 }

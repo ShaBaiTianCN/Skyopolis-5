@@ -1,5 +1,5 @@
 {
-    "name": "Water",
+    "name": "水",
     "icon": "skyopolis:aqua_catalyst",
     "category": "patchouli:waters",
 	"sortnum": "1",
@@ -7,8 +7,8 @@
         {
 			"type": "spotlight",
             "item": "skyopolis:aqua_catalyst",
-            "title": "Regular Water",
-			"text": "This Catalyst is used for crafting and creating regular Water",
+            "title": "普通的水",
+			"text": "这个水晶用于让你获取普通的水",
 			"link_recipe": true
         },
 		{
@@ -23,7 +23,7 @@
 		},
         {
 			"type": "multiblock",
-			"name": "Mulch Block",
+			"name": "护根方块",
 			"enable_visualize": false,
 			"multiblock": {
 			"pattern":[
@@ -35,7 +35,7 @@
 			"0": "skyopolis:mulch_block"
 			}
 		},
-		"text": "Right clicking a Mulch block with an Aqua Catalyst creates regular water (the block will get consumed)"
+		"text": "用水催化剂右键一个护根方块会创造普通的水（方块会被消耗）"
 		}
 		]
 }

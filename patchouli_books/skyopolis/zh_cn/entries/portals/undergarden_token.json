@@ -1,5 +1,5 @@
 {
-    "name": "Undergarden Token",
+    "name": "深园通行证",
     "icon": "skyopolis_additions:undergarden_token",
     "category": "patchouli:portals",
 	"sortnum": "1",
@@ -7,7 +7,7 @@
         {
 			"type": "spotlight",
 			"item": "skyopolis_additions:undergarden_token",
-            "text": "Resources needed:$(li2)$(l:portals/undergarden#undca)x1 Catalyst$(/l)$(li2)$(l:blanks/token)x1 Blank Token$(/l)$(br2)This Token is required to travel to $(l)$(l:portals/undergarden)[The Undergarden]$(/l)"
+            "text": "资源需求：$(li2)$(l:portals/undergarden#undca)x1 深园催化石$(/l)$(li2)$(l:blanks/token)x1 空白通行证$(/l)$(br2)需要通行证以进入$(l)$(l:portals/undergarden)[深暗之园]$(/l)"
         },
         {
             "type": "crafting",

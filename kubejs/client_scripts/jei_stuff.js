@@ -39,7 +39,7 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.add(['skyopolis_additions:ultimate_enriching_water_catalyst'], '投入宇宙富集水中将其转化为最终富集水')
 	tooltip.add(['skyopolis_additions:eroding_water_catalyst'], '投入水中将其转化为侵蚀水')
 	tooltip.add(['skyopolis_additions:cosmos_enriching_water_catalyst'], '投入下界富集水中将其转化为宇宙富集水')
-	tooltip.add(['skyopolis:aqua_catalyst'], 'Right click on a mulch block to create water')
+	tooltip.add(['skyopolis:aqua_catalyst'], '在护根方块上右键创造水')
 	tooltip.add(['skyopolis:flower_loot_box'], '右键打开！')
 	tooltip.add(['skyopolis:sapling_loot_box'], '右键打开！')
 	tooltip.add(['minecraft:mycelium'], '右键泥土上的蘑菇以产生菌丝')
