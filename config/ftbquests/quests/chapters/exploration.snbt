@@ -236,7 +236,7 @@
 			title: "战利品箱"
 			x: -3.5d
 			y: -0.5d
-			description: ["在catacombs的箱子中可以找到不同的矿石掉落物，比如说regalium crystals和utheric shards"]
+			description: ["在下僻巢穴的箱子中可以找到不同的矿石掉落物，比如说regalium crystals和utheric shards"]
 			dependencies: ["7FFFC5C6C252D480"]
 			id: "38689625CA93411D"
 			tasks: [{
