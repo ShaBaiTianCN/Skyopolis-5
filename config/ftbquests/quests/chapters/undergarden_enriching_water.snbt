@@ -241,7 +241,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			description: ["9个utherium crystal碎片可以合成一个更大的utherium crystal碎片"]
+			description: ["9个御腐破片可以合成一个更大的御腐水晶"]
 			dependencies: ["06CA3FBDC4B01C68"]
 			id: "225003DE0A1DD471"
 			tasks: [{
