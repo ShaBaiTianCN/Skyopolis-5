@@ -164,7 +164,7 @@
 			icon: "minecraft:lava_bucket"
 			x: 4.5d
 			y: -1.5d
-			description: ["Utherium 可以在冶炼炉中熔化来获取熔岩"]
+			description: ["Utherium 可以在冶炼炉中熔化御腐破片来获取熔岩"]
 			dependencies: ["27BFB969EDF52CCD"]
 			id: "3D06997C69B9CE6E"
 			tasks: [{
@@ -266,7 +266,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
-			description: ["可以用有机种子和 glitterkelp 合成"]
+			description: ["可以用有机种子和微光海带合成"]
 			dependencies: [
 				"786A0C236BA891DD"
 				"46541D10759AE82F"
@@ -372,11 +372,11 @@
 			]
 		}
 		{
-			title: "Virulent Mix 桶"
+			title: "致毒混合物桶"
 			icon: "undergarden:virulent_mix_bucket"
 			x: 3.0d
 			y: -1.5d
-			description: ["在冶炼炉中熔化渊邃卵石来制作virulent mix。这种流体很危险，当你站在里面时会伤害你！"]
+			description: ["在冶炼炉中熔化渊邃卵石来制作致毒混合物。这种流体很危险，当你站在里面时会伤害你！"]
 			dependencies: ["102BE9765D8EAE71"]
 			id: "5460968B09DD2ED9"
 			tasks: [{
@@ -408,7 +408,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["雪傀儡刷怪蛋可以由 basic essence 和南瓜合成。"]
+			description: ["雪傀儡刷怪蛋可以由基础怪物精华和南瓜合成。"]
 			dependencies: ["1F4EB7D264057CD4"]
 			id: "422E44B9B94F768B"
 			tasks: [{
