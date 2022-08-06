@@ -133,7 +133,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["将regalium shards丢入强富集水以获取"]
+			description: ["将贵豪水晶丢入强富集水以获取"]
 			dependencies: ["2F3DE6EE1FE9095A"]
 			id: "2F1CA215FC685923"
 			tasks: [{
