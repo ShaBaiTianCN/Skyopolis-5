@@ -3,7 +3,7 @@
 	group: "06E7F50B1D78668E"
 	order_index: 1
 	filename: "refining"
-	title: "Refining"
+	title: "精炼"
 	icon: "tconstruct:mushroom_stew_bucket"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Gloomgourd plus organic seeds will make pumpkin seeds"]
+			description: ["黯瓜和有机种子合成南瓜种子"]
 			dependencies: ["40392DE0F903A3FB"]
 			id: "335C4291D2EE31CB"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Grows from pumpkin seeds"]
+			description: ["由南瓜种子生长"]
 			dependencies: ["335C4291D2EE31CB"]
 			id: "1F4EB7D264057CD4"
 			tasks: [{
@@ -45,7 +45,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["The smeltery can be used to create alloys"]
+			description: ["冶炼炉可用于制作合金"]
 			id: "102BE9765D8EAE71"
 			tasks: [{
 				id: "15F702EDA4CD5722"
@@ -93,7 +93,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["Holds liquid for the smeltery to use to melt items and blocks"]
+			description: ["储存用于加热冶炼炉的流体"]
 			dependencies: ["102BE9765D8EAE71"]
 			id: "27BFB969EDF52CCD"
 			tasks: [{
@@ -110,7 +110,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["A seared channel can be used to move fluids from one place to another"]
+			description: ["一个浇注道可用于从一个地方到另一个地方移动流体"]
 			dependencies: ["27BFB969EDF52CCD"]
 			id: "5BEB067251BF85F7"
 			tasks: [{
@@ -128,7 +128,7 @@
 			icon: "tconstruct:mushroom_stew_bucket"
 			x: 3.0d
 			y: 1.5d
-			description: ["Molten mushrooms"]
+			description: ["熔融蘑菇"]
 			dependencies: ["102BE9765D8EAE71"]
 			id: "46096726F4F3B8F2"
 			tasks: [{
@@ -146,13 +146,13 @@
 			icon: "skyopolis:undergarden_enriching_water_bucket"
 			x: 3.0d
 			y: 3.0d
-			description: ["This water has the ability to turn some items and blocks into undergarden varients"]
+			description: ["这种水可用于转换一些物品到深园的变体物品"]
 			dependencies: ["46096726F4F3B8F2"]
 			id: "30934AC6E9E864FD"
 			tasks: [{
 				id: "50B3AE90ABC27223"
 				type: "checkmark"
-				title: "Undergarden Enriching Water"
+				title: "深园富集水"
 			}]
 			rewards: [{
 				id: "573BB47B8430E58A"
@@ -164,7 +164,7 @@
 			icon: "minecraft:lava_bucket"
 			x: 4.5d
 			y: -1.5d
-			description: ["Utherium can be melted in a smeltery to make lava"]
+			description: ["Utherium 可以在冶炼炉中熔化御腐破片来获取熔岩"]
 			dependencies: ["27BFB969EDF52CCD"]
 			id: "3D06997C69B9CE6E"
 			tasks: [{
@@ -181,7 +181,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			description: ["Deepsoil can be converted to dirt when thrown into a water block"]
+			description: ["邃土丢入水方块中将会被转为泥土"]
 			dependencies: ["34F48D3266D40E31"]
 			id: "64BFB0C65B376ED3"
 			tasks: [{
@@ -198,7 +198,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["Filtered chutes"]
+			description: ["可过滤的溜槽"]
 			dependencies: [
 				"4FFAB98EF4372A4A"
 				"4C6855806DE676F8"
@@ -219,7 +219,7 @@
 		{
 			x: 1.5d
 			y: 3.0d
-			description: ["Can be applied to the filter slot of the smart chute to increase amount of items that can be filtered. Includes a black and whitelist"]
+			description: ["可以安装在智能溜槽的过滤槽位来增加过滤的物品种类，包括黑名单和白名单功能。"]
 			dependencies: ["5E0E56E59E0960EE"]
 			id: "32F426F2F75BDB9F"
 			tasks: [{
@@ -249,7 +249,7 @@
 		{
 			x: 3.0d
 			y: 4.5d
-			description: ["A better water strainer mesh"]
+			description: ["一个更好的滤网"]
 			dependencies: ["30934AC6E9E864FD"]
 			id: "4D8BA7C52234009C"
 			tasks: [{
@@ -266,7 +266,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
-			description: ["Can be crafted from organic seeds and glitterkelp"]
+			description: ["可以用有机种子和微光海带合成"]
 			dependencies: [
 				"786A0C236BA891DD"
 				"46541D10759AE82F"
@@ -286,7 +286,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["Found in the waters of the undergarden"]
+			description: ["可以在深园的水中找到"]
 			dependencies: ["786A0C236BA891DD"]
 			id: "46541D10759AE82F"
 			tasks: [{
@@ -303,7 +303,7 @@
 		{
 			x: 3.0d
 			y: 6.0d
-			description: ["Collects the same item as the previous tier plus blank nuggets"]
+			description: ["收集上一级的所有物品加上空白粒"]
 			dependencies: ["4D8BA7C52234009C"]
 			id: "1E89CA0AD79F6352"
 			tasks: [{
@@ -326,7 +326,7 @@
 		{
 			x: 3.0d
 			y: 7.5d
-			description: ["Can be used in different enriching waters to make different nuggets"]
+			description: ["可以丢入不同种类的富集水来获取各种粒"]
 			dependencies: ["1E89CA0AD79F6352"]
 			id: "070E7BF927E32673"
 			tasks: [{
@@ -350,7 +350,7 @@
 		{
 			x: 4.5d
 			y: 3.0d
-			description: ["When dropped into a weak enriching water source block will create undergarden enriching water"]
+			description: ["当丢入弱富集水源时将其转换为深园富集水"]
 			dependencies: ["30934AC6E9E864FD"]
 			id: "7B4B5EB90ECCB716"
 			tasks: [{
@@ -372,11 +372,11 @@
 			]
 		}
 		{
-			title: "Virulent Mix Bucket"
+			title: "致毒混合物桶"
 			icon: "undergarden:virulent_mix_bucket"
 			x: 3.0d
 			y: -1.5d
-			description: ["Melting depthrock pebbles in a smeltery will make virulent mix. This is a very dangerous fluid and will damage you when stepped in"]
+			description: ["在冶炼炉中熔化渊邃卵石来制作致毒混合物。这种流体很危险，当你站在里面时会伤害你！"]
 			dependencies: ["102BE9765D8EAE71"]
 			id: "5460968B09DD2ED9"
 			tasks: [{
@@ -408,7 +408,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["Snow golem spawn eggs can be made from basic essence and pumpkins"]
+			description: ["雪傀儡刷怪蛋可以由基础怪物精华和南瓜合成。"]
 			dependencies: ["1F4EB7D264057CD4"]
 			id: "422E44B9B94F768B"
 			tasks: [{
@@ -423,7 +423,7 @@
 						}
 						RepairCost: 0
 						display: {
-							Name: "{\"text\":\"Snow Golem Spawn Egg\"}"
+							Name: "{\"text\":\"雪傀儡刷怪蛋\"}"
 						}
 					}
 				}
@@ -433,7 +433,7 @@
 			title: "Mushrooms"
 			x: -1.5d
 			y: 1.5d
-			description: ["Undergarden mushrooms can be converted into minecraft ones using organic seeds"]
+			description: ["深园的蘑菇可以用有机种子转化为原版的蘑菇"]
 			dependencies: ["446DB1169112EC3C"]
 			id: "435FDC788932B893"
 			tasks: [
