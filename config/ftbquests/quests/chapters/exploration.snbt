@@ -3,17 +3,17 @@
 	group: "06E7F50B1D78668E"
 	order_index: 0
 	filename: "exploration"
-	title: "Exploration (U)"
+	title: "探索（深暗之园）"
 	icon: "undergarden:catalyst"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Undergarden Portal"
+			title: "深园传送门"
 			disable_toast: true
 			x: -7.5d
 			y: -4.0d
-			description: ["The skyopolis guide book can be used to help make the portal to the undergarden"]
+			description: ["天之城指南可以帮助你搭建前往深暗之园的传送门"]
 			dependencies: ["22A2AE87DF0AFDBE"]
 			id: "7E8EE62B43AA1302"
 			tasks: [{
@@ -29,7 +29,7 @@
 		{
 			x: -6.0d
 			y: -4.0d
-			description: ["Used to enter the undergarden"]
+			description: ["使用以进入深暗之园"]
 			dependencies: ["7E8EE62B43AA1302"]
 			id: "6ACD07451E9B2D7C"
 			tasks: [{
@@ -44,16 +44,16 @@
 			}]
 		}
 		{
-			title: "Undergarden Mushrooms"
+			title: "深暗之园的蘑菇们"
 			x: -4.0d
 			y: -2.5d
-			description: ["Many different types of mushroom can be found in the undergarden. These mushrooms can be grown in bonsai pots"]
+			description: ["在深暗之园中可以找到很多不同种类的蘑菇。这些蘑菇可以种在盆栽盆中。"]
 			dependencies: ["786A0C236BA891DD"]
 			id: "446DB1169112EC3C"
 			tasks: [{
 				id: "63B91BE9A05FC11A"
 				type: "item"
-				title: "Any #undergarden:mushrooms"
+				title: "任何 #undergarden:mushrooms"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -71,7 +71,7 @@
 		{
 			x: -1.0d
 			y: -2.5d
-			description: ["Can be found commonly in the undergarden. Can also be made from depthrock in a sawmill"]
+			description: ["在深暗之园十分常见。也可以在锯木机中加工渊邃石头获得"]
 			dependencies: ["786A0C236BA891DD"]
 			id: "013EFA9315862C99"
 			tasks: [{
@@ -88,13 +88,13 @@
 		{
 			x: -2.5d
 			y: -6.0d
-			description: ["Certain different ores can be found in the undergarden. Iron, gold and diamond undergarden ore cannot be mined here"]
+			description: ["某些不一样的矿石也可以在深暗之园中被找到。在这里深园铁矿石、深园金矿石和深园钻石矿石不会被挖到。"]
 			dependencies: ["786A0C236BA891DD"]
 			id: "4EF2EB6C9CEA6CF6"
 			tasks: [{
 				id: "660B47122460DF63"
 				type: "checkmark"
-				title: "Ores"
+				title: "矿石"
 			}]
 			rewards: [{
 				id: "0B1137AB908EE931"
@@ -105,7 +105,7 @@
 		{
 			x: -0.5d
 			y: -6.0d
-			description: ["Found in the undergarden"]
+			description: ["在深暗之园中被找到"]
 			dependencies: ["4EF2EB6C9CEA6CF6"]
 			id: "75B09060078066FE"
 			tasks: [{
@@ -122,7 +122,7 @@
 		{
 			x: -2.5d
 			y: -8.0d
-			description: ["This drop from any ore in the world"]
+			description: ["可以挖掘这个世界中的任意矿石掉落"]
 			dependencies: ["4EF2EB6C9CEA6CF6"]
 			id: "3AFF6A2E44FCC314"
 			tasks: [{
@@ -144,13 +144,13 @@
 			]
 		}
 		{
-			title: "The Undergarden"
+			title: "深暗之园"
 			icon: "undergarden:grongle_sapling"
 			x: -2.5d
 			y: -4.0d
 			description: [
-				"Enter The Undergarden. Certain blocks in here cannot be mined including chains, cauldrons and some vanilla ores."
-				"The purple water known as virulent mix is a very dangerous fluid and will damage you when stepped in"
+				"进入深暗之园维度后。这里的一些方块无法被开采，像是锁链、炼药锅、原版矿石。"
+				"被称为virulent mix的紫色的水是一种非常危险的流体，当你踩入时会伤害你"
 			]
 			dependencies: ["4DFA0F5453978DCA"]
 			id: "786A0C236BA891DD"
@@ -167,7 +167,7 @@
 		{
 			x: -2.5d
 			y: -2.0d
-			description: ["Large catacombs can be found underground in the undergarden. The enterance can be found on the surface area in the undergarden"]
+			description: ["大型的catacombs可以发现在深暗之园的地下。入口会裸露在深暗之园的表面"]
 			dependencies: ["786A0C236BA891DD"]
 			id: "7FFFC5C6C252D480"
 			tasks: [{
@@ -184,7 +184,7 @@
 		{
 			x: -4.0d
 			y: -7.5d
-			description: ["Found in the undergarden"]
+			description: ["在深暗之园中被找到"]
 			dependencies: ["4EF2EB6C9CEA6CF6"]
 			id: "4C6855806DE676F8"
 			tasks: [{
@@ -201,7 +201,7 @@
 		{
 			x: -4.5d
 			y: -6.0d
-			description: ["Found in the undergarden"]
+			description: ["在深暗之园中被找到"]
 			dependencies: ["4EF2EB6C9CEA6CF6"]
 			id: "077E573BDC51578E"
 			tasks: [{
@@ -218,7 +218,7 @@
 		{
 			x: -1.0d
 			y: -7.5d
-			description: ["Found in the undergarden"]
+			description: ["在深暗之园中被找到"]
 			dependencies: ["4EF2EB6C9CEA6CF6"]
 			id: "1117E503E3E32E8E"
 			tasks: [{
@@ -233,10 +233,10 @@
 			}]
 		}
 		{
-			title: "Chest Loot"
+			title: "战利品箱"
 			x: -3.5d
 			y: -0.5d
-			description: ["Various different ore drops can be found in catacombs chests like regalium crystals and utheric shards"]
+			description: ["在下僻巢穴的箱子中可以找到不同的矿石掉落物，比如说regalium crystals和utheric shards"]
 			dependencies: ["7FFFC5C6C252D480"]
 			id: "38689625CA93411D"
 			tasks: [{
@@ -253,7 +253,7 @@
 		{
 			x: -10.5d
 			y: -4.0d
-			description: ["Shiny deepslate"]
+			description: ["有光泽的深板岩"]
 			dependencies: ["37BD3277B0AEB70B"]
 			id: "5B483DD3A546BB82"
 			tasks: [{
@@ -270,7 +270,7 @@
 		{
 			x: -9.0d
 			y: -4.0d
-			description: ["Deepslate bricks can be made from deepslate"]
+			description: ["深板岩砖由深板岩制成"]
 			dependencies: ["5B483DD3A546BB82"]
 			id: "22A2AE87DF0AFDBE"
 			tasks: [{
@@ -287,7 +287,7 @@
 		{
 			x: -3.5d
 			y: -5.0d
-			description: ["The dirt of the undergarden"]
+			description: ["深暗之园的泥土"]
 			dependencies: ["786A0C236BA891DD"]
 			id: "34F48D3266D40E31"
 			tasks: [{
@@ -304,7 +304,7 @@
 		{
 			x: -1.5d
 			y: -5.0d
-			description: ["Found on the surface in the undergarden. The seeds can be grown on deepsoil farmland"]
+			description: ["可以在深暗之园的地表发现。种子可以在邃土耕地上生长"]
 			dependencies: ["786A0C236BA891DD"]
 			id: "40392DE0F903A3FB"
 			tasks: [{
@@ -321,7 +321,7 @@
 		{
 			x: -1.5d
 			y: -0.5d
-			description: ["Breaking spawners will drop spawner shards"]
+			description: ["破坏刷怪笼会掉落刷怪笼碎片"]
 			dependencies: ["7FFFC5C6C252D480"]
 			id: "02F8C9FE27955C73"
 			tasks: [{
@@ -345,7 +345,7 @@
 		{
 			x: -4.5d
 			y: -4.0d
-			description: ["Allows you to enter the undergarden"]
+			description: ["允许你进入深暗之园"]
 			dependencies: ["6ACD07451E9B2D7C"]
 			id: "4DFA0F5453978DCA"
 			tasks: [{
