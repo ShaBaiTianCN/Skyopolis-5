@@ -83,7 +83,7 @@
 			x: -5.0d
 			y: -1.0d
 			description: [
-				"可以通过将空白粒丢入深园富集水的办法获得regalium crystal。Can be obtained from blank nuggets in undergarden enriching water."
+				"可以通过将空白粒丢入深园富集水的办法获得贵豪水晶。"
 				"通过JEI查看转化几率"
 			]
 			dependencies: ["1E868C90899F81D5"]
