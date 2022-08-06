@@ -83,7 +83,7 @@
 			x: -5.0d
 			y: -1.0d
 			description: [
-				"可以通过将空白粒丢入深园富集水的办法获得regalium crystal。Can be obtained from blank nuggets in undergarden enriching water."
+				"可以通过将空白粒丢入深园富集水的办法获得贵豪水晶。"
 				"通过JEI查看转化几率"
 			]
 			dependencies: ["1E868C90899F81D5"]
@@ -143,7 +143,7 @@
 			x: -1.0d
 			y: 0.0d
 			description: [
-				"可以通过将空白粒丢入深园富集水的办法获得utheric shard。"
+				"可以通过将空白粒丢入深园富集水的办法获得御腐破片。"
 				"通过JEI查看转化几率"
 			]
 			dependencies: ["1E868C90899F81D5"]
@@ -241,7 +241,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			description: ["9个utherium crystal碎片可以合成一个更大的utherium crystal碎片"]
+			description: ["9个御腐破片可以合成一个更大的御腐水晶"]
 			dependencies: ["06CA3FBDC4B01C68"]
 			id: "225003DE0A1DD471"
 			tasks: [{
