@@ -218,7 +218,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
-			description: ["任何金属锭丢入宇宙富集水时都会变成黑铁锭"]
+			description: ["任意金属锭丢入宇宙富集水时都会变成黑铁锭"]
 			dependencies: ["502925BDE6B14F05"]
 			id: "033C786341CBF39F"
 			tasks: [{

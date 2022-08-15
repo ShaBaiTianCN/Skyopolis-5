@@ -91,7 +91,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["基础精华有小概率从整合包里的任何怪物身上掉落"]
+			description: ["基础精华有小概率从整合包里的任意怪物身上掉落"]
 			dependencies: ["40B3223354CFA923"]
 			id: "41E79D87F84202CC"
 			tasks: [{
