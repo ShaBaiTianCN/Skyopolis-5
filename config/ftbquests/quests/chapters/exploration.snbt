@@ -53,7 +53,7 @@
 			tasks: [{
 				id: "63B91BE9A05FC11A"
 				type: "item"
-				title: "任何 #undergarden:mushrooms"
+				title: "任意 #undergarden:mushrooms"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -150,7 +150,7 @@
 			y: -4.0d
 			description: [
 				"进入深暗之园维度后。这里的一些方块无法被开采，像是锁链、炼药锅、原版矿石。"
-				"被称为virulent mix的紫色的水是一种非常危险的流体，当你踩入时会伤害你"
+				"被称为致毒混合物的紫色的水是一种非常危险的流体，当你踩入时会伤害你"
 			]
 			dependencies: ["4DFA0F5453978DCA"]
 			id: "786A0C236BA891DD"
@@ -167,13 +167,13 @@
 		{
 			x: -2.5d
 			y: -2.0d
-			description: ["大型的catacombs可以发现在深暗之园的地下。入口会裸露在深暗之园的表面"]
+			description: ["大型的墓穴可以在深暗之园的地下发现，入口会裸露在深暗之园的表面"]
 			dependencies: ["786A0C236BA891DD"]
 			id: "7FFFC5C6C252D480"
 			tasks: [{
 				id: "5BE1EADFECEE9ED7"
 				type: "checkmark"
-				title: "Catacombs"
+				title: "墓穴"
 			}]
 			rewards: [{
 				id: "466A3302FF69C283"
@@ -236,7 +236,7 @@
 			title: "战利品箱"
 			x: -3.5d
 			y: -0.5d
-			description: ["在下僻巢穴的箱子中可以找到不同的矿石掉落物，比如说regalium crystals和utheric shards"]
+			description: ["在下僻巢穴的箱子中可以找到不同的矿石掉落物，比如说贵豪水晶和刷怪笼碎片"]
 			dependencies: ["7FFFC5C6C252D480"]
 			id: "38689625CA93411D"
 			tasks: [{

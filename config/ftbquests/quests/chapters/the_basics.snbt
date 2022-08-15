@@ -17,7 +17,7 @@
 			tasks: [{
 				id: "200EA40F1A462C3D"
 				type: "item"
-				title: "Any #minecraft:logs"
+				title: "任意 #minecraft:logs"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -42,7 +42,7 @@
 			tasks: [{
 				id: "28F11C0AA5A45663"
 				type: "item"
-				title: "Any #minecraft:planks"
+				title: "任意 #minecraft:planks"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -131,7 +131,7 @@
 			tasks: [{
 				id: "3919D226760E4137"
 				type: "item"
-				title: "Any #minecraft:leaves"
+				title: "任意 #minecraft:leaves"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -214,7 +214,7 @@
 			tasks: [{
 				id: "4E748BD2EAD8A0D6"
 				type: "item"
-				title: "Any #minecraft:saplings"
+				title: "任意 #minecraft:saplings"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -257,7 +257,7 @@
 			tasks: [{
 				id: "2234DCA257EFA67E"
 				type: "item"
-				title: "Any #minecraft:wooden_slabs"
+				title: "任意 #minecraft:wooden_slabs"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -323,7 +323,7 @@
 			tasks: [{
 				id: "7D43D8519AD1E434"
 				type: "item"
-				title: "Any #forge:chests/wooden"
+				title: "任意 #forge:chests/wooden"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -365,7 +365,7 @@
 			tasks: [{
 				id: "715C62EE5AE49689"
 				type: "item"
-				title: "Any #skyopolis:drawer_1x1"
+				title: "任意 #skyopolis:drawer_1x1"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -390,7 +390,7 @@
 			tasks: [{
 				id: "33AD8018E2B46705"
 				type: "item"
-				title: "Any #skyopolis:drawer_2x1"
+				title: "任意 #skyopolis:drawer_2x1"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -415,7 +415,7 @@
 			tasks: [{
 				id: "15991569CA1DA9EF"
 				type: "item"
-				title: "Any #skyopolis:drawer_2x2"
+				title: "任意 #skyopolis:drawer_2x2"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

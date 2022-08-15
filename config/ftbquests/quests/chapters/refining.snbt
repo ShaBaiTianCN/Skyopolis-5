@@ -164,13 +164,13 @@
 			icon: "minecraft:lava_bucket"
 			x: 4.5d
 			y: -1.5d
-			description: ["Utherium 可以在冶炼炉中熔化御腐破片来获取熔岩"]
+			description: ["可以在冶炼炉中熔化御腐破片或水晶来获取熔岩"]
 			dependencies: ["27BFB969EDF52CCD"]
 			id: "3D06997C69B9CE6E"
 			tasks: [{
 				id: "1A5D8D0B32FDBF15"
 				type: "checkmark"
-				title: "Lava"
+				title: "熔岩"
 			}]
 			rewards: [{
 				id: "5D78B1B498A385B7"
@@ -430,7 +430,7 @@
 			}]
 		}
 		{
-			title: "Mushrooms"
+			title: "蘑菇"
 			x: -1.5d
 			y: 1.5d
 			description: ["深园的蘑菇可以用有机种子转化为原版的蘑菇"]

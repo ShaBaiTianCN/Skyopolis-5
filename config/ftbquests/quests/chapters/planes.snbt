@@ -100,7 +100,7 @@
 			tasks: [{
 				id: "0C1888CDDBEBC91B"
 				type: "item"
-				title: "任意#skyopolis:plane"
+				title: "任意 #skyopolis:plane"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -142,7 +142,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Shift右键飞机或是直升机以浏览其已装载的升级"]
+			description: ["Shift+右键飞机或是直升机以浏览其已装载的升级"]
 			dependencies: [
 				"0520EFF924D0D6ED"
 				"50A329EB6C496D10"

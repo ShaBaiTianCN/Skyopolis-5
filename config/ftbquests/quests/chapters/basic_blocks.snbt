@@ -109,7 +109,7 @@
 			tasks: [{
 				id: "2257E93F8E30423E"
 				type: "item"
-				title: "Any #minecraft:small_flowers"
+				title: "任意 #minecraft:small_flowers"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

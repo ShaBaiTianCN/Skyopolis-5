@@ -132,7 +132,7 @@
 			tasks: [{
 				id: "79CEF19174BAFC35"
 				type: "item"
-				title: "任何 #minecraft:logs"
+				title: "任意 #minecraft:logs"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
